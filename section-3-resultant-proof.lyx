@@ -1,0 +1,962 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+פרק
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הוכחת ה 
+\begin_inset Formula $\text{Resultant}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תחילה נציג כמה מוסכמות לפרק זה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\boldsymbol{.1}$
+\end_inset
+
+
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,\,g\left(x\right)\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+ כך ששדה 
+\begin_inset Formula $F$
+\end_inset
+
+ הורחב להיות שדה שבו לשניהם יש שורש
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula $.2$
+\end_inset
+
+
+\series default
+לאורך פרק זה 
+\begin_inset Formula $\xi_{0}\ldots\xi_{n}$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+, ו 
+\begin_inset Formula $\eta_{0}\ldots\eta_{m}$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפני שנפנה להוכחה נוכיח כמה טענות עזר
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הערה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+מטריצת סילבסטר נוצרת ע
+\begin_inset Quotes erd
+\end_inset
+
+י המקדמים של הפולינומים של 
+\begin_inset Formula $f,g$
+\end_inset
+
+, מקדמים אלו יכולים לקבל כל ערך בשדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ולכן נוכל להתייחס למקדמים של הפולינומים כנעלמים, ולכן והדטרמיננטה היא פולינום
+ במקדמים 
+\begin_inset Formula $a_{i},b_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ונקבל את התוצאה הבאה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{n,m}\left(f,g\right)$
+\end_inset
+
+ הוא פולינום הומוגני במקדמים 
+\begin_inset Formula $a_{i},b_{j}$
+\end_inset
+
+, כאשר ההומגוניות היא באופן הבא יש 
+\begin_inset Formula $m$
+\end_inset
+
+ חזקות עבור 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ ו 
+\begin_inset Formula $n$
+\end_inset
+
+ חזקות עבור 
+\begin_inset Formula $b_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+את ההוכחה להערה זו נקבל ע
+\begin_inset Quotes erd
+\end_inset
+
+י התבוננות בתמורות של המטריצה
+\end_layout
+
+\begin_layout Standard
+לפי הגדרה של הדטרמיננטה כל מכל שורה וכל עמודה לוקחים איבר אחד וכופלים אותם
+ אחד בשני.
+\end_layout
+
+\begin_layout Standard
+וכיון שיש 
+\begin_inset Formula $m$
+\end_inset
+
+ שורות עבור 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ ו 
+\begin_inset Formula $n$
+\end_inset
+
+ שורות עבור 
+\begin_inset Formula $b_{j}$
+\end_inset
+
+ נקבל שבכל איבר בסכום של הדטרמיננטה יש 
+\begin_inset Formula $m$
+\end_inset
+
+ איברים של המקדמים של 
+\begin_inset Formula $f$
+\end_inset
+
+ ו 
+\begin_inset Formula $n$
+\end_inset
+
+ איברים של המקדמים של 
+\begin_inset Formula $g$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ זהו פולינום הומוגני ממעלה 
+\begin_inset Formula $m+n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הערה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+עבור שדה עם אפיין שונה מ- 
+\begin_inset Formula $0$
+\end_inset
+
+ נסמן 
+\begin_inset Formula $p\neq0$
+\end_inset
+
+, נעבור לעבוד מעל שדה 
+\begin_inset Formula $\left(p\right)$
+\end_inset
+
+
+\begin_inset Formula $\text{Mod}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה עזר
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{.I}$
+\end_inset
+
+ 
+\begin_inset Formula $R\left(f,g\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{.II}$
+\end_inset
+
+
+\begin_inset Formula $R\left(f,g\right)=\left(-1\right)b_{n}^{nm}\prod_{j=1}^{m}f\left(\eta_{i}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+טענה זו נובעת כמעט ישירות ממשפט הרזולטנט ומהמשפט היסודי של האלגברה.
+\end_layout
+
+\begin_layout Standard
+לפי המשפט היסודי של האגלברה ניתן רשום את 
+\begin_inset Formula $g$
+\end_inset
+
+ כמכפלה של גורמים לינארים 
+\begin_inset Formula 
+\[
+g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב 
+\begin_inset Formula $\xi_{0}\ldots\xi_{m}$
+\end_inset
+
+ ב 
+\begin_inset Formula $g$
+\end_inset
+
+ נקבל 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב את התוצאה ב 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\boxed{R\left(f,g\right)} & =a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)\\
+ & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+ & =\boxed{a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $f$
+\end_inset
+
+ נדרש עוד תהליך ע
+\begin_inset Quotes erd
+\end_inset
+
+מ לקבל את השוויון.
+\end_layout
+
+\begin_layout Standard
+נתחיל עם אינטואיציה אם נהפוך במטריצת סילסבסטר בין 
+\begin_inset Formula $f$
+\end_inset
+
+ ל 
+\begin_inset Formula $g$
+\end_inset
+
+ כלומר ש 
+\begin_inset Formula $g$
+\end_inset
+
+ תיהיה ב 
+\begin_inset Formula $n$
+\end_inset
+
+ שורות הראשונות ו 
+\begin_inset Formula $f$
+\end_inset
+
+ ב 
+\begin_inset Formula $m$
+\end_inset
+
+ שורות האחרונות נקבל את שוויון 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+ בצורה הבאה
+\begin_inset Formula 
+\[
+R\left(g,f\right)=a_{n}^{m}\prod_{j=1}^{m}f\left(\xi_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+החלפת שורות במטריצה לא משנה את הדטרמיננטה ולכן ע
+\begin_inset Quotes erd
+\end_inset
+
+י פעולות של החלפת השורות נוכל לקבל את 
+\begin_inset Formula 
+\[
+R\left(f,g\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+והשאלה היא מה המחיר.
+\end_layout
+
+\begin_layout Standard
+נזכור שכל החלפה בין שורות זה כפל ב 
+\begin_inset Formula $-1$
+\end_inset
+
+, ולכן נרצה לבדוק כמה החלפות נדרש ע
+\begin_inset Quotes erd
+\end_inset
+
+מ להפוך בין 
+\begin_inset Formula $f,g$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+צריך לסיים
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f_{1},f_{2},g$
+\end_inset
+
+ כאשר 
+\begin_inset Formula 
+\[
+\text{deg}\left(f_{1}\right)\leq n_{1}\,\,\,\text{deg}\left(f_{2}\right)\leq n_{2}\,\,\,\text{deg}\left(g\right)\leq m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula 
+\[
+R_{n_{1}+n_{2},m}\left(f_{1}f_{2},g\right)=R_{n_{1},m}\left(f_{1},g\right)R_{n_{2},m}\left(f_{2},g\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובאופן סימטרי אם 
+\begin_inset Formula $g_{2},g_{2},f$
+\end_inset
+
+ כאשר 
+\begin_inset Formula 
+\[
+\text{deg}\left(g_{1}\right)\leq m_{1}\,\,\,\text{deg}\left(g_{2}\right)\leq m_{2}\,\,\,\text{deg}\left(f\right)\leq n
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז 
+\begin_inset Formula 
+\[
+R_{n,m_{1}+m_{2}}\left(f,g_{1}g_{2}\right)=R_{n,m_{1}}\left(f,g_{1}\right)R_{n,m_{2}}\left(f,g_{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים ממעלה 
+\begin_inset Formula $m,n$
+\end_inset
+
+ בהתאמה
+\end_layout
+
+\begin_layout Standard
+כך שמתקיים 
+\begin_inset Formula $m\le n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ויהי 
+\begin_inset Formula $h$
+\end_inset
+
+ פולינום כך ש 
+\begin_inset Formula $\text{deg}h\leq n-m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז מתקיים 
+\begin_inset Formula 
+\[
+R_{n,m}\left(f+hg,g\right)=R_{n,m}\left(f,g\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובאופן סימטרי אם 
+\begin_inset Formula $n\leq m$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+אז עבור 
+\begin_inset Formula $h$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\text{deg}\leq m-n$
+\end_inset
+
+ מתקיים ש-
+\begin_inset Formula 
+\[
+R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נוכיח באינדוקציה על המעלה של 
+\begin_inset Formula $h$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $h=\sum_{l=1}^{k}h_{l}x^{l}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $k\leq n-m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן במונום 
+\begin_inset Formula $h_{\rho}x^{\rho}$
+\end_inset
+
+ 
+\begin_inset Formula $l\leq\rho\leq k$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+נראה שאפשר להגיע מ 
+\begin_inset Formula $R_{n,m}\left(f,g\right)$
+\end_inset
+
+ ל 
+\begin_inset Formula $R_{n,m}\left(f+hg,g\right)$
+\end_inset
+
+ע
+\begin_inset Quotes erd
+\end_inset
+
+י פעולות על השורות של במטריצה, ולכן הדטרמיננטה נשמרת.
+\end_layout
+
+\begin_layout Standard
+תחילה נבצע את הפעולה
+\begin_inset Formula 
+\[
+\boxed{R_{i}\to h_{\rho}x^{\rho}R_{i}\,\,\,n<i\le n+m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נכפיל את כל השורות של הפולינום 
+\begin_inset Formula $g$
+\end_inset
+
+ עם 
+\begin_inset Formula $h_{\rho}x^{\rho}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולאחר מיכן נבצע את הפעולה הבאה 
+\begin_inset Formula 
+\[
+\boxed{R_{i}\to R_{i}+R_{i+n}\,\,\,1\le i\le n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר נוסיף את השורות של הפולינום 
+\begin_inset Formula $g$
+\end_inset
+
+ לשורות של הפולינום 
+\begin_inset Formula $f$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ובסוף נחזיר את 
+\begin_inset Formula $g$
+\end_inset
+
+ חזרה 
+\begin_inset Formula 
+\[
+\boxed{R_{i}\to\frac{R_{i}}{h_{\rho}x^{\rho}}\,\,\,n<i\le n+m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נמשיך לבצע את הפעולות האלו עבור 
+\begin_inset Formula $k$
+\end_inset
+
+ מונומים של 
+\begin_inset Formula $h$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ובסה
+\begin_inset Quotes erd
+\end_inset
+
+כ נקבל ש 
+\end_layout
+
+\begin_layout Standard
+באופן הזה אכן קיבלנו את 
+\begin_inset Formula $f+hg$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י פעולות על השורות.
+\end_layout
+
+\begin_layout Standard
+ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ הדטרמיננטה נשמרת וזה מה שרצינו להראות.
+\end_layout
+
+\begin_layout Standard
+ולכן =ּ
+\begin_inset Formula 
+\begin{align*}
+R_{n,m}\left(f+hg,g\right) & =R_{n,m}\left(f+g\left(\sum_{l=1}^{k}h_{l}x^{l}\right),g\right)\\
+ & =R_{n,m}\left(f+gh_{1}x^{1}+gh_{2}x^{2}+\ldots+gh_{k}x^{k},g\right)\\
+ & =R_{n,m}\left(f+gh_{1}x^{1}+gh_{2}x^{2}\ldots+gh_{k}x^{k},g\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

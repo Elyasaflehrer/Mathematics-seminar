@@ -1,0 +1,189 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הקדמה.
+\end_layout
+
+\begin_layout Standard
+במבניים אלגבריים לומדים שבהינתן שני פולינומים ע
+\begin_inset Quotes erd
+\end_inset
+
+י האלגוריתים של אוקלידס ניתן למצוא את המחלק המשותף המירבי שלהם, 
+\end_layout
+
+\begin_layout Standard
+ע
+\begin_inset Quotes erd
+\end_inset
+
+י המחלק המשותף המירבי ניתן למצוא את השורשים המשותפים של שני הפולינומים.
+\end_layout
+
+\begin_layout Standard
+בעבודה זו נרצה להוכיח דרך נוספת לדעת האם לשני פולינומים יש מחלק שורשים משותפים
+ בדרך פשוטה יותר ללא צורך להשתמש באלגריתים של אוקלידס,
+\end_layout
+
+\begin_layout Standard
+אמנם לא נקבל מהם השורשים, אבל בדרך הרבה יותר פשוטה נוכל לדעת האם יש שורשים.
+\end_layout
+
+\begin_layout Standard
+ובנוסף )לא בעבודה זו( בדרך שבה נוכיח בעבודה זו ניתן להרחיב לפולינומים בכמה
+ משתנים, כלומר ניתן לדעת האם לשני פולינומים בכמה משתנים יש שורשים משותפים.
+\end_layout
+
+\begin_layout Standard
+ונציין שהאלגוריתים של אוקלידס טוב רק לפולינמים במשתנה יחיד ולא בכמה משתנים.
+\end_layout
+
+\begin_layout Standard
+תחילה נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות, ונגדיר את מטריצת סילבסטר,
+ ובהמשך נגדיר את הרזולטנט ונוכיח את משפט הרזולטנט )פרק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+( שהוא החלק העיקרי של העבודה.
+\end_layout
+
+\begin_layout Standard
+את המשפט עצמו מתי לשני פולינומים יש שורשים משותפים נוכיח בפרק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+, וכן נוכיח עוד כמה תוצאות מעניינות שנובעות מיידי ממשפט הרזולטנט.
+\end_layout
+
+\end_body
+\end_document
