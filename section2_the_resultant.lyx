@@ -999,7 +999,27 @@ R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^
 \begin_inset Formula $\text{II}$
 \end_inset
 
-.
+
+\end_layout
+
+\begin_layout Standard
+הערה:
+\end_layout
+
+\begin_layout Standard
+נשים לב שתוך כדי ההוכחה קבלנו ש- 
+\begin_inset Formula 
+\[
+R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במשוואה זה נעשה שימוש בהמשך
 \end_layout
 
 \begin_layout Standard
@@ -1794,80 +1814,113 @@ a_{n}\RES n{m-1}fg & =a_{n}^{m-\left(m-1\right)}\RES n{m-1}fg\\
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $.\text{ii}$
+הוכחת 
+\begin_inset Formula $.\text{II}$
 \end_inset
 
  
-\series bold
-\bar under
-צריך עוד להוכיח
-\begin_inset Formula $\res=\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\Res km$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-לפי טענת עזר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
+לפי משוואה 
 \numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
+
+\begin_inset Formula $\left(2.2\right)$
+\end_inset
+
+
 \numeric off
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\text{.I}$
-\end_inset
 
- 
-\begin_inset Formula $R\left(f,g\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{.II}$
-\end_inset
-
-
-\begin_inset Formula $R\left(f,g\right)=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
-\end_inset
-
-
+\numeric on
 \begin_inset Formula 
 \[
-\res=a_{n}^{m-k}\RES nkfg=a_{n}^{m-k}\left(\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)\right)=
+\res=\left(-1\right)^{nm}\RES mngf
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+לפי 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+ והתנאי ש 
+\begin_inset Formula $\deg f<k<n$
+\end_inset
+
+ נקבל ש- 
+\begin_inset Formula $\RES mngf=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\left(-1\right)^{nm}\RES mngf=\left(-1\right)^{nm}b_{m}^{n-k}\RES mkgf
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ושוב לפי משוואה 
+\begin_inset Formula $\left(2.2\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\RES mkgf=\left(-1\right)^{km}\RES kmfg
+\]
+
+\end_inset
+
+נציב ונקבל 
+\begin_inset Formula 
+\begin{align*}
+\left(-1\right)^{nm}\RES mngf & =\left(-1\right)^{nm}b_{m}^{n-k}\left(-1\right)^{km}\RES kmfg\\
+ & =\left(-1\right)^{m\left(n+k\right)}b_{m}^{n-k}\RES kmfg\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומכיון של 
+\begin_inset Formula $m+n$
+\end_inset
+
+ ו 
+\begin_inset Formula $m-n$
+\end_inset
+
+ אותה זוגיות נקבל לאחר כל השוויונות 
+\begin_inset Formula 
+\[
+\boxed{\res=\left(-1\right)^{m\left(n-k\right)}b_{m}^{n-k}\RES kmfg}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
 \end_layout
 
 \begin_layout Standard
@@ -1913,7 +1966,17 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $n+m$
 \end_inset
 
+, ובהנחה זה אנחנו כוללים שזה נכון לכל 
+\begin_inset Formula $f,g$
+\end_inset
 
+ שקטנות מ 
+\begin_inset Formula $n,m$
+\end_inset
+
+ בהתאמה)
+\series bold
+צריך להסביר למה(
 \end_layout
 
 \begin_layout Standard
@@ -1957,7 +2020,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \end_layout
 
 \begin_layout Standard
-קיימים 
+קיימים פולינומים 
 \begin_inset Formula $q,r$
 \end_inset
 
@@ -1989,7 +2052,7 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-וכלן נקבל את השוויונות הבאים
+ולכן נקבל את השוויונות הבאים
 \end_layout
 
 \begin_layout Standard
@@ -2147,7 +2210,11 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-ולכן 
+ולכן הם גם שורשים של 
+\begin_inset Formula $r$
+\end_inset
+
+ כי
 \begin_inset Formula 
 \[
 \boxed{g\left(\xi_{i}\right)}=\underbrace{q\left(\xi_{i}\right)f\left(\xi_{i}\right)}_{=0}+r\left(\xi_{i}\right)=\boxed{r\left(\xi_{i}\right)}
@@ -2156,6 +2223,251 @@ g=qf+r
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+וקבלנו את הטענה עבור 
+\begin_inset Formula $0<n=\text{deg}\left(f\right)\le m=\text{deg}\left(g\right)$
+\end_inset
+
+ ו 
+\begin_inset Formula $r\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $r=0$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+g=fq
+\]
+
+\end_inset
+
+ לפי ההנחה של מקרה זה 
+\begin_inset Formula $n>0$
+\end_inset
+
+ ולכן 
+\begin_inset Formula 
+\[
+Syl_{n,m}\left(f,r\right)=Syl_{n,m}\left(f,0\right)
+\]
+
+\end_inset
+
+ולכן 
+\begin_inset Formula 
+\[
+\RES n{,m}fr=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי טענת עזר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\begin_inset Formula 
+\begin{align*}
+\RES n{,m}fg & =\RES n{,m}f{g-qf}=\RES n{,m}f0\\
+ & =\RES n{,m}fr=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ויתר מזה 
+\begin_inset Formula 
+\[
+g\left(\xi_{1}\right)=f\left(\xi_{1}\right)q\left(\xi_{1}\right)=0
+\]
+
+\end_inset
+
+ כלומר 
+\begin_inset Formula $\xi_{1}$
+\end_inset
+
+ הוא שורש של 
+\begin_inset Formula $g$
+\end_inset
+
+ גם ולכן ?????
+\end_layout
+
+\begin_layout Standard
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+R_{0.m}\left(f,g\right) & =a_{n}^{m}b_{m}^{0}\prod_{i=1}^{0}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+ & =a_{n}^{m}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+והטענה מתקיימת
+\end_layout
+
+\begin_layout Standard
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=\deg g<n=\deg f$
+\end_inset
+
+ הוכחה זה דומה למקרה 
+\begin_inset Formula $1$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+וכמו כן עבור 
+\begin_inset Formula $m=0$
+\end_inset
+
+ הוכחה דומה עבור מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+לא נחזור על הוכחות אלו
 \end_layout
 
 \end_body
