@@ -77,6 +77,60 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\deg}[1]{\text{deg}\left(#1\right)}
+{\text{deg}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\syl}[1]{\text{Syl}\left(#1\right)}
+{\text{Syl}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\res}{R_{n,m}\left(f,g\right)}
+{R_{n,m}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Res}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\RES}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gcd}{\text{GCD}\left(f,g\right)}
+{\text{GCD}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 פרק
 \family roman
@@ -105,20 +159,47 @@
 \uwave default
 \noun default
 \color inherit
-4
+3
 \numeric off
 :
 \end_layout
 
 \begin_layout Standard
-תוצאות ישירות 
+בפרק זה נמשיך עם המוסכמות שבתחילת פרק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 \bar under
-תוצאה ישירה
+טענה
 \family roman
 \shape up
 \size normal
@@ -141,7 +222,87 @@
 \uwave default
 \noun default
 \color inherit
-2
+3.1
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+ ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש שורש משותף אם ורק אם 
+\begin_inset Formula $\res=0$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+לפי משפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\res=0\Longleftrightarrow a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וזה מתקיים אם ורק אם קיימים 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ ו 
+\begin_inset Formula $\eta_{j}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\eta_{j}=\xi_{i}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+כלומר אם ורק אם ל 
+\begin_inset Formula $f$
+\end_inset
+
+ ו- 
+\begin_inset Formula $g$
+\end_inset
+
+ יש שורש משותף
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה 
+\numeric on
+3.2
 \end_layout
 
 \begin_layout Standard
@@ -172,23 +333,74 @@
 \end_layout
 
 \begin_layout Standard
-אם ל 
-\begin_inset Formula $f,g$
-\end_inset
-
- יש גורם משותף את יש להם שורש משותף ולכן הרזולטנט מתאפס
+צד אחד
 \end_layout
 
 \begin_layout Standard
-אם הרזולטנט מתאפס אז ל 
+\begin_inset Formula $\Longleftarrow$
+\end_inset
+
+ אם ל 
 \begin_inset Formula $f,g$
 \end_inset
 
- יש שורש משותף 
+ יש גורם משותף אז 
+\begin_inset Formula $\res=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש גורם משותף ולכן יש להם שורש משותף ולכן הרזולטנט מתאפס, ולפי הטענה הקודמת
+ 
+\begin_inset Formula $\res=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Longrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\res=0$
+\end_inset
+
+ אז ל 
+\begin_inset Formula $f$
+\end_inset
+
+ ו 
+\begin_inset Formula $g$
+\end_inset
+
+ יש גורם משותף
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה ש 
+\begin_inset Formula $\res=0$
+\end_inset
+
+ מטענה 
+\begin_inset Formula $3.1$
+\end_inset
+
+ ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש שורש משותף נסמן 
 \begin_inset Formula $\alpha$
 \end_inset
 
- נוכל להוציא את 
+, נוכל נוציא את 
 \begin_inset Formula $x-\alpha$
 \end_inset
 
@@ -197,14 +409,97 @@
 \end_inset
 
 .
-\begin_inset Formula 
-\[
-R\left(f,g\right)=0
-\]
+\end_layout
 
+\begin_layout Standard
+וקבלנו את הטענה.
+\end_layout
+
+\begin_layout Standard
+לצורך המשפט הבא נזכיר מהו מימד של מטריצה.
+\end_layout
+
+\begin_layout Standard
+מימד של מטריצה הוא המימד שנפרס ע
+\begin_inset Quotes erd
 \end_inset
 
+י וקטורי השורות או העמודות של המטריצה.
+\end_layout
 
+\begin_layout Standard
+ובמקרה שהשורות תלויות לינארית אז המימד שנפרש ע
+\begin_inset Quotes erd
+\end_inset
+
+י המטריצה קטן מהגודל של המטריצה.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.3
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים בשדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן ב- 
+\begin_inset Formula $h=\gcd$
+\end_inset
+
+ את המחלק המשותף המירבי של 
+\begin_inset Formula $f,g$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+המעלה של המימד של 
+\begin_inset Formula $\text{Syl}\left(f,g\right)$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n+m-\deg h$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -215,71 +510,205 @@ R\left(f,g\right)=0
 \end_layout
 
 \begin_layout Standard
-נניח של 
-\begin_inset Formula $f,g$
+לפני שנכנסים לגוף ההוכחה נציין שהחלפה בין שורות המטריצה לא משנה את המימד
+ שנפרש ע
+\begin_inset Quotes erd
 \end_inset
 
- יש שורש משותף נסמן 
-\begin_inset Formula $\gamma$
-\end_inset
-
- נציב במשוואה 
-\begin_inset Formula 
-\[
-R_{m.n}\left(f,g\right)=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)
-\]
-
-\end_inset
-
-
+י וקטורי השורות של המטריצה.
 \end_layout
 
 \begin_layout Standard
-נקבל שאחת המכפלות הוא 
-\begin_inset Formula $0$
+\begin_inset Formula $\syl{f,g}$
 \end_inset
 
- ולכן 
-\begin_inset Formula 
-\[
-R_{m.n}\left(f,g\right)=0
-\]
-
+ ל 
+\begin_inset Formula $\syl{g,f}$
 \end_inset
 
-
+ שוות פרט לסדר של השורות, ולכן המימד שנפרש על ידם שווה
 \end_layout
 
 \begin_layout Standard
-אם 
-\begin_inset Formula 
-\[
-R_{m.n}\left(f,g\right)=0
-\]
-
+וכתוצאה מכך ללא הגבלת כלליות נוכל להניח ש 
+\begin_inset Formula $m\le n$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-אז קיים 
-\begin_inset Formula $i$
-\end_inset
-
- וקיים 
-\begin_inset Formula $j$
+קיימים 
+\begin_inset Formula $q,r$
 \end_inset
 
  כך ש 
-\begin_inset Formula $\xi_{i}=\eta_{j}$
+\begin_inset Formula $\rho=\deg r<m\le n$
 \end_inset
 
- כלומר ל 
-\begin_inset Formula $f,g$
+
+\begin_inset Formula 
+\[
+f=gq+r\Longrightarrow f-gq=r
+\]
+
 \end_inset
 
- יש לפחות שורש משותף אחד.
+
+\end_layout
+
+\begin_layout Standard
+ולפי טענת עזר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.4
+\numeric off
+ 
+\begin_inset Formula 
+\[
+\res=\RES nm{f-gq}g=\RES nmrg
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי ההערה בתחילת ההוכחה נוכל להסתכל על 
+\begin_inset Formula 
+\[
+\RES mngr
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי טענת עזר 
+\begin_inset Formula $2.5$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\RES mngr=\beta\RES m{\rho}gr
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ושוב לפי ההערה בתחילת ההוכחה המימד של 
+\begin_inset Formula $\RES m{\rho}gr$
+\end_inset
+
+ ושל 
+\begin_inset Formula $\RES{\rho}mgr$
+\end_inset
+
+ שווים.
+\end_layout
+
+\begin_layout Standard
+נחזור שוב על התהליך קיימים 
+\begin_inset Formula $q_{2},r_{2}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\rho_{2}=\deg{r_{2}}<\rho\le m$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+g=rq_{2}+r_{2}\Longrightarrow g-rq_{2}=r_{2}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\RES m{\rho}gr=\RES m{\rho}{g-rq_{2}}r=\RES m{\rho}gr
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולפי טענת עזר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.5
+\numeric off
+ 
+\begin_inset Formula 
+\[
+\RES mngr=\RES m{\rho}gr
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body

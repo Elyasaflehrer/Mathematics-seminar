@@ -599,6 +599,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \bar under
 טענה עזר
 \family roman
+\series medium
 \shape up
 \size normal
 \emph off
@@ -610,6 +611,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \color none
  
 \family default
+\series bold
 \shape default
 \size default
 \emph default
@@ -620,7 +622,19 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-1
+2.2
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1049,7 +1063,7 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)
 \uwave default
 \noun default
 \color inherit
-2
+2.4
 \end_layout
 
 \begin_layout Standard
@@ -1389,7 +1403,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-3
+2.5
 \end_layout
 
 \begin_layout Standard
