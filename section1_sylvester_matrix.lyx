@@ -83,6 +83,15 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\deg}[1]{\text{deg}\left(#1\right)}
+{\text{deg}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\res}{R_{n,m}\left(f,g\right)}
 {R_{n,m}\left(f,g\right)}
 \end_inset
@@ -100,8 +109,26 @@
 \end_layout
 
 \begin_layout Standard
-פרק זה הוא פרק קצר שבו נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות ונגדיר
- את מטריצת סילבסטר של שני פולינומים, ובסוף נגדיר את הרזולטנט.
+\begin_inset FormulaMacro
+\newcommand{\RES}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\poi}{\,.}
+{\,.}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+פרק זה הוא פרק קצר שבו נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות ומטריצת
+ סילבסטר של שני פולינומים, ובסוף הפרק נגדיר את הרזולטנט.
 \end_layout
 
 \begin_layout Standard
@@ -138,11 +165,7 @@
 \color inherit
 1.1
 \numeric off
- תזכורת הגדרת הדטרמיננטה לפי תמורות
-\end_layout
-
-\begin_layout Standard
-נרשום את ההגדרה של הטרמיננטה לפי תמורות
+ הגדרת הדטרמיננטה לפי תמורות
 \end_layout
 
 \begin_layout Standard
@@ -150,7 +173,7 @@
 \begin_inset Formula $A=\left(\alpha_{i,j}\right)$
 \end_inset
 
- מגודל 
+ מטריצה מגודל 
 \begin_inset Formula $n\times n$
 \end_inset
 
@@ -160,27 +183,28 @@
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\text{det}\left(A\right)=\sum_{\sigma\in S_{n}}\text{sgn}\left(\sigma\right)\sigma_{1,\sigma\left(1\right)}\sigma_{2,\sigma\left(2\right)}\cdots\sigma_{n,\sigma\left(n\right)}
+\text{det}\left(A\right)=\sum_{\sigma\in S_{n}}\text{sgn}\left(\sigma\right)\sigma_{1,\sigma\left(1\right)}\sigma_{2,\sigma\left(2\right)}\cdots\sigma_{n,\sigma\left(n\right)}\poi
 \]
 
 \end_inset
 
- 
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
+הסכום הוא על 
+\begin_inset Formula $n!$
 \end_inset
 
- אם התמורה זוגית, ו 
-\begin_inset Formula $\text{sgn}\left(\sigma\right)=-1$
+ התמורות 
+\begin_inset Formula $\sigma$
 \end_inset
 
- אם התמורה אי-זוגית.
-\end_layout
+ של המספרים 
+\begin_inset Formula $\left\{ 1,2,\ldots,n\right\} $
+\end_inset
 
-\begin_layout Standard
-כאשר התמורות הם בין שורות המטריצה לעמודותיה כלומר אם עבור השורה ה 
+, כאשר אם עבור השורה ה 
 \begin_inset Formula $i$
 \end_inset
 
@@ -200,12 +224,23 @@
 \begin_inset Formula $i\to j$
 \end_inset
 
-.
+, ו- 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
+\end_inset
+
+ אם התמורה זוגית, ו 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=-1$
+\end_inset
+
+ אם התמורה אי-זוגית.
 \end_layout
 
 \begin_layout Standard
-נעבור לדוגמא.
- 
+נעבור לדוגמא:
+\end_layout
+
+\begin_layout Standard
+תהי מטריצה
 \end_layout
 
 \begin_layout Standard
@@ -227,7 +262,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $\text{det}\left(A\right)$
 \end_inset
 
-לפי הגדרה זו
+לפי הגדרה זו.
 \end_layout
 
 \begin_layout Standard
@@ -242,74 +277,35 @@ A=\begin{pmatrix}2 & 3 & 1\\
 
 \begin_layout Standard
 השורה הראשונה מייצגת את השורה במטריצה והשורה השניה בתמורה מייצגת את העמודה
- במטריצה
+ במטריצה, ולכן במקרה זה נבחר מהשורה הראשונה את האיבר מהעמודה הראשונה, מהשורה
+ השניה את האיבר בעמודה השניה, וכן הלאה.
 \end_layout
 
 \begin_layout Standard
-ולכן במקרה זה נבחר מהשורה הראשונה את האיבר מהעמודה הראשונה, מהשורה השניה
- את האיבר בעמודה השניה, וכן הלאה
-\end_layout
-
-\begin_layout Standard
-נחשב את 
-\begin_inset Formula $\text{sgn}\left(\sigma\right)$
+תמורת הזהות היא זוגית ולכן 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
 \end_inset
 
- הזוגיות של התמורה, תמורת הזהות היא זוגית ולכן הסימן היא
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\end_layout
-
-\begin_layout Standard
-ובסה
+, ובסה
 \begin_inset Quotes erd
 \end_inset
 
-כ נקבל את המכפלה 
+כ מתמורת הזהות נקבל את המכפלה 
 \begin_inset Formula $2\cdot2\cdot3$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-נבחר לדוגמא את התמורה 
+נבחר תמורה נוספת 
 \begin_inset Formula $\begin{pmatrix}1 & 2 & 3\\
 3 & 1 & 2
 \end{pmatrix}\in S_{n}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-במקרה זה מהשורה הראשונה נבחר את האיבר מהעמודה השלישית, מהשורה השניה את האיבר
- מהעמודה הראשונה, ומהשורה השלישית את האיבר בעמודה השניה
+, במקרה זה מהשורה הראשונה נבחר את האיבר מהעמודה השלישית, מהשורה השניה את
+ האיבר מהעמודה הראשונה, ומהשורה השלישית את האיבר בעמודה השניה.
 \end_layout
 
 \begin_layout Standard
@@ -321,10 +317,10 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $\text{sgn}\left(\sigma\right)$
 \end_inset
 
- 
+,
 \begin_inset Formula 
 \[
-\left(132\right)=\left(13\right)\left(21\right)
+\left(132\right)=\left(13\right)\left(21\right)\poi
 \]
 
 \end_inset
@@ -333,7 +329,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \end_layout
 
 \begin_layout Standard
-ולכן הסימן הינו
+קבלנו
 \family roman
 \series medium
 \shape up
@@ -360,14 +356,14 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \noun default
 \color inherit
 
-\begin_inset Formula $1$
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
 \end_inset
 
  ולכן בסה
 \begin_inset Quotes erd
 \end_inset
 
-כ נקבל את המכפלה
+כ מתמורה זו נקבל את המכפלה
 \family roman
 \series medium
 \shape up
@@ -384,34 +380,38 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $1\cdot4\cdot5$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-עבור החילוף 
+תמורה נוספת לדוגמא 
 \begin_inset Formula $\begin{pmatrix}1 & 2 & 3\\
 2 & 1 & 3
-\end{pmatrix}$
+\end{pmatrix}\in S_{n}$
 \end_inset
 
- 
-\begin_inset Formula $\text{sgn}\left(\sigma\right)$
+, זהו חילוף ולכן 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=-1$
 \end_inset
 
- אי זוגי ונקבל את המכפלה 
+ ובסה
+\begin_inset Quotes erd
+\end_inset
+
+כ מתמורה זו נקבל את המכפלה 
 \begin_inset Formula $-3\cdot4\cdot3$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-ולאחר חישוב כל התמורות נקבל ש 
+ולאחר חישוב כל התמורות נקבל
 \begin_inset Formula 
 \begin{align*}
 \text{det}\left(A\right) & =\sum_{\sigma\in S_{n}}\text{sgn}\left(\sigma\right)\sigma_{1,\sigma\left(1\right)}\sigma_{2,\sigma\left(2\right)}\cdots\sigma_{n,\sigma\left(n\right)}\\
  & =2\cdot2\cdot3-2\cdot3\cdot5-3\cdot4\cdot3+3\cdot3\cdot1-1\cdot2\cdot1+1\cdot4\cdot5\\
- & =12-30-36+9-2+20=25
+ & =12-30-36+9-2+20=25\poi
 \end{align*}
 
 \end_inset
@@ -480,7 +480,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Quotes erd
 \end_inset
 
-י, 
+י
 \begin_inset Formula 
 \[
 \text{Syl}\left(f,g\right)=\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
@@ -493,12 +493,19 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
 0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
-\end{pmatrix}
+\end{pmatrix}\poi
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+כאשר נתייחס לפולינומים כטור אין סופי המוגדר כך 
+\series bold
+\bar under
+לא ברור לי איך לנסח את זה נכון
 \end_layout
 
 \begin_layout Standard
@@ -522,14 +529,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $m+1\leq i\leq m+n$
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
-כאשר נתייחס לפולינומים כטור אין סופי המוגדר כך:
-\end_layout
-
-\begin_layout Standard
+, 
 \begin_inset Formula $a_{i}=0$
 \end_inset
 
@@ -541,10 +541,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $i<0$
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Standard
+, 
 \begin_inset Formula $a_{i}=0$
 \end_inset
 
@@ -560,7 +557,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-במילים אחרות
+במילים אחרות,
 \end_layout
 
 \begin_layout Standard
@@ -572,7 +569,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $f$
 \end_inset
 
- באופן הבא,
+ באופן הבא:
 \end_layout
 
 \begin_layout Standard
@@ -584,11 +581,15 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $a_{n-1}$
 \end_inset
 
- וכן הלאה לכל איברי 
+ וכן הלאה עד 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ ,בפולינום 
 \begin_inset Formula $f$
 \end_inset
 
- , יש 
+יש 
 \begin_inset Formula $n$
 \end_inset
 
@@ -600,11 +601,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $n$
 \end_inset
 
- עמודות נשארו 
+ העמודות הראשונות נשארו 
 \begin_inset Formula $m$
 \end_inset
 
- עמודות אותן נאכלס עם אפסים ,
+ עמודות אותן נאכלס עם אפסים,
 \end_layout
 
 \begin_layout Standard
@@ -612,12 +613,8 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $a_{n}$
 \end_inset
 
-יזוז אחד ימינה כלומר נתחיל את האיכלוס של התאים מהעמודה השניה, ואת העמודה
- הראשונה נאכלס באפס.
-\end_layout
-
-\begin_layout Standard
-ובאופן הזה עד השורה ה 
+ יזוז אחד ימינה כלומר נתחיל את האיכלוס של התאים מהעמודה השניה, ואת העמודה
+ הראשונה נאכלס באפס, ובאופן הזה עד השורה ה 
 \begin_inset Formula $m$
 \end_inset
 
@@ -637,19 +634,43 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-ואותו דבר נעשה עבור 
-\begin_inset Formula $g$
-\end_inset
-
- עם 
+באותו האופן נאכלס את 
 \begin_inset Formula $n$
 \end_inset
 
- השורות האחרונות.
-\begin_inset Newline newline
+ השורות האחרונות עם איברי הפולינום 
+\begin_inset Formula $g$
 \end_inset
 
+, בשורה ה 
+\begin_inset Formula $m+2$
+\end_inset
 
+ את העמודה הראשונה נאכלס עם 
+\begin_inset Formula $g_{m}$
+\end_inset
+
+, את העמודה השניה עם 
+\begin_inset Formula $g_{m-1}$
+\end_inset
+
+ וכך נמשיך עד העמודה ה 
+\begin_inset Formula $m$
+\end_inset
+
+, ואת שאר העמודות נאכלס באפסים, בשורה ה 
+\begin_inset Formula $m+2$
+\end_inset
+
+ נתחיל בעמודה השניה עם 
+\begin_inset Formula $g_{m}$
+\end_inset
+
+ ואת העמודה הראשונה נאכלס באפס, ונמשיך באופן הזה כמו עם 
+\begin_inset Formula $f$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -671,10 +692,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $g\left(x\right)=b_{2}x^{2}+b_{1}x+b_{0}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
+במקרה זה 
 \begin_inset Formula $n=3$
 \end_inset
 
@@ -682,18 +704,15 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $m=2$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
+, ולכן
 \begin_inset Formula 
 \[
-\text{Syl}_{n,m}\left(f,g\right)=\begin{pmatrix}a_{3} & a_{2} & a_{1} & a_{0} & 0\\
+\text{Syl}_{2,3}\left(f,g\right)=\begin{pmatrix}a_{3} & a_{2} & a_{1} & a_{0} & 0\\
 0 & a_{3} & a_{2} & a_{1} & a_{0}\\
 b_{2} & b_{1} & b_{0} & 0 & 0\\
 0 & b_{2} & b_{1} & b_{0} & 0\\
 0 & 0 & b_{2} & b_{1} & b_{0}
-\end{pmatrix}
+\end{pmatrix}\poi
 \]
 
 \end_inset
@@ -749,7 +768,7 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 נגדיר את הרזולטנט שלהם להיות 
 \begin_inset Formula 
 \[
-R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)
+R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)\poi
 \]
 
 \end_inset
@@ -762,19 +781,82 @@ R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)
 \series bold
 \bar under
 הערה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.4
 \end_layout
 
 \begin_layout Standard
-הגדרה 
+נרחיב את הגדרה 
+\begin_inset Formula $1.3$
+\end_inset
+
+ באופן הבא:
+\end_layout
+
+\begin_layout Standard
+עבור פולינום 
+\begin_inset Formula $f$
+\end_inset
+
+ ממעלה קטנה מ- 
+\begin_inset Formula $n$
+\end_inset
+
+, נוכל להשלים עם מקדמים 
+\begin_inset Formula $0$
+\end_inset
+
+ עד למעלה 
+\begin_inset Formula $n$
+\end_inset
+
+, ובאותו אופן עבור 
+\begin_inset Formula $g$
+\end_inset
+
+ ממעלה קטנה מ- 
+\begin_inset Formula $m$
+\end_inset
+
+, נשלים עם מקדמים 
+\begin_inset Formula $0$
+\end_inset
+
+ עד למעלה 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ולכן הגדרה 
 \begin_inset Formula $1.2$
 \end_inset
 
- נכונה לכל שני פולינומים ממעלה קטנה מ 
+ נכונה לכל שני פולינומים ממעלה קטנה או שווה ל- 
 \begin_inset Formula $n,m$
-\end_inset
-
-, ובמקרה זה נשלים את הפולינום עם מקדמים 
-\begin_inset Formula $0$
 \end_inset
 
 .
@@ -797,33 +879,33 @@ R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)
 \begin_inset Formula $a_{i}$
 \end_inset
 
- הם המקדמים בפולינום 
+ הם המקדמים של הפולינום 
 \begin_inset Formula $f$
 \end_inset
 
-, וכיון שהשלמנו עם מקדמים 
-\begin_inset Formula $0$
-\end_inset
-
- אז 
+, וכלן 
 \begin_inset Formula $f=\hat{f}$
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-ובאותו אופן נעשה עם הפולינום השני אם המעלה שלו קטנה מ 
-\begin_inset Formula $m$
+ ובאותו אופן נעשה עם הפולינום 
+\begin_inset Formula $g$
 \end_inset
 
-.
+ אם 
+\begin_inset Formula $\deg g<m$
+\end_inset
+
+ .
 \end_layout
 
 \begin_layout Standard
-במקרה ששני הפולינומים קטנים 
-\begin_inset Formula $m,n$
+נבחין שבמקרה שגם 
+\begin_inset Formula $\deg f<n$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\deg g<m$
 \end_inset
 
  אז במטריצת סילבסטר נקבל עמודת אפסים ולכן 
@@ -836,11 +918,35 @@ R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)
 \begin_layout Standard
 
 \series bold
-נשים לב
+\bar under
+הערה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.5
 \end_layout
 
 \begin_layout Standard
-שעבור שני פולינומים 
+עבור שני פולינומים 
 \begin_inset Formula $f,g$
 \end_inset
 
@@ -861,10 +967,7 @@ R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)
 \end_inset
 
 , ולכן נוכל להתייחס אליהם כאל משתנים בלתי תלויים.
-\end_layout
-
-\begin_layout Standard
-ולכן נוכל להתייחס לדטרמיננטה כפולינום מעל שדה 
+ ואז הדטרמיננטה היא בעצמה פולינום מעל שדה 
 \begin_inset Formula $F$
 \end_inset
 
@@ -891,7 +994,7 @@ R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)
 \begin_inset Formula $g\left(x\right)=b_{1}x+b_{0}$
 \end_inset
 
-
+,
 \end_layout
 
 \begin_layout Standard
@@ -903,7 +1006,7 @@ R_{2,1}\left(f,g\right) & =\text{det}\left(\text{syl}_{2,1}\left(f,g\right)\righ
 a_{2} & a_{1} & a_{0}\\
 b_{1} & b_{0} & 0\\
 0 & b_{1} & b_{0}
-\end{array}\right)=a_{0}b_{1}^{2}+a_{2}b_{0}^{2}-b_{0}a_{1}b_{1}
+\end{array}\right)=a_{0}b_{1}^{2}+a_{2}b_{0}^{2}-b_{0}a_{1}b_{1}\poi
 \end{align*}
 
 \end_inset
@@ -928,11 +1031,11 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-בהבחנה זו נעשה שימוש במהלך העבודה
-\end_layout
+בהערה 
+\begin_inset Formula $1.5$
+\end_inset
 
-\begin_layout Standard
-הראשון יהיה המשפט הבא
+ נעשה שימוש במהלך העבודה, הראשון יהיה המשפט הבא.
 \end_layout
 
 \begin_layout Standard
@@ -962,7 +1065,7 @@ b_{1} & b_{0} & 0\\
 \uwave default
 \noun default
 \color inherit
-1.4
+1.6
 \end_layout
 
 \begin_layout Standard
@@ -970,11 +1073,11 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
 \end_inset
 
- פולינומים בשדה 
+ פולינומים מעל שדה 
 \begin_inset Formula $F$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -985,11 +1088,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $a_{i},b_{i}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-כאשר עבור 
+, כאשר עבור 
 \begin_inset Formula $a_{n}\ldots a_{0}$
 \end_inset
 
@@ -997,11 +1096,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $m$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-ועבור 
+, ועבור 
 \begin_inset Formula $b_{m}\ldots b_{0}$
 \end_inset
 
@@ -1028,27 +1123,19 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $n+m\times n+m$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-נתבונן באיבר כלשהוא בסכום הנתון ע
-\begin_inset Quotes erd
+, נתבונן באיבר כלשהוא בסכום הנתון בהגדרה 
+\begin_inset Formula $1.1$
 \end_inset
 
-י הגדרת הדטרמיננטה נבחר 
+ נבחר 
 \begin_inset Formula $\sigma\in S_{n+m}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-המחובר בסכום מתקבל ע
+, המחובר בסכום מתקבל ע
 \begin_inset Quotes erd
 \end_inset
 
-י כפל של בין איברי המטריצה כך שכל שורה וכל עמודה מופיעה בדיוק פעם אחת .
+י כפל בין איברי המטריצה כך שכל שורה וכל עמודה מופיעה בדיוק פעם אחת.
 \end_layout
 
 \begin_layout Standard
@@ -1068,15 +1155,11 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $i_{k},j_{l}$
 \end_inset
 
- 
+, 
 \begin_inset Formula $1\le k,l\le n+m$
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Standard
-וכלן בסה
+, ולכן בסה
 \begin_inset Quotes erd
 \end_inset
 
@@ -1084,11 +1167,44 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $n+m$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-כאשר לפי הגדרת מטריצת סילבסטר מ 
+לפי הגדרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1.2$
+\end_inset
+
+
+\numeric off
+ מ- 
 \begin_inset Formula $m$
 \end_inset
 
@@ -1096,11 +1212,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $f\left(x\right)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-ומ 
+, ומ- 
 \begin_inset Formula $n$
 \end_inset
 
@@ -1108,11 +1220,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $g\left(x\right)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-ולכן בסה
+, ובסה
 \begin_inset Quotes erd
 \end_inset
 
@@ -1136,7 +1244,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $g\left(x\right)$
 \end_inset
 
- 
+.
 \end_layout
 
 \begin_layout Standard
