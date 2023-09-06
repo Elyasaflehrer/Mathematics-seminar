@@ -119,6 +119,15 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\syl}{\text{Syl}\left(f,g\right)}
+{\text{Syl}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\poi}{\,.}
 {\,.}
 \end_inset
@@ -868,7 +877,7 @@ R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)\
 
 \begin_layout Standard
 אם 
-\begin_inset Formula $\deg\left(f\right)\le k<m$
+\begin_inset Formula $\deg{\left(f\right)}\le k<m$
 \end_inset
 
  נגדיר 

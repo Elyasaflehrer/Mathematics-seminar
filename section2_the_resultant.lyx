@@ -119,6 +119,32 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\syl}{\text{Syl}\left(f,g\right)}
+{\text{Syl}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Syl}[2]{\text{Syl}\left(#1,#2\right)}
+{\text{Syl}\left(#1,#2\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\f}{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\poi}{\,.}
 {\,.}
 \end_inset
@@ -194,7 +220,15 @@
 \begin_inset Formula $F$
 \end_inset
 
- מכיל את כל השורשים של שניהם.
+ מכיל את כל השורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ ו- 
+\begin_inset Formula $g$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -297,12 +331,32 @@
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{m.n}\left(f,g\right)=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\,\,\,\left(2.1\right)
+\res=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\,\,\poi\left(2.1\right)
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+מקרה טרוויאלי, כאשר 
+\begin_inset Formula $\deg f<n$
+\end_inset
+
+ ו- 
+\begin_inset Formula $\deg g<m$
+\end_inset
+
+, המכפלה מתאפסת, וגם 
+\begin_inset Formula $\res=0$
+\end_inset
+
+ כמו שראינו בהערה 
+\begin_inset Formula $1.4$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -424,8 +478,8 @@ R_{m.n}\left(f,g\right)=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\x
 \begin_inset Formula $1.1$
 \end_inset
 
- את הדטרמיננטה של מטריצת סילבסטר של 
-\begin_inset Formula $f,g$
+ את 
+\begin_inset Formula $\syl$
 \end_inset
 
  :
@@ -611,6 +665,13 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
+%%%%%%%%%%%%%%%%% 
+\series bold
+\bar under
+זה לא טענת עזר זה מה שצריך להוכיח
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -685,7 +746,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \begin_inset Formula $R\left(f,g\right)=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -755,7 +816,7 @@ g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\left(*\right)\,\,g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}
+g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}\,\,\left(2.2\right)
 \]
 
 \end_inset
@@ -798,7 +859,7 @@ g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
 \begin_inset Formula $f$
 \end_inset
 
- גם כן כמפכלה של גורמים לינאריים:
+ גם כן כמכפלה של גורמים לינאריים:
 \begin_inset Formula 
 \[
 f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\text{\poi}
@@ -810,7 +871,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\text{\poi}
 \end_layout
 
 \begin_layout Standard
-דיון אינטואיטיבי:
+נתחיל בדיון אינטואיטיבי:
 \end_layout
 
 \begin_layout Standard
@@ -965,7 +1026,7 @@ R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^
 \begin_inset Formula $l-1$
 \end_inset
 
- )לא נוכיח טענה זו במסגרת העבודה הזו( ולכן כל מחזור כזה הוא באורך 
+ )הוכחת טענה זו חורגת ממסגרת המאמר הזה( ולכן כל מחזור כזה הוא באורך 
 \begin_inset Formula $l=n+m-1$
 \end_inset
 
@@ -1050,7 +1111,7 @@ R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^
 נשים לב שתוך כדי ההוכחה קבלנו ש- 
 \begin_inset Formula 
 \[
-R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\poi
+R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.3\right)\poi
 \]
 
 \end_inset
@@ -1105,11 +1166,7 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 \begin_inset Formula $m\le n$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-ויהי 
+, ויהי 
 \begin_inset Formula $h$
 \end_inset
 
@@ -1194,7 +1251,7 @@ R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)\poi
 \end_inset
 
  ונסמן 
-\begin_inset Formula $h=\sum_{l=1}^{k}h_{l}x^{l}$
+\begin_inset Formula $h=\sum_{l=\rho}^{k}h_{\rho}x^{\rho}$
 \end_inset
 
 .
@@ -1207,6 +1264,10 @@ R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)\poi
 
  עם 
 \begin_inset Formula $\rho\in\mathbb{Z}$
+\end_inset
+
+, ובפרט הוא מתקיים עבור 
+\begin_inset Formula $h_{\rho}x^{\rho}$
 \end_inset
 
 .
@@ -1237,25 +1298,10 @@ R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)\poi
 \end_layout
 
 \begin_layout Standard
-%%%%%%%%%%%%%%%%%%%%%%%%%
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-b_{j}x^{j}cx^{\rho}=b_{j}cx^{j+\rho}\,\,j+\rho=r,\,\,\,j=r-\rho
-\]
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
 \begin{pmatrix}a_{n}+cb_{n-\rho} & a_{n-1}+cb_{n-\rho-1} & a_{n-2}+cb_{n-2} & \ldots & 0 & 0 & 0\\
-0 & a_{n}+h_{\rho}b_{n} & a_{n-1}+cb_{n-1} & \ldots & 0 & 0 & 0\\
+0 & a_{n}+h_{\rho}b_{n-\rho} & a_{n-1}+cb_{n-1} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & a_{1}+cb_{1} & a_{0}+cb_{0} & 0\\
 0 & 0 & 0 & \ldots & a_{2}+cb_{2} & a_{1}+cb_{1} & a_{0}+cb_{0}\\
@@ -1273,7 +1319,43 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-%%%%%%%%%%%%%%%%%%%%%%%%%%
+הביטוי 
+\begin_inset Formula $n-\rho$
+\end_inset
+
+ נובע מכך שהכפל 
+\begin_inset Formula $cx^{\rho}$
+\end_inset
+
+ מזיז את איברי 
+\begin_inset Formula $g$
+\end_inset
+
+ 
+\begin_inset Formula $\rho$
+\end_inset
+
+ מקומות כי 
+\begin_inset Formula $cx^{\rho}b_{j}x^{j}=cb_{j}x^{j+\rho}$
+\end_inset
+
+, ולאחר הצבה 
+\begin_inset Formula $i=j+\rho$
+\end_inset
+
+ נקבל 
+\begin_inset Formula $j=i-\rho$
+\end_inset
+
+ כלומר המקדם של החזקה ה 
+\begin_inset Formula $i$
+\end_inset
+
+ הוא 
+\begin_inset Formula $b_{i-\rho}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1413,7 +1495,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
  אז 
 \begin_inset Formula 
 \[
-\poi\,\res=a_{n}^{m-k}\RES nkfg
+\res=a_{n}^{m-k}\RES nkfg\poi
 \]
 
 \end_inset
@@ -1432,7 +1514,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
  אז 
 \begin_inset Formula 
 \[
-\poi\,\res=\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\Res km
+\res=\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\Res km\poi
 \]
 
 \end_inset
@@ -1601,7 +1683,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\res$
 \end_inset
 
- לפי העמודה הראשונה נקבל ש 
+ לפי העמודה הראשונה נקבל: 
 \end_layout
 
 \begin_layout Standard
@@ -1616,173 +1698,80 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-נסמן 
-\begin_inset Formula $k=m-1$
-\end_inset
-
- ונפתח עוד קצת את השוויון הזה ונקבל 
-\begin_inset Formula 
-\begin{align*}
-a_{n}\RES n{m-1}fg & =a_{n}^{m-\left(m-1\right)}\RES n{m-1}fg\\
- & =\boxed{a_{n}^{m-k}\RES nkfg}
-\end{align*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-קבלנו את הטענה עבור 
-\begin_inset Formula $k=m-1$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $.\text{i}$
-\end_inset
-
- הוכחה באינדוקציה לאחור על 
-\begin_inset Formula $k$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-עבור 
-\begin_inset Formula $k=m$
-\end_inset
-
- מתקבל השוויון מיידי
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\boxed{\res}=a_{n}^{0}\RES nkfg=\boxed{a_{n}^{m-k}\RES nkfg}\poi
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-בסיס האינדוקציה:
-\end_layout
-
-\begin_layout Standard
-עבור 
-\begin_inset Formula $k=m-1$
-\end_inset
-
- כלומר 
-\begin_inset Formula $g_{m}=0$
-\end_inset
-
- ראינו כי הטענה נכונה.
-\end_layout
-
-\begin_layout Standard
-הנחת האינדוקציה:
-\end_layout
-
-\begin_layout Standard
-נניח שהטענה נכונה עבור 
-\begin_inset Formula $m-l\le k=m$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-נוכיח את הטענה עבור 
-\begin_inset Formula $k=m-l-1$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-לפי הנחת האינדוקציה 
-\begin_inset Formula 
-\[
-\res=a_{n}^{m-\left(m-l\right)}\RES n{m-l}fg\poi
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-נתבונן ב 
-\begin_inset Formula $;\RES n{m-l}fg$
-\end_inset
-
- זה למעשה הרזולטנט של 
-\begin_inset Formula $f,g$
-\end_inset
-
- כך שעבור 
+בשביל לסיים את ההוכחה נגדיר את 
 \begin_inset Formula $g$
 \end_inset
 
- ניקח עד החזקה 
-\begin_inset Formula $m-l$
+ לכל 
+\begin_inset Formula $\deg g\leq j\leq m$
 \end_inset
 
+ להיום עם מקדם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 
-\end_layout
-
-\begin_layout Standard
-ולפי ההנחה המקדם של החזקה 
-\begin_inset Formula $m-l-1$
-\end_inset
-
- הוא 
 \begin_inset Formula $0$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-אבל אנחנו כבר יודעים לפי בסיס האינדוקציה שעבור 
-\begin_inset Formula $\RES n{m-l}fg$
-\end_inset
-
- מתקיים ש 
-\begin_inset Formula 
-\[
-\RES n{m-l}fg=a^{n}\RES n{m-l-1}fg\poi
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-ולכן בסה
-\begin_inset Quotes erd
-\end_inset
-
-כ נקבל את השוויון 
+, ונקבל
 \begin_inset Formula 
 \begin{align*}
-\boxed{\res} & =a_{n}^{m-\left(m-l\right)}\RES n{m-l}fg\\
-\text{induction step} & =a_{n}^{m-\left(m-l\right)}a_{n}\RES n{m-l-1}fg\\
- & =a_{n}^{m-\left(m-l-1\right)}\RES n{m-l-1}fg\\
- & \boxed{a_{n}^{m-k}\RES nkfg}
+\res & =a_{n}\RES n{m-1}fg\\
+ & =a_{n}a_{n}\RES n{m-2}fg\\
+ & =\left(\underbrace{a_{n}a_{n}\ldots a_{n}}_{r\,\text{times}}\right)\RES n{m-r}fg\\
+ & =a_{n}^{r}\RES n{m-r}fg
 \end{align*}
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $m-r-1$
+\end_inset
+
+ הוא המקדם הראשון שאינו 
+\begin_inset Formula $0$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $m-r=k$
+\end_inset
+
+ ונקבל 
+\begin_inset Formula $\res=a_{n}^{m-k}\RES nkfg$
+\end_inset
+
+ כנדרש.
 \end_layout
 
 \begin_layout Standard
@@ -2066,7 +2055,11 @@ g=qf+r
 \uwave default
 \noun default
 \color inherit
-2
+
+\begin_inset Formula $2.4$
+\end_inset
+
+
 \numeric off
  נקבל
 \end_layout
@@ -2128,34 +2121,11 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-מהנחת האינדוקציה וטענת עזר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
+מהנחת האינדוקציה וטענת עזר 
+\begin_inset Formula $2.5$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2228,7 +2198,7 @@ g=fq
  ולכן 
 \begin_inset Formula 
 \[
-Syl_{n,m}\left(f,r\right)=Syl_{n,m}\left(f,0\right)
+\Syl fr=\Syl f0
 \]
 
 \end_inset
@@ -2269,10 +2239,19 @@ Syl_{n,m}\left(f,r\right)=Syl_{n,m}\left(f,0\right)
 \begin_inset Formula $2.1$
 \end_inset
 
- 
-\series bold
-\bar under
-צריך להשלים
+ קיימים 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ ו 
+\begin_inset Formula $\eta_{j}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\xi_{i}=\eta_{j}$
+\end_inset
+
+ ולכן המכפלה מתאפסת.
 \end_layout
 
 \begin_layout Standard
