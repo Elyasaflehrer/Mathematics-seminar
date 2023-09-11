@@ -668,7 +668,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 %%%%%%%%%%%%%%%%% 
 \series bold
 \bar under
-זה לא טענת עזר זה מה שצריך להוכיח
+זה לא טענת עזר זה מה שצריך להוכיח, נרצה להזיז את המשפט הזה לפרק הבא
 \end_layout
 
 \begin_layout Standard
@@ -1989,7 +1989,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $\text{deg}\left(r\right)<\text{deg}\left(f\right)$
 \end_inset
 
-ומתקיים ש -
+ ומתקיים
 \begin_inset Formula 
 \[
 g=qf+r
@@ -2109,6 +2109,7 @@ g=qf+r
 \color inherit
 1
 \numeric off
+.
  
 \begin_inset Formula $r\neq0$
 \end_inset

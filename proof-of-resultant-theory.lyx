@@ -1,0 +1,420 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\deg}[1]{\text{deg}\left(#1\right)}
+{\text{deg}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\res}{R_{n,m}\left(f,g\right)}
+{R_{n,m}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Res}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\RES}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\syl}{\text{Syl}\left(f,g\right)}
+{\text{Syl}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Syl}[2]{\text{Syl}\left(#1,#2\right)}
+{\text{Syl}\left(#1,#2\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\f}{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\poi}{\,.}
+{\,.}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+מפשט הרזולטנט
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\res=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\,\,\poi\left(2.1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחת מפשט הרזולטנט
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענות עזר:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים ממעלה 
+\begin_inset Formula $m,n$
+\end_inset
+
+ בהתאמה כך שמתקיים 
+\begin_inset Formula $m\le n$
+\end_inset
+
+, ויהי 
+\begin_inset Formula $h$
+\end_inset
+
+ פולינום כך ש 
+\begin_inset Formula $\text{deg}\left(h\right)\leq n-m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אז מתקיים 
+\begin_inset Formula 
+\[
+R_{n,m}\left(f+hg,g\right)=R_{n,m}\left(f,g\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+באופן סימטרי אם 
+\begin_inset Formula $n\leq m$
+\end_inset
+
+ אז עבור 
+\begin_inset Formula $h$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\text{deg}\left(h\right)\leq m-n$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $.\text{i}$
+\end_inset
+
+ אם 
+\begin_inset Formula $\deg g\le k\le m$
+\end_inset
+
+ אז 
+\begin_inset Formula 
+\[
+\res=a_{n}^{m-k}\RES nkfg\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $.\text{ii}$
+\end_inset
+
+אם 
+\begin_inset Formula $\deg f\le k\leq n$
+\end_inset
+
+ אז 
+\begin_inset Formula 
+\[
+\res=\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\Res km\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחת משפט הרזולטנט
+\end_layout
+
+\begin_layout Standard
+הוכחה באינדוקציה על הגודל של המטריצה 
+\begin_inset Formula $n+m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+קיים פירוק לינארי מעל 
+\begin_inset Formula $F$
+\end_inset
+
+ ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ נרשום 
+\begin_inset Formula 
+\[
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסיס האינדוקציה 
+\begin_inset Formula $\deg f=\deg g=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f=a_{1}x+a_{0}\,\,\,g=b_{1}x+b_{0}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Res 11=\begin{vmatrix}a_{1} & a_{0}\\
+b_{1} & b_{0}
+\end{vmatrix}=a_{1}b_{0}-a_{0}b_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Res 11=a_{1}^{1}b_{1}^{1}\prod_{i=1}^{1}\prod_{j=1}^{1}\left(\xi_{i}-\eta_{j}\right)=a_{1}^{1}b_{1}^{1}\left(\xi_{i}-\eta_{j}\right)=a_{1}b_{1}\xi-a_{1}b_{1}\eta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
