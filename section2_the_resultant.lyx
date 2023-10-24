@@ -665,19 +665,11 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-%%%%%%%%%%%%%%%%% 
-\series bold
-\bar under
-זה לא טענת עזר זה מה שצריך להוכיח, נרצה להזיז את המשפט הזה לפרק הבא
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 \bar under
-טענה עזר
+טענת עזר
 \family roman
-\series medium
 \shape up
 \size normal
 \emph off
@@ -689,7 +681,6 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \color none
  
 \family default
-\series bold
 \shape default
 \size default
 \emph default
@@ -701,18 +692,6 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \noun default
 \color inherit
 2.2
-\family roman
-\shape up
-\size normal
-\emph off
-\numeric off
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
 \end_layout
 
 \begin_layout Standard
@@ -724,29 +703,16 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \begin_inset Formula $F$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{.I}$
-\end_inset
-
+.
  
-\begin_inset Formula $R\left(f,g\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
-\end_inset
+\begin_inset Formula 
+\[
+R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\poi
+\]
 
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{.II}$
 \end_inset
 
 
-\begin_inset Formula $R\left(f,g\right)=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -757,185 +723,19 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-טענה זו נובעת כמעט ישירות ממשפט הרזולטנט ומהמשפט היסודי של האלגברה.
+נפתח בדיון אינטואיטיבי:
 \end_layout
 
 \begin_layout Standard
-לפי המשפט היסודי של האלגברה מעל שדה 
-\begin_inset Formula $F$
+נתבונן ב- 
+\begin_inset Formula $\Syl fg$
 \end_inset
 
- ניתן לרשום את 
-\begin_inset Formula $f,g$
-\end_inset
-
- כמכפלה של גורמים לינאריים.
-\end_layout
-
-\begin_layout Standard
-
-\bar under
-הוכחת 
-\begin_inset Formula $\text{I}$
+ וננסה לבדוק מה יהיה המחיר לעבור ל 
+\begin_inset Formula $\Syl gf$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-לפי המשפט היסודי של האלגברה נרשום את 
-\begin_inset Formula $g$
-\end_inset
-
- כך:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-נציב 
-\begin_inset Formula $\xi_{0}\ldots\xi_{m}$
-\end_inset
-
- ב 
-\begin_inset Formula $g$
-\end_inset
-
- נקבל 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}\,\,\left(2.2\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-משרשור השווינות הבא נקבל את השוויון
-\begin_inset Formula 
-\begin{align*}
-\boxed{R\left(f,g\right)} & =a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
- & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
-\text{hence}\left(*\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}
-\end{align*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-כנדרש.
-\end_layout
-
-\begin_layout Standard
-עבור 
-\begin_inset Formula $f$
-\end_inset
-
- נדרש עוד תהליך ע
-\begin_inset Quotes erd
-\end_inset
-
-מ לקבל את השוויון, תחילה נפתח דיון אינטואיטיבי .
-\end_layout
-
-\begin_layout Standard
-נרשום את 
-\begin_inset Formula $f$
-\end_inset
-
- גם כן כמכפלה של גורמים לינאריים:
-\begin_inset Formula 
-\[
-f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\text{\poi}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-נתחיל בדיון אינטואיטיבי:
-\end_layout
-
-\begin_layout Standard
-אם נהפוך במטריצת סילסבסטר בין 
-\begin_inset Formula $f$
-\end_inset
-
- ל 
-\begin_inset Formula $g$
-\end_inset
-
- כלומר ש 
-\begin_inset Formula $g$
-\end_inset
-
- תיהיה ב 
-\begin_inset Formula $n$
-\end_inset
-
- שורות הראשונות ו 
-\begin_inset Formula $f$
-\end_inset
-
- ב 
-\begin_inset Formula $m$
-\end_inset
-
- שורות האחרונות נקבל את שוויון 
-\begin_inset Formula $\text{I}$
-\end_inset
-
- בצורה הבאה
-\begin_inset Formula 
-\[
-R\left(g,f\right)=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)\text{\poi}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-החלפת שורות במטריצה לא משנה את הדטרמיננטה פרט לסימן ולכן ע
-\begin_inset Quotes erd
-\end_inset
-
-י פעולות של החלפת השורות נקבל את השוויון הבא
-\begin_inset Formula 
-\[
-R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)\text{\poi}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-נותר לברר מהו 
-\begin_inset Formula $k$
-\end_inset
-
- כלומר מה הסימן.
 \end_layout
 
 \begin_layout Standard
@@ -948,7 +748,15 @@ R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^
 \begin_inset Formula $f,g$
 \end_inset
 
+ וזה יהיה הסימן 
+\begin_inset Formula $\left(-1\right)^{nm}$
+\end_inset
+
 .
+\end_layout
+
+\begin_layout Standard
+נעבור להוכחה.
 \end_layout
 
 \begin_layout Standard
@@ -1003,6 +811,10 @@ R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^
 \end_inset
 
  )של המטריצה מקורית( תיהיה בשורה הראשונה כלומר 
+\begin_inset Quotes eld
+\end_inset
+
+
 \begin_inset Formula $g$
 \end_inset
 
@@ -1010,7 +822,11 @@ R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^
 \begin_inset Formula $n$
 \end_inset
 
- השורות הראשונות )מספר השורות הוא 
+ השורות הראשונות
+\begin_inset Quotes erd
+\end_inset
+
+ )מספר השורות הוא 
 \begin_inset Formula $n+m$
 \end_inset
 
@@ -1094,33 +910,19 @@ R\left(f,g\right)=\left(-1\right)^{k}R\left(g,f\right)=\left(-1\right)^{k}b_{m}^
 \begin_inset Quotes erd
 \end_inset
 
-כ הוכחנו 
-\begin_inset Formula $\text{II}$
+כ הוכחנו טענה עזר 
+\begin_inset Formula $2.2$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-
-\bar under
-הערה:
-\end_layout
-
-\begin_layout Standard
-נשים לב שתוך כדי ההוכחה קבלנו ש- 
-\begin_inset Formula 
-\[
-R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.3\right)\poi
-\]
-
+במשוואה 
+\begin_inset Formula $\left(2.2\right)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-במשוואה זו נעשה שימוש בהמשך.
+ נעשה שימוש בהמשך.
 \end_layout
 
 \begin_layout Standard
@@ -1150,7 +952,7 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.3\right)\po
 \uwave default
 \noun default
 \color inherit
-2.4
+2.3
 \end_layout
 
 \begin_layout Standard
@@ -1481,7 +1283,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-2.5
+2.4
 \end_layout
 
 \begin_layout Standard
