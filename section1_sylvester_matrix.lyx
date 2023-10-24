@@ -271,7 +271,40 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $\text{det}\left(A\right)$
 \end_inset
 
-לפי הגדרה זו.
+לפי הגדרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1.1$
+\end_inset
+
+
+\numeric off
+.
 \end_layout
 
 \begin_layout Standard
@@ -490,6 +523,9 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \end_inset
 
 י
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \text{Syl}\left(f,g\right)=\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
@@ -511,10 +547,52 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-כאשר נתייחס לפולינומים כטור אין סופי המוגדר כך 
-\series bold
-\bar under
-לא ברור לי איך לנסח את זה נכון
+נרחיב את 
+\begin_inset Formula $f,g$
+\end_inset
+
+ ל 
+\begin_inset Formula $\pm\infty$
+\end_inset
+
+ באופן הבא לכל 
+\begin_inset Formula $i,j<0$
+\end_inset
+
+ 
+\begin_inset Formula $a_{i}=b_{j}=0$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $i>n$
+\end_inset
+
+ 
+\begin_inset Formula $a_{i}=0$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $j>m$
+\end_inset
+
+ 
+\begin_inset Formula $b_{j}>0$
+\end_inset
+
+, נקבל ש 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}=\sum_{i=-\infty}^{\infty}a_{i}x^{i}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}=\sum_{j=-\infty}^{\infty}b_{j}x^{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+באופן הזה נקבל את ההגדרה הבאה למטריצת סילבסטר.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -892,7 +970,7 @@ R_{n,m}\left(f,g\right)=\text{det}\left(\text{syl}_{n,m}\left(f,g\right)\right)\
 \begin_inset Formula $f$
 \end_inset
 
-, וכלן 
+, ולכן 
 \begin_inset Formula $f=\hat{f}$
 \end_inset
 
