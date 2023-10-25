@@ -137,6 +137,15 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\SYL}[4]{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\f}{}
 \end_inset
 
@@ -740,7 +749,7 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 
 \begin_layout Standard
 נזכור שהחלפת שורות בין שורות המטריצה מחליפה את הסימן של הדטרמיננטה, ולכן
- נרצה לבדוק כמה החלפות נדרש ע
+ נרצה לבדוק כמה החלפות בין השורות נדרש ע
 \begin_inset Quotes erd
 \end_inset
 
@@ -748,11 +757,7 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 \begin_inset Formula $f,g$
 \end_inset
 
- וזה יהיה הסימן 
-\begin_inset Formula $\left(-1\right)^{nm}$
-\end_inset
-
-.
+ וזה יהיה הסימן המבוקש.
 \end_layout
 
 \begin_layout Standard
@@ -1170,11 +1175,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_inset
 
  השורות הראשונות ב 
-\begin_inset Formula $\RES nm{f+cx^{\rho}g}g$
+\begin_inset Formula $\SYL nm{f+cx^{\rho}g}g$
 \end_inset
 
  הוא סכום של השורה המתאימה במטריצה 
-\begin_inset Formula $\res$
+\begin_inset Formula $\SYL nmfg$
 \end_inset
 
  עם אחד השורות מ 
@@ -1186,14 +1191,14 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 
 \begin_layout Standard
 במילים אחרות ניתן לעבור מ 
-\begin_inset Formula $\res$
+\begin_inset Formula $\SYL nmfg$
 \end_inset
 
  ל 
-\begin_inset Formula $\RES nm{f+cx^{\rho}g}g$
+\begin_inset Formula $\SYL nm{f+cx^{\rho}g}g$
 \end_inset
 
-ע
+ ע
 \begin_inset Quotes erd
 \end_inset
 
@@ -1618,11 +1623,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\deg f<k<n$
 \end_inset
 
- נקבל ש- 
-\begin_inset Formula $\RES mngf=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
-\end_inset
-
-
+ נקבל
 \end_layout
 
 \begin_layout Standard
