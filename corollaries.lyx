@@ -135,6 +135,15 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\poi}{\,.}
+{\,.}
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 פרק
 \family roman
@@ -205,6 +214,284 @@
 \bar under
 טענה
 \family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.1
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{.I}$
+\end_inset
+
+ 
+\begin_inset Formula $R\left(f,g\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{.II}$
+\end_inset
+
+
+\begin_inset Formula $R\left(f,g\right)=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+טענה זו נובעת כמעט ישירות ממשפט הרזולטנט ומהמשפט היסודי של האלגברה.
+\end_layout
+
+\begin_layout Standard
+לפי המשפט היסודי של האלגברה מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+ ניתן לרשום את 
+\begin_inset Formula $f,g$
+\end_inset
+
+ כמכפלה של גורמים לינאריים.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחת 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן את 
+\begin_inset Formula $g$
+\end_inset
+
+ כך:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב 
+\begin_inset Formula $\xi_{0}\ldots\xi_{m}$
+\end_inset
+
+ ב 
+\begin_inset Formula $g$
+\end_inset
+
+ נקבל 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}\,\,\left(3.1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משרשור השווינות הבא נקבל את השוויון
+\begin_inset Formula 
+\begin{align*}
+\boxed{R\left(f,g\right)} & \overbrace{=}^{\left(2.1\right)}a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+ & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+\text{hence}\,\left(3.1\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $f$
+\end_inset
+
+ נשתמש בטענת עזר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ע
+\begin_inset Quotes erd
+\end_inset
+
+מ לקבל את השוויון.
+\end_layout
+
+\begin_layout Standard
+לפי המפשט היסודי של האלגברה ניתן לרשום את 
+\begin_inset Formula $f$
+\end_inset
+
+ כמכפלה של גורמים לינאריים ולכן נוכל להשתמש ב 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+לפי 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+R\left(g,f\right)=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\begin{align*}
+R\left(f,g\right) & \overbrace{=}^{\left(2.2\right)}\left(-1\right)^{nm}R\left(g,f\right)\\
+ & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה
+\family roman
 \shape up
 \size normal
 \emph off
@@ -226,7 +513,7 @@
 \uwave default
 \noun default
 \color inherit
-3.1
+3.2
 \end_layout
 
 \begin_layout Standard
@@ -264,7 +551,7 @@
  
 \begin_inset Formula 
 \[
-\res=0\Longleftrightarrow a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=0
+\res=0\Longleftrightarrow a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=0\poi
 \]
 
 \end_inset
@@ -285,11 +572,7 @@
 \begin_inset Formula $\eta_{j}=\xi_{i}$
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Standard
-כלומר אם ורק אם ל 
+, כלומר אם ורק אם ל 
 \begin_inset Formula $f$
 \end_inset
 
@@ -297,7 +580,7 @@
 \begin_inset Formula $g$
 \end_inset
 
- יש שורש משותף
+ יש שורש משותף.
 \end_layout
 
 \begin_layout Standard
@@ -352,7 +635,7 @@
 \begin_inset Formula $\res=0$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -384,7 +667,7 @@
 \begin_inset Formula $g$
 \end_inset
 
- יש גורם משותף
+ יש גורם משותף.
 \end_layout
 
 \begin_layout Standard
@@ -393,7 +676,7 @@
 \end_inset
 
  מטענה 
-\begin_inset Formula $3.1$
+\begin_inset Formula $3.2$
 \end_inset
 
  ל 
@@ -417,6 +700,10 @@
 
 \begin_layout Standard
 וקבלנו את הטענה.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -530,11 +817,8 @@
 \begin_inset Formula $\syl{g,f}$
 \end_inset
 
- שוות פרט לסדר של השורות, ולכן המימד שנפרש על ידם שווה
-\end_layout
-
-\begin_layout Standard
-וכתוצאה מכך ללא הגבלת כלליות נוכל להניח ש 
+ שוות פרט לסדר של השורות, ולכן המימד שנפרש על ידם שווה, וכתוצאה מכך ללא
+ הגבלת כלליות נוכל להניח ש 
 \begin_inset Formula $m\le n$
 \end_inset
 
@@ -589,7 +873,7 @@ f=gq+r\Longrightarrow f-gq=r
 \uwave default
 \noun default
 \color inherit
-2.4
+2.3
 \numeric off
  
 \begin_inset Formula 
@@ -616,10 +900,14 @@ f=gq+r\Longrightarrow f-gq=r
 
 \begin_layout Standard
 לפי טענת עזר 
-\begin_inset Formula $2.5$
+\begin_inset Formula $2.4$
 \end_inset
 
- 
+ קיים 
+\begin_inset Formula $\beta$
+\end_inset
+
+ כך ש-
 \begin_inset Formula 
 \[
 \RES mngr=\beta\RES m{\rho}gr
@@ -702,7 +990,7 @@ g=rq_{2}+r_{2}\Longrightarrow g-rq_{2}=r_{2}
 \uwave default
 \noun default
 \color inherit
-2.5
+2.4
 \numeric off
  
 \begin_inset Formula 
