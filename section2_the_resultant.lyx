@@ -349,6 +349,102 @@
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+################# פה יש בעיה
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הבעיה שזה לא מתאים להערה
+\family roman
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.4
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, לפי משוואה 
+\begin_inset Formula $\left(2.1\right)$
+\end_inset
+
+ מספיק שרק אחד מהמעלות קטן מ 
+\begin_inset Formula $n,m$
+\end_inset
+
+ ואז יש מקדם 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וכל המכפלה מתאפסת וזה לא מתאים להגדרה לפי מטריצת סילבסטר.
+\end_layout
+
+\begin_layout Standard
 מקרה טרוויאלי, כאשר 
 \begin_inset Formula $\deg f<n$
 \end_inset
@@ -370,6 +466,12 @@
 
 \begin_layout Standard
 את ההוכחה נביא מיד לאחר הדוגמא.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+#############################
 \end_layout
 
 \begin_layout Standard
@@ -615,7 +717,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 
 \series bold
 \bar under
-הוכחת משפט
+משפט
 \family roman
 \shape up
 \size normal
@@ -638,7 +740,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-2.1
+2.2
 \family roman
 \shape up
 \size normal
@@ -661,16 +763,61 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-)משפט הרזולטנט(
+)משפט שקול למשפט הרזולטנט(
 \end_layout
 
 \begin_layout Standard
-לצורך הוכחת משפט הרזולטנט נצטרך כמה טענות עזר, נביא את הטענות ואת ההוכחות
- שלהם לפני המשפט.
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-ניתן לדלג על הוכחות של טענות העזר בקריאה ראשונה.
+\begin_inset Formula $\text{.I}$
+\end_inset
+
+ 
+\begin_inset Formula $R\left(f,g\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{.II}$
+\end_inset
+
+
+\begin_inset Formula $R\left(f,g\right)=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיון שבהוכחת משפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+ נשתמש בצורה השקולה משפט 
+\begin_inset Formula $2.2$
+\end_inset
+
+, אז תחילה נוכיח את שקילות המשפטים 
+\begin_inset Formula $2.2$
+\end_inset
+
+ ו 
+\begin_inset Formula $2.3$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -700,7 +847,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-2.2
+2.3
 \end_layout
 
 \begin_layout Standard
@@ -736,11 +883,23 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 \end_layout
 
 \begin_layout Standard
-נתבונן ב- 
+ניתן לעבור מ 
 \begin_inset Formula $\Syl fg$
 \end_inset
 
- וננסה לבדוק מה יהיה המחיר לעבור ל 
+ ל 
+\begin_inset Formula $\Syl gf$
+\end_inset
+
+, ע
+\begin_inset Quotes erd
+\end_inset
+
+י פעולות על שורות המטריצה, נבדוק מה יהיה המחיר לעבור מ 
+\begin_inset Formula $\Syl fg$
+\end_inset
+
+ ל 
 \begin_inset Formula $\Syl gf$
 \end_inset
 
@@ -934,6 +1093,333 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 
 \series bold
 \bar under
+הוכחת שקילות המשפטים
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.1
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
+\end_layout
+
+\begin_layout Standard
+טענה זו נובעת כמעט ישירות מהמשפט היסודי של האלגברה.
+\end_layout
+
+\begin_layout Standard
+לפי המשפט היסודי של האלגברה מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+ ניתן לרשום את 
+\begin_inset Formula $f,g$
+\end_inset
+
+ כמכפלה של גורמים לינאריים.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחת 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן את 
+\begin_inset Formula $g$
+\end_inset
+
+ כך:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב 
+\begin_inset Formula $\xi_{0}\ldots\xi_{m}$
+\end_inset
+
+ ב 
+\begin_inset Formula $g$
+\end_inset
+
+ נקבל 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}\,\,\left(2.3\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משרשור השווינות הבא נקבל את השוויון
+\begin_inset Formula 
+\begin{align*}
+\boxed{R\left(f,g\right)} & \overbrace{=}^{\left(2.1\right)}a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+ & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+\text{hence}\,\left(2.3\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $f$
+\end_inset
+
+ נשתמש בטענת עזר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ע
+\begin_inset Quotes erd
+\end_inset
+
+מ לקבל את השוויון.
+\end_layout
+
+\begin_layout Standard
+לפי המפשט היסודי של האלגברה ניתן לרשום את 
+\begin_inset Formula $f$
+\end_inset
+
+ כמכפלה של גורמים לינאריים ולכן נוכל להשתמש ב 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+R\left(g,f\right)=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\begin{align*}
+R\left(f,g\right) & \overbrace{=}^{\left(2.2\right)}\left(-1\right)^{nm}R\left(g,f\right)\\
+ & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחת משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.1
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)משפט הרזולטנט(
+\end_layout
+
+\begin_layout Standard
+לצורך הוכחת משפט הרזולטנט נצטרך שתי טענות עזר, נביא את הטענות ואת ההוכחות
+ שלהם לפני המשפט.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
 טענה עזר
 \family roman
 \shape up
@@ -957,7 +1443,7 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 \uwave default
 \noun default
 \color inherit
-2.3
+2.4
 \end_layout
 
 \begin_layout Standard
@@ -1288,7 +1774,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-2.4
+2.5
 \end_layout
 
 \begin_layout Standard
@@ -1738,9 +2224,34 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $n,m$
 \end_inset
 
- בהתאמה)
-\series bold
-צריך להסביר למה(
+ בהתאמה לפי הערה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.5
 \end_layout
 
 \begin_layout Standard
@@ -1831,7 +2342,11 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-מטענת עזר
+קבלנו ש 
+\begin_inset Formula $\deg q=m-n$
+\end_inset
+
+ ולכן נוכל להשתמש בטענת עזר
 \family roman
 \series bold
 \shape up
@@ -1864,7 +2379,7 @@ g=qf+r
 
 
 \numeric off
- נקבל
+, נקבל
 \end_layout
 
 \begin_layout Standard
