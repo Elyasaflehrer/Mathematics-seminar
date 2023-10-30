@@ -1,0 +1,916 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\deg}[1]{\text{deg}\left(#1\right)}
+{\text{deg}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\res}{R_{n,m}\left(f,g\right)}
+{R_{n,m}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Res}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\RES}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\syl}{\text{Syl}\left(f,g\right)}
+{\text{Syl}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Syl}[2]{\text{Syl}\left(#1,#2\right)}
+{\text{Syl}\left(#1,#2\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\SYL}[4]{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gcd}{\text{GCD}\left(f,g\right)}
+{\text{GCD}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\poi}{\,.}
+{\,.}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.3
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים בשדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן ב- 
+\begin_inset Formula $h=\gcd\left(f,g\right)$
+\end_inset
+
+ את המחלק המשותף המירבי של 
+\begin_inset Formula $f,g$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+המעלה של המימד של 
+\begin_inset Formula $\text{Syl}\left(f,g\right)$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n+m-\deg h$
+\end_inset
+
+, ובאופן שקול המעלה של המימד של המשלים של 
+\begin_inset Formula $\syl$
+\end_inset
+
+ הוא 
+\begin_inset Formula $\deg h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ מכיון שהמימד של מטריצה והמימד של המשלים תלויים אחד בשני, לפעמיים נתייחס
+ רק לאחד מהם כשהכוונה לשניהם.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+לפני שנכנסים לגוף ההוכחה נציין:
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+\begin_inset Formula $\left(1\right)$
+\end_inset
+
+
+\numeric off
+ החלפה בין שורות המטריצה לא משנה את המימד שנפרש ע
+\begin_inset Quotes erd
+\end_inset
+
+י וקטורי השורות )או העמודות( של המטריצה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+
+\numeric off
+
+\begin_inset Formula $\syl$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl gf$
+\end_inset
+
+ שוות פרט לסדר של השורות, ולכן המימד שנפרש על ידם שווה, ולכן ללא הגבלת כלליות
+ נוכל להניח ש 
+\begin_inset Formula $m\le n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(3\right)$
+\end_inset
+
+ קיימים 
+\begin_inset Formula $r,q$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\deg r<m$
+\end_inset
+
+ המקיימים 
+\begin_inset Formula $f=qg+r$
+\end_inset
+
+, ובהוכחת טענת עזר 
+\begin_inset Formula $2.4$
+\end_inset
+
+ ראינו שאפשר לעבור מ 
+\begin_inset Formula $\syl$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl{f+\left(-q_{0}g\right)}g=\Syl rg$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י פועלות על שורות המטריצה ולכן המימד שלהם שווה.
+\end_layout
+
+\begin_layout Standard
+רעיון ההוכחה:
+\end_layout
+
+\begin_layout Standard
+נמצא את 
+\begin_inset Formula $h$
+\end_inset
+
+ לפי האלגוריתים של אוקלידס, ותוך כדי התהליך נוכיח שהמימד של המשלים של המטריצות
+ המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה( נמצא את המימד של המשלים
+ של 
+\begin_inset Formula $\syl$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתחיל...
+\end_layout
+
+\begin_layout Standard
+נחלק את ההוכחה לשלבים כדי להקל על הקורא להבין את ההוכחה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב 
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $q$
+\end_inset
+
+ וקיים 
+\begin_inset Formula $r$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $k=\deg r<m$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula 
+\[
+f=qg+r\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\deg q=\deg{qg}-\deg g=n-m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים תנאי משפט 
+\begin_inset Formula $2.4$
+\end_inset
+
+ ולכן לפי 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ המימד של 
+\begin_inset Formula $\SYL nmfg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ שווה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $r=\sum_{l=0}^{n}\upsilon_{l}x^{l}$
+\end_inset
+
+, ונתבונן ב 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ , נבחין של- 
+\begin_inset Formula $r$
+\end_inset
+
+ יש 
+\begin_inset Formula $n-k$
+\end_inset
+
+ מקדמים שהם אפסים ולכן 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ תיהיה מהצורה:
+\begin_inset Formula 
+\[
+\text{\SYL nmrg}=\begin{pmatrix}\boldsymbol{0} & \cdots & \boldsymbol{0} & \upsilon_{n-k-1} & \upsilon_{n-k-2} & \upsilon_{n-k-3} & \ldots & 0 & 0 & 0\\
+0 & \boldsymbol{0} & \cdots & \boldsymbol{0} & \upsilon_{n-k-1} & \upsilon_{n-k-2} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \ddots & \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \boldsymbol{0} & \boldsymbol{0} & \boldsymbol{0} & \ldots & \upsilon_{1} & \upsilon_{0} & 0\\
+0 & 0 & 0 & 0 & \boldsymbol{0} & \boldsymbol{0} & \ldots & \upsilon_{2} & \upsilon_{1} & \upsilon_{0}\\
+b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+0 & b_{m} & b_{m-1} & 0 & b_{m} & b_{m-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots & \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & 0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בעמודה הראשונה יש רק איבר יחיד 
+\begin_inset Formula $b_{m}$
+\end_inset
+
+ ולכן וקטור זה שייך למימד שנפרש ע
+\begin_inset Quotes erd
+\end_inset
+
+י וקטורי העמודות )או השורות(, ולכן מחיקת העמודה הראשונה והשורה ה 
+\begin_inset Formula $m+1$
+\end_inset
+
+ )השורה שבה יש את האיבר שאינו אפס בעמודה הראשונה( לא תשפיע על המימד של המשלים.
+\end_layout
+
+\begin_layout Standard
+נובע מכך שהמימד של המשלים של 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL{n-1}mrg$
+\end_inset
+
+ שווים, כאשר 
+\begin_inset Formula $\SYL{n-1}mrg$
+\end_inset
+
+ היא המטריצה שהתקבלה אחרי המחיקה של השורה והעמודה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+נחזור שוב על שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ )במקרה ש 
+\begin_inset Formula $n-k>1$
+\end_inset
+
+(, על המטריצה 
+\begin_inset Formula $\SYL{n-1}mrg$
+\end_inset
+
+, וכך נמשיך עד שנקבל את המטריצה 
+\begin_inset Formula $\SYL kmrg$
+\end_inset
+
+, ולפי ההסבר בשלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ המימד של המשלים של המטריצות המתקבלות ע
+\begin_inset Quotes erd
+\end_inset
+
+י מחיקה העמודה והשורה המתאימה לה לא משתנה.
+\end_layout
+
+\begin_layout Standard
+סיכום ביניים:
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+.
+ המימד של המשלים של 
+\begin_inset Formula $\SYL nmfg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL kmrg$
+\end_inset
+
+ שווים, כאשר 
+\begin_inset Formula $r$
+\end_inset
+
+ הוא השארית של החלוקה של 
+\begin_inset Formula $f$
+\end_inset
+
+ ב 
+\begin_inset Formula $g$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+לפי 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ המימד של 
+\begin_inset Formula $\SYL kmrg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL mkgr$
+\end_inset
+
+ שווה ולכן נוכל להתבונן ב 
+\begin_inset Formula $\SYL mkgr$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נעשה את שלבים 
+\begin_inset Formula $1-3$
+\end_inset
+
+ על 
+\begin_inset Formula $\SYL mkgr$
+\end_inset
+
+ עם 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ 
+\begin_inset Formula $k_{0}=\deg{r_{0}}<k$
+\end_inset
+
+ ו- 
+\begin_inset Formula $q_{0}$
+\end_inset
+
+ המקיימים 
+\begin_inset Formula $g=rq_{0}+r_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמשיך שוב ושוב את שלבים 
+\begin_inset Formula $1-3$
+\end_inset
+
+ עד שנקבל 
+\begin_inset Formula $r_{d}$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $r_{d-2}=q_{d}r_{d-1}+r_{d}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $r_{d}=0$
+\end_inset
+
+, ומהאלגוריתים של אוקלידס 
+\begin_inset Formula $r_{d-1}=h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+משלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+המימדים של המשלימים של 
+\begin_inset Formula $\SYL kmrg,\SYL{k_{0}}k{r_{0}}r,\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}\ldots,\SYL{k_{d-1}}l0h$
+\end_inset
+
+ שווים.
+\end_layout
+
+\begin_layout Standard
+ולכן נשאר לבדוק מהו המימד של המשלים של 
+\begin_inset Formula $\SYL{k_{d-1}}l0h$
+\end_inset
+
+ לפי הגדרת מטריצת סילבסטר למטריצה 
+\begin_inset Formula $\SYL{k_{d-1}}l0h$
+\end_inset
+
+ יש 
+\begin_inset Formula $l$
+\end_inset
+
+ שורות אפסים ו 
+\begin_inset Formula $d-1$
+\end_inset
+
+ שורות בת
+\begin_inset Quotes erd
+\end_inset
+
+ל ולכן המימד של המשלים של 
+\begin_inset Formula $\SYL{k_{d-1}}l0h$
+\end_inset
+
+ הוא 
+\begin_inset Formula $l$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+וזה בדיוק 
+\begin_inset Formula $\deg h$
+\end_inset
+
+,ולכן המימד של 
+\begin_inset Formula $\SYL nmfg$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n+m-\deg h$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

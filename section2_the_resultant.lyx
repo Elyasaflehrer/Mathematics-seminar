@@ -1724,10 +1724,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-\boxed{R_{n,m}\left(f+hg,g\right)} & =R_{n,m}\left(f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g,g\right)\\
- & =R_{n,m}\left(f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g,g\right)\\
-\text{induction step} & =R_{n,m}\left(f+\left(h_{k}x^{k}\right)g,g\right)\\
-\text{base case} & =\boxed{R_{n,m}\left(f,g\right)}
+\boxed{R_{n,m}\left(f+hg,g\right)} & =\det\left(\SYL nm{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
+ & =\det\left(\SYL nm{f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g}g\right)\\
+\text{induction step} & =\det\left(\SYL nm{f+\left(h_{k}x^{k}\right)g}g\right)\\
+\text{base case} & =\det\left(\SYL nmfg\right)\\
+ & =\boxed{R_{n,m}\left(f,g\right)}
 \end{align*}
 
 \end_inset
@@ -1737,6 +1738,22 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 
 \begin_layout Standard
 כנדרש.
+\end_layout
+
+\begin_layout Standard
+נשים לב שתוך כדאי שרשור השוויונות קבלנו ש 
+\begin_inset Formula 
+\[
+\SYL nm{f+hg}g=\SYL nmfg\,\,\left(2.4\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשוויון זה נעשה שימוש בהמש.
 \end_layout
 
 \begin_layout Standard
