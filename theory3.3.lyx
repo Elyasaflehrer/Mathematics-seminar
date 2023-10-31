@@ -206,7 +206,7 @@
 
 \begin_layout Standard
 נסמן ב- 
-\begin_inset Formula $h=\gcd\left(f,g\right)$
+\begin_inset Formula $h=\gcd$
 \end_inset
 
  את המחלק המשותף המירבי של 
@@ -241,8 +241,8 @@
 \bar under
 הערה:
 \bar default
- מכיון שהמימד של מטריצה והמימד של המשלים תלויים אחד בשני, לפעמיים נתייחס
- רק לאחד מהם כשהכוונה לשניהם.
+ מכיון שגודל המימד של מטריצה וגודל המימד של המשלים תלויים אחד בשני, לפעמיים
+ נתייחס רק לגודל של אחד מהם כשהכוונה לשניהם.
 \end_layout
 
 \begin_layout Standard
@@ -259,7 +259,7 @@
 \begin_layout Standard
 
 \numeric on
-\begin_inset Formula $\left(1\right)$
+\begin_inset Formula $.\left(1\right)$
 \end_inset
 
 
@@ -274,12 +274,12 @@
 \begin_layout Standard
 
 \numeric on
-\begin_inset Formula $\left(2\right)$
+\begin_inset Formula $.\left(2\right)$
 \end_inset
 
 
 \numeric off
-
+ 
 \begin_inset Formula $\syl$
 \end_inset
 
@@ -296,7 +296,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left(3\right)$
+\begin_inset Formula $.\left(3\right)$
 \end_inset
 
  קיימים 
@@ -320,7 +320,7 @@
 \end_inset
 
  ל 
-\begin_inset Formula $\Syl{f+\left(-q_{0}g\right)}g=\Syl rg$
+\begin_inset Formula $\Syl{f+\left(-qg\right)}g=\Syl rg$
 \end_inset
 
  ע
@@ -339,9 +339,9 @@
 \begin_inset Formula $h$
 \end_inset
 
- לפי האלגוריתים של אוקלידס, ותוך כדי התהליך נוכיח שהמימד של המשלים של המטריצות
- המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה( נמצא את המימד של המשלים
- של 
+ לפי האלגוריתים של אוקלידס ,ותוך כדי התהליך נקטין את גודל המטריצות ונוכיח
+ שהמימד של המשלים של המטריצות המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה(
+ נמצא את המימד של המשלים של 
 \begin_inset Formula $\syl$
 \end_inset
 
@@ -473,7 +473,7 @@ f=qg+r\poi
 \begin_inset Formula $\SYL nmrg$
 \end_inset
 
- תיהיה מהצורה:
+ מהצורה:
 \begin_inset Formula 
 \[
 \text{\SYL nmrg}=\begin{pmatrix}\boldsymbol{0} & \cdots & \boldsymbol{0} & \upsilon_{n-k-1} & \upsilon_{n-k-2} & \upsilon_{n-k-3} & \ldots & 0 & 0 & 0\\
@@ -523,7 +523,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\SYL{n-1}mrg$
 \end_inset
 
- היא המטריצה שהתקבלה אחרי המחיקה של השורה והעמודה.
+ היא המטריצה שהתקבלה אחרי המחיקה של השורה והעמודה המתאימה.
 \end_layout
 
 \begin_layout Standard
@@ -640,12 +640,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-
-\numeric on
-1
-\numeric off
-.
- המימד של המשלים של 
+המימד של המשלים של 
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
@@ -716,15 +711,11 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\SYL mkgr$
 \end_inset
 
- שווה ולכן נוכל להתבונן ב 
-\begin_inset Formula $\SYL mkgr$
-\end_inset
-
 .
 \end_layout
 
 \begin_layout Standard
-נעשה את שלבים 
+נבצע את שלבים 
 \begin_inset Formula $1-3$
 \end_inset
 
@@ -732,7 +723,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\SYL mkgr$
 \end_inset
 
- עם 
+, עם 
 \begin_inset Formula $r_{0}$
 \end_inset
 
@@ -756,7 +747,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $1-3$
 \end_inset
 
- עד שנקבל 
+)כלומר נבצע את האלגוריתים של אוקלידס( עד שנקבל 
 \begin_inset Formula $r_{d}$
 \end_inset
 
@@ -807,7 +798,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-משלב
+משלבים
 \family roman
 \series medium
 \shape up
@@ -861,8 +852,37 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-המימדים של המשלימים של 
-\begin_inset Formula $\SYL kmrg,\SYL{k_{0}}k{r_{0}}r,\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}\ldots,\SYL{k_{d-1}}l0h$
+ו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ המימדים של המשלימים של 
+\begin_inset Formula $\SYL nmfg,\SYL kmrg,\SYL{k_{0}}k{r_{0}}r,\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}\ldots,\SYL{k_{d-1}}l0h$
 \end_inset
 
  שווים.
@@ -905,7 +925,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\deg h$
 \end_inset
 
-,ולכן המימד של 
+, ולכן המימד של 
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
