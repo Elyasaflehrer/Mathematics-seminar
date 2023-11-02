@@ -1,0 +1,503 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\deg}[1]{\text{deg}\left(#1\right)}
+{\text{deg}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\res}{R_{n,m}\left(f,g\right)}
+{R_{n,m}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Res}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\RES}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\syl}{\text{Syl}\left(f,g\right)}
+{\text{Syl}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Syl}[2]{\text{Syl}\left(#1,#2\right)}
+{\text{Syl}\left(#1,#2\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\SYL}[4]{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gcd}{\text{GCD}\left(f,g\right)}
+{\text{GCD}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\poi}{\,.}
+{\,.}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.4
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים בשדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $\upsilon=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)$
+\end_inset
+
+ וקטור שורה מדרגה 
+\begin_inset Formula $m+n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\upsilon\SYL nmfg=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם ורק אם 
+\begin_inset Formula $pf+qg=0$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $q=\beta_{n-1}x^{n-1}+\cdots+\beta_{0}x^{0}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $p=\alpha_{m-1}x^{m-1}+\cdots+\alpha_{0}x^{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נתבונן במכפלה 
+\begin_inset Formula $\gamma=\upsilon\SYL nmfg$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\gamma=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
+0 & a_{n} & a_{n-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & a_{1} & a_{0} & 0\\
+0 & 0 & 0 & \ldots & a_{2} & a_{1} & a_{0}\\
+b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+0 & b_{m} & b_{m-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}=\left(\underbrace{\alpha_{m-1}a_{n}+\beta_{n-1}b_{m}}_{\gamma_{1}},\underbrace{\alpha_{m-1}a_{n-1}+\alpha_{m-2}a_{n}+\beta_{n-1}b_{m-1}+\beta_{n-2}b_{m}}_{\gamma_{2}},\ldots,\underbrace{\alpha_{0}a_{0}+\beta_{0}b_{0}}_{\gamma_{n+m}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחקור את הוקטור 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ , נתבונן ב 
+\begin_inset Formula $f$
+\end_inset
+
+ ו 
+\begin_inset Formula $g$
+\end_inset
+
+ המורחבים 
+\begin_inset Formula $f=\sum_{i=0}^{n+m}a_{i}$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $a_{i}=0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i>n$
+\end_inset
+
+, ו 
+\begin_inset Formula $g=\sum_{j=0}^{n+m}b_{j}$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $b_{j}=0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $j>m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הרכיב ה 
+\begin_inset Formula $l$
+\end_inset
+
+ של 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ מתקבל ע
+\begin_inset Quotes erd
+\end_inset
+
+י המכפלה
+\begin_inset Formula 
+\[
+\gamma_{l}=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n+1-l}\\
+\vdots\\
+a_{n+i-l}\\
+\vdots\\
+a_{n+m-l}\\
+b_{m+1-l}\\
+\vdots\\
+b_{m+i-l}\\
+\vdots\\
+b_{n+m+l}
+\end{pmatrix}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $1\le i\le m$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+נרשום את זה כסכום של טורים, הטור הראשון הוא 
+\begin_inset Formula $\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-l}$
+\end_inset
+
+, והטור השני האינדקס מתחיל 
+\begin_inset Formula $m+1$
+\end_inset
+
+ ולכן נסמן 
+\begin_inset Formula $i=i-m$
+\end_inset
+
+, ונקבל 
+\begin_inset Formula $\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-l}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ 
+\begin_inset Formula 
+\[
+\gamma_{l}=\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-l}+\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-l}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן באינדקסים של המקדמים 
+\begin_inset Formula $m-i,n+i-l$
+\end_inset
+
+ ו- 
+\begin_inset Formula $n+m-i,i-l$
+\end_inset
+
+ ,
+\end_layout
+
+\begin_layout Standard
+נשים לב שאם נסכום את הזוגות של האינדקסים המתאימיםנקבל שהסכום הינו 
+\begin_inset Formula $n+m-l$
+\end_inset
+
+ כלומר הסכום אינו תלוי בשורה אלא רק בעמודה.
+\end_layout
+
+\begin_layout Standard
+נתייחס לביטוי שקבלנו כפולינום 
+\begin_inset Formula 
+\[
+\left(\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-l}+\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-l}\right)x^{m+n-l}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את המכפלה 
+\begin_inset Formula $pf+qg$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+===================== צריך לסיים
+\end_layout
+
+\begin_layout Standard
+נמצא את המקדם 
+\begin_inset Formula $x^{n+m-l}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $0\le l\le n+m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחר
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{i=1}^{n}a_{i}x^{i}\sum_{\tau=1}^{m}\alpha_{\tau}x^{\tau}+\sum_{j=0}^{m}b_{j}x^{j}\sum_{k=1}^{n}\beta_{k}x^{k}=x^{0}\left(a_{0}\alpha_{0}+b_{0}\beta_{0}\right)+x^{1}\left(a_{0}\alpha_{1}+a_{1}\alpha_{0}+b_{0}\beta_{1}+b_{1}\beta_{0}\right)+\ldots+x^{n+m-1}\left(\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבדוק את כל הקומבינציות האפשריות ש 
+\begin_inset Formula $i+\tau=n+m-l$
+\end_inset
+
+ ו 
+\begin_inset Formula $j+k=n+m-l$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ומכיון 
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $l=l+1$
+\end_inset
+
+ נקבל ש 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{i=1}^{n+1}a_{i-1}x^{i-1}\sum_{l=1}^{m}\alpha_{l-1}x^{l-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
