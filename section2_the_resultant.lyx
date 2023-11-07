@@ -92,8 +92,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\res}{R_{n,m}\left(f,g\right)}
-{R_{n,m}\left(f,g\right)}
+\newcommand{\res}{R\left(f,g\right)}
+{R\left(f,g\right)}
 \end_inset
 
 
@@ -349,129 +349,52 @@
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-################# פה יש בעיה
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-הבעיה שזה לא מתאים להערה
-\family roman
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1.4
-\family roman
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, לפי משוואה 
-\begin_inset Formula $\left(2.1\right)$
-\end_inset
-
- מספיק שרק אחד מהמעלות קטן מ 
-\begin_inset Formula $n,m$
-\end_inset
-
- ואז יש מקדם 
-\family default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-0
-\family roman
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-וכל המכפלה מתאפסת וזה לא מתאים להגדרה לפי מטריצת סילבסטר.
-\end_layout
-
-\begin_layout Standard
 מקרה טרוויאלי, כאשר 
 \begin_inset Formula $\deg f<n$
 \end_inset
 
- ו- 
+ וגם 
 \begin_inset Formula $\deg g<m$
 \end_inset
 
-, המכפלה מתאפסת, וגם 
-\begin_inset Formula $\res=0$
-\end_inset
+, המכפלה מתאפסת, וזה נכון גם לפי הגדרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 
- כמו שראינו בהערה 
 \begin_inset Formula $1.4$
 \end_inset
 
+
+\numeric off
+ כמו שראינו בהערה 
+\begin_inset Formula $1.6$
+\end_inset
+
 .
-\end_layout
-
-\begin_layout Standard
-את ההוכחה נביא מיד לאחר הדוגמא.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-#############################
 \end_layout
 
 \begin_layout Standard
@@ -576,7 +499,7 @@
 קבלנו ש-
 \begin_inset Formula 
 \[
-\boxed{R_{m.n}\left(f,g\right)=45}
+\boxed{\res=45}
 \]
 
 \end_inset
@@ -596,7 +519,7 @@
  :
 \begin_inset Formula 
 \[
-R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
+\res=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 0 & 1 & 0 & -4 & 0\\
 1 & -2 & -3 & 0 & 0\\
 0 & 1 & -2 & -3 & 0\\
@@ -697,7 +620,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \begin_inset Formula $2.1$
 \end_inset
 
-, 
+
 \family default
 \series default
 \shape default
@@ -710,7 +633,7 @@ R_{3.2}\left(f,g\right)=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-עכשיו נעבור להוכחה.
+.
 \end_layout
 
 \begin_layout Standard
@@ -895,7 +818,7 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 \begin_inset Quotes erd
 \end_inset
 
-י פעולות על שורות המטריצה, נבדוק מה יהיה המחיר לעבור מ 
+י פעולות על שורות המטריצה,ולכן נבדוק מה יהיה המחיר לעבור מ 
 \begin_inset Formula $\Syl fg$
 \end_inset
 
@@ -1166,11 +1089,31 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 \end_layout
 
 \begin_layout Standard
+נרצה להוכיח ש 
+\begin_inset Formula 
+\[
+\boxed{a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובהוכחה עצמה נוכיח את ששרשור השוויונות שווה ל 
+\begin_inset Formula $\res$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 טענה זו נובעת כמעט ישירות מהמשפט היסודי של האלגברה.
 \end_layout
 
 \begin_layout Standard
-לפי המשפט היסודי של האלגברה מעל שדה 
+נשים לב שלפי המשפט היסודי של האלגברה מעל שדה 
 \begin_inset Formula $F$
 \end_inset
 
@@ -1192,11 +1135,11 @@ R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(2.2\right)\po
 \end_layout
 
 \begin_layout Standard
-נסמן את 
+נרשום את 
 \begin_inset Formula $g$
 \end_inset
 
- כך:
+ כמכפלה של גורמים לינארים:
 \end_layout
 
 \begin_layout Standard
@@ -1237,8 +1180,7 @@ g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\po
 משרשור השווינות הבא נקבל את השוויון
 \begin_inset Formula 
 \begin{align*}
-\boxed{R\left(f,g\right)} & \overbrace{=}^{\left(2.1\right)}a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
- & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
 \text{hence}\,\left(2.3\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}
 \end{align*}
 
@@ -1314,15 +1256,27 @@ g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\po
 \end_layout
 
 \begin_layout Standard
-לפי המפשט היסודי של האלגברה ניתן לרשום את 
+
+\bar under
+הערה: 
+\bar default
+בהוכחת משפט הרזולטנט ללא תלות בהוכחה הנוכחית נוכיח את השוויון 
+\begin_inset Formula $\res=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
+\end_inset
+
+ ולכן נוכל להשתמש בטענת עזר 
+\begin_inset Formula $\left(2.3\right)$
+\end_inset
+
+, למען הסדר הטוב לא הבאנו את ההוכחה הזו כאן אלא נשאיר אותו להוכחת משפט הרזולטנט.
+\end_layout
+
+\begin_layout Standard
+נרשום את 
 \begin_inset Formula $f$
 \end_inset
 
- כמכפלה של גורמים לינאריים ולכן נוכל להשתמש ב 
-\begin_inset Formula $\text{I}$
-\end_inset
-
-.
+ כמכפלה של גורמים לינאריים.
 \end_layout
 
 \begin_layout Standard
@@ -1345,7 +1299,7 @@ R\left(g,f\right)=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
 ולכן 
 \begin_inset Formula 
 \begin{align*}
-R\left(f,g\right) & \overbrace{=}^{\left(2.2\right)}\left(-1\right)^{nm}R\left(g,f\right)\\
+R\left(f,g\right) & \overbrace{=}^{\left(2.3\right)}\left(-1\right)^{nm}R\left(g,f\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
 \end{align*}
 
@@ -1474,7 +1428,7 @@ R\left(f,g\right) & \overbrace{=}^{\left(2.2\right)}\left(-1\right)^{nm}R\left(g
 אז מתקיים 
 \begin_inset Formula 
 \[
-R_{n,m}\left(f+hg,g\right)=R_{n,m}\left(f,g\right)\poi
+R\left(f+hg,g\right)=\res\poi
 \]
 
 \end_inset
@@ -1498,7 +1452,7 @@ R_{n,m}\left(f+hg,g\right)=R_{n,m}\left(f,g\right)\poi
  מתקיים
 \begin_inset Formula 
 \[
-R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)\poi
+R\left(f,g+hf\right)=\res\poi
 \]
 
 \end_inset
@@ -1515,12 +1469,16 @@ R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)\poi
 \begin_inset Formula $\text{deg}\left(h\right)\leq m-n$
 \end_inset
 
-( הכרחית אחרת 
-\begin_inset Formula $\deg{hg}>n+m$
+( הכרחית, נניח ש- 
+\begin_inset Formula $\deg h>n-m$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\deg{gh}>n-m+m=n$
 \end_inset
 
  ולכן גם 
-\begin_inset Formula $\deg{f+hg}>n+m$
+\begin_inset Formula $\deg{f+hg}>n$
 \end_inset
 
  ואז השוויון לא יוכל להתקיים.
@@ -1538,8 +1496,7 @@ R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)\poi
 \begin_inset Formula $h$
 \end_inset
 
-.
- נניח ש 
+, נניח ש 
 \begin_inset Formula $k\leq n-m$
 \end_inset
 
@@ -1603,7 +1560,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
 0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
-\end{pmatrix}=R_{n,m}\left(f+\left(cx^{\rho}\right)g,g\right)
+\end{pmatrix}=\RES{}{}{f+\left(cx^{\rho}\right)g}g
 \]
 
 \end_inset
@@ -1661,11 +1618,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_inset
 
  השורות הראשונות ב 
-\begin_inset Formula $\SYL nm{f+cx^{\rho}g}g$
+\begin_inset Formula $\Syl{f+cx^{\rho}g}g$
 \end_inset
 
  הוא סכום של השורה המתאימה במטריצה 
-\begin_inset Formula $\SYL nmfg$
+\begin_inset Formula $\syl$
 \end_inset
 
  עם אחד השורות מ 
@@ -1677,11 +1634,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 
 \begin_layout Standard
 במילים אחרות ניתן לעבור מ 
-\begin_inset Formula $\SYL nmfg$
+\begin_inset Formula $\syl$
 \end_inset
 
  ל 
-\begin_inset Formula $\SYL nm{f+cx^{\rho}g}g$
+\begin_inset Formula $\Syl{f+cx^{\rho}g}g$
 \end_inset
 
  ע
@@ -1693,7 +1650,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
  ולכן:
 \begin_inset Formula 
 \[
-\boxed{R_{n,m}\left(f+\left(h_{\rho}x^{\rho}\right)g,g\right)=R_{n,m}\left(f,g\right)}
+\boxed{\RES{}{}{f+\left(h_{\rho}x^{\rho}\right)g}g=\res}
 \]
 
 \end_inset
@@ -1724,11 +1681,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-\boxed{R_{n,m}\left(f+hg,g\right)} & =\det\left(\SYL nm{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
- & =\det\left(\SYL nm{f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g}g\right)\\
-\text{induction step} & =\det\left(\SYL nm{f+\left(h_{k}x^{k}\right)g}g\right)\\
-\text{base case} & =\det\left(\SYL nmfg\right)\\
- & =\boxed{R_{n,m}\left(f,g\right)}
+\boxed{\RES{}{}{f+hg}g} & =\det\left(\Syl{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
+ & =\det\left(\Syl{f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g}g\right)\\
+\text{induction step} & =\det\left(\Syl{f+\left(h_{k}x^{k}\right)g}g\right)\\
+\text{base case} & =\det\left(\syl\right)\\
+ & =\boxed{\res}
 \end{align*}
 
 \end_inset
@@ -1744,7 +1701,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 נשים לב שתוך כדאי שרשור השוויונות קבלנו ש 
 \begin_inset Formula 
 \[
-\SYL nm{f+hg}g=\SYL nmfg\,\,\left(2.4\right)
+\Syl{f+hg}g=\syl\,\,\left(2.4\right)
 \]
 
 \end_inset
@@ -1758,7 +1715,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 
 \begin_layout Standard
 עבור המקרה השני 
-\begin_inset Formula $R_{n,m}\left(f,g+hf\right)=R_{n,m}\left(f,g\right)$
+\begin_inset Formula $\RES{}{}f{g+hf}=\res$
 \end_inset
 
  נקבל את השוויון באותו האופן.
@@ -1993,7 +1950,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\res$
 \end_inset
 
- לפי העמודה הראשונה נקבל: 
+ לפי העמודה הראשונה נקבל:
 \end_layout
 
 \begin_layout Standard
@@ -2206,10 +2163,14 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-לפי המוסכמות בראש הפרק 
+לפי המוסכמות בראש הפרק והמשפט היסודי של האלגברה נוכל לרשום את 
+\begin_inset Formula $f,g$
+\end_inset
+
+ כמכפלה של גורמים לינאריים
 \begin_inset Formula 
 \[
-f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\poi
 \]
 
 \end_inset
@@ -2268,7 +2229,13 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \uwave default
 \noun default
 \color inherit
-1.5
+
+\begin_inset Formula $1.6$
+\end_inset
+
+
+\numeric off
+.
 \end_layout
 
 \begin_layout Standard
@@ -2308,7 +2275,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $0<n=\text{deg}\left(f\right)\le m=\text{deg}\left(g\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2350,7 +2317,7 @@ g=qf+r
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\deg q=\deg{qf}-\deg f=\deg{g-r}-n=m-n
+\deg q=\deg{qf}-\deg f=\deg{g-r}-n=m-n\poi
 \]
 
 \end_inset
@@ -2402,7 +2369,7 @@ g=qf+r
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\res=\RES nmf{g-qf}=\RES nmfr
+\left(*\right)\,\res=\RES{}{}f{g-qf}=\RES{}{}fr\poi
 \]
 
 \end_inset
@@ -2453,7 +2420,7 @@ g=qf+r
 \begin_inset Formula $k=\deg r\ge0$
 \end_inset
 
-
+,
 \end_layout
 
 \begin_layout Standard
@@ -2467,7 +2434,7 @@ g=qf+r
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\RES nmfr=a_{n}^{m-k}\RES nkfr=a_{n}^{m-k}a_{n}^{k}\prod_{i=1}^{n}r\left(\xi_{i}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)
+\left(**\right)\,\RES nmfr=a_{n}^{m-k}\RES nkfr=a_{n}^{m-k}a_{n}^{k}\prod_{i=1}^{n}r\left(\xi_{i}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)
 \]
 
 \end_inset
@@ -2499,7 +2466,15 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-קבלנו את הטענה עבור 
+מ 
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ ו- 
+\begin_inset Formula $\left(**\right)$
+\end_inset
+
+ קבלנו את הטענה עבור 
 \begin_inset Formula $0<n=\text{deg}\left(f\right)\le m=\text{deg}\left(g\right)$
 \end_inset
 
@@ -2511,87 +2486,7 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-עבור 
-\begin_inset Formula $r=0$
-\end_inset
-
- 
-\begin_inset Formula 
-\[
-g=fq
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-לפי ההנחה של מקרה זה 
-\begin_inset Formula $n>0$
-\end_inset
-
- ולכן 
-\begin_inset Formula 
-\[
-\Syl fr=\Syl f0
-\]
-
-\end_inset
-
-ולכן 
-\begin_inset Formula 
-\[
-\RES n{,m}fr=0
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-מצד שני כיון ש 
-\begin_inset Formula $f$
-\end_inset
-
- מחלק את 
-\begin_inset Formula $g$
-\end_inset
-
- אז השורשים של 
-\begin_inset Formula $f$
-\end_inset
-
- הם שורשים של 
-\begin_inset Formula $g$
-\end_inset
-
- גם כן,
-\end_layout
-
-\begin_layout Standard
-ולכן בנוסחה 
-\begin_inset Formula $2.1$
-\end_inset
-
- קיימים 
-\begin_inset Formula $\xi_{i}$
-\end_inset
-
- ו 
-\begin_inset Formula $\eta_{j}$
-\end_inset
-
- כך ש 
-\begin_inset Formula $\xi_{i}=\eta_{j}$
-\end_inset
-
- ולכן המכפלה מתאפסת.
-\end_layout
-
-\begin_layout Standard
-לפי טענת עזר
+מקרה
 \family roman
 \series medium
 \shape up
@@ -2620,12 +2515,16 @@ g=fq
 \color inherit
 2
 \numeric off
+.
  
+\begin_inset Formula $r=0$
+\end_inset
+
+, 
 \begin_inset Formula 
-\begin{align*}
-\RES n{,m}fg & =\RES n{,m}f{g-qf}=\RES n{,m}f0\\
- & =\RES n{,m}fr=0
-\end{align*}
+\[
+g=fq\poi
+\]
 
 \end_inset
 
@@ -2633,23 +2532,100 @@ g=fq
 \end_layout
 
 \begin_layout Standard
-ויתר מזה 
+לפי ההנחה הראשונה של מקרה זה 
+\begin_inset Formula $n>0$
+\end_inset
+
+ ולכן 
 \begin_inset Formula 
 \[
-g\left(\xi_{1}\right)=f\left(\xi_{1}\right)q\left(\xi_{1}\right)=0
+\Syl fr=\Syl f0="0"\poi
 \]
 
 \end_inset
 
- כלומר 
-\begin_inset Formula $\xi_{1}$
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $"0"$
 \end_inset
 
- הוא שורש של 
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בשוויון האחרון הכוונה למטריצת האפס.
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\res=0\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מצד שני כיון ש 
+\begin_inset Formula $f$
+\end_inset
+
+ מחלק את 
 \begin_inset Formula $g$
 \end_inset
 
- גם ולכן ?????
+ אז השורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+ גם כן, ולכן בנוסחה 
+\begin_inset Formula $2.1$
+\end_inset
+
+ קיימים 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ ו 
+\begin_inset Formula $\eta_{j}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\xi_{i}=\eta_{j}$
+\end_inset
+
+ ולכן המכפלה מתאפסת.
 \end_layout
 
 \begin_layout Standard
@@ -2693,7 +2669,7 @@ g\left(\xi_{1}\right)=f\left(\xi_{1}\right)q\left(\xi_{1}\right)=0
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-R_{0.m}\left(f,g\right) & =a_{n}^{m}b_{m}^{0}\prod_{i=1}^{0}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+R_{0,m}\left(f,g\right) & =a_{n}^{m}b_{m}^{0}\prod_{i=1}^{0}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
  & =a_{n}^{m}
 \end{align*}
 
@@ -2741,19 +2717,154 @@ R_{0.m}\left(f,g\right) & =a_{n}^{m}b_{m}^{0}\prod_{i=1}^{0}\prod_{j=1}^{m}\left
 \begin_inset Formula $m=\deg g<n=\deg f$
 \end_inset
 
- הוכחה זה דומה למקרה 
-\begin_inset Formula $1$
-\end_inset
-
-,
+.
 \end_layout
 
 \begin_layout Standard
-וכמו כן עבור 
-\begin_inset Formula $m=0$
+כמו במקרה הקודם קיימים 
+\begin_inset Formula $q,r$
 \end_inset
 
- הוכחה דומה עבור מקרה
+ כך ש 
+\begin_inset Formula $\deg r<m$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula 
+\[
+f=gq+r
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומאותם נימוקים כמו במקרה הקודם 
+\begin_inset Formula 
+\[
+\left(*\right)\,\res=\RES{}{}{f-gq}g=\RES{}{}rg
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ופה נחלק שוב למקרים 
+\begin_inset Formula $r\neq0$
+\end_inset
+
+ נסמן 
+\begin_inset Formula $k=\deg r\ge0$
+\end_inset
+
+, ומהנחת האינדוקציה וטענת עזר 
+\begin_inset Formula $2.5$
+\end_inset
+
+ נקבל 
+\begin_inset Formula 
+\begin{align*}
+\left(**\right)\,\RES nmrg & =\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\\
+ & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
+ & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}r\left(\eta_{j}\right)\\
+ & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ושוב השוויון האחרון נובע מכך ש 
+\begin_inset Formula $\eta_{j}$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+ ולכן
+\begin_inset Formula 
+\[
+f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}_{=0}+r\left(\eta_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ קבלנו את 
+\begin_inset Formula $2.2$
+\end_inset
+
+ 
+\begin_inset Formula $\text{II}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $r=0$
+\end_inset
+
+ , דומה מאוד לאותו מקרה בהוכחה הקודמת 
+\begin_inset Formula 
+\[
+\Syl rg=\Syl 0g="0"\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\RES nm0g=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכמו כן השורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ ג
+\begin_inset Quotes erd
+\end_inset
+
+כ ולכן המכפלה 
+\begin_inset Formula $\left(2.1\right)$
+\end_inset
+
+ מתאפסת ונקבל את השוויון.
+\end_layout
+
+\begin_layout Standard
+מקרה
 \family roman
 \series medium
 \shape up
@@ -2781,10 +2892,21 @@ R_{0.m}\left(f,g\right) & =a_{n}^{m}b_{m}^{0}\prod_{i=1}^{0}\prod_{j=1}^{m}\left
 \noun default
 \color inherit
 2
-\end_layout
+\numeric off
+.
+ 
+\begin_inset Formula $m=0$
+\end_inset
 
-\begin_layout Standard
-לא נחזור על הוכחות אלו
+.
+\begin_inset Formula 
+\[
+R_{0,m}\left(f,g\right)=a_{n}^{0}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{0}\left(\xi_{i}-\eta_{j}\right)=b_{m}^{n}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body
