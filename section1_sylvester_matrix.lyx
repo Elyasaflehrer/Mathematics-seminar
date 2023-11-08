@@ -681,7 +681,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-הגדרה נוספת:
+נביא הגדרה נוספת שכוללת את המקרה ש- 
+\begin_inset Formula $\deg g=0,\deg f=0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -689,20 +693,12 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $f,g$
 \end_inset
 
- ל 
-\begin_inset Formula $\pm\infty$
+ לפולינומים בגודל 
+\begin_inset Formula $n+m$
 \end_inset
 
- באופן הבא לכל 
-\begin_inset Formula $i,j<0$
-\end_inset
-
- 
-\begin_inset Formula $a_{i}=b_{j}=0$
-\end_inset
-
-, ולכל 
-\begin_inset Formula $i>n$
+ באופן הבא , ולכל 
+\begin_inset Formula $m+n>i>n$
 \end_inset
 
  
@@ -710,7 +706,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_inset
 
 , ולכל 
-\begin_inset Formula $j>m$
+\begin_inset Formula $m+n>j>m$
 \end_inset
 
  
@@ -718,11 +714,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_inset
 
 , נקבל ש- 
-\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}=\sum_{i=-\infty}^{\infty}a_{i}x^{i}$
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}=\sum_{i=0}^{n+m}a_{i}x^{i}$
 \end_inset
 
  ו- 
-\begin_inset Formula $g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}=\sum_{j=-\infty}^{\infty}b_{j}x^{j}$
+\begin_inset Formula $g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}=\sum_{j=0}^{m+n}b_{j}x^{j}$
 \end_inset
 
 .
@@ -766,20 +762,12 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $i>n$
 \end_inset
 
- או 
-\begin_inset Formula $i<0$
-\end_inset
-
-, 
+ , 
 \begin_inset Formula $b_{i}=0$
 \end_inset
 
  אם 
-\begin_inset Formula $i>m$
-\end_inset
-
- או 
-\begin_inset Formula $i<0$
+\begin_inset Formula $n+m>i>m$
 \end_inset
 
 .
