@@ -1335,8 +1335,8 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 
  
 \begin_inset Formula 
-\[
-\gamma=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
+\begin{align*}
+\gamma & =\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
 0 & a_{n} & a_{n-1} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & a_{1} & a_{0} & 0\\
@@ -1346,8 +1346,9 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
 0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
-\end{pmatrix}=\left(\underbrace{\alpha_{m-1}a_{n}+\beta_{n-1}b_{m}}_{\gamma_{1}},\underbrace{\alpha_{m-1}a_{n-1}+\alpha_{m-2}a_{n}+\beta_{n-1}b_{m-1}+\beta_{n-2}b_{m}}_{\gamma_{2}},\ldots,\underbrace{\alpha_{0}a_{0}+\beta_{0}b_{0}}_{\gamma_{n+m}}\right)
-\]
+\end{pmatrix}\\
+ & =\left(\underbrace{\alpha_{m-1}a_{n}+\beta_{n-1}b_{m}}_{\gamma_{1}},\underbrace{\alpha_{m-1}a_{n-1}+\alpha_{m-2}a_{n}+\beta_{n-1}b_{m-1}+\beta_{n-2}b_{m}}_{\gamma_{2}},\ldots,\underbrace{\alpha_{0}a_{0}+\beta_{0}b_{0}}_{\gamma_{n+m}}\right)
+\end{align*}
 
 \end_inset
 
