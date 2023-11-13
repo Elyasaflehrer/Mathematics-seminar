@@ -1587,5 +1587,262 @@ b_{1} & b_{0} & 0\\
 כנדרש.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+\bar under
+טענת
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.9
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(1.1\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נפתח בדיון אינטואיטיבי:
+\end_layout
+
+\begin_layout Standard
+ניתן לעבור מ 
+\begin_inset Formula $\Syl fg$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl gf$
+\end_inset
+
+, ע
+\begin_inset Quotes erd
+\end_inset
+
+י פעולות על שורות המטריצה,ולכן נבדוק מה יהיה המחיר לעבור מ 
+\begin_inset Formula $\Syl fg$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl gf$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נזכור שהחלפת שורות בין שורות המטריצה מחליפה את הסימן של הדטרמיננטה, ולכן
+ נרצה לבדוק כמה החלפות בין השורות נדרש ע
+\begin_inset Quotes erd
+\end_inset
+
+מ להפוך בין 
+\begin_inset Formula $f,g$
+\end_inset
+
+ וזה יהיה הסימן המבוקש.
+\end_layout
+
+\begin_layout Standard
+נעבור להוכחה.
+\end_layout
+
+\begin_layout Standard
+ההחלפה בין השורות תיעשה באופן הבא: 
+\end_layout
+
+\begin_layout Standard
+את השורה הראשונה נעביר להיות בשורה השניה את השניה לשלישית וכן הלאה עד האחרונה.
+ את האחרונה נעביר להיות השורה הראשונה.
+\end_layout
+
+\begin_layout Standard
+בכתיב תמורות נקבל את המעגל 
+\begin_inset Formula 
+\[
+\left(r_{1}r_{2}\ldots r_{m}r_{m+1}\ldots r_{n+m}\right)\text{\poi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבצע את המעגל הזה 
+\begin_inset Formula $n$
+\end_inset
+
+ פעמים.
+ כך נקבל שהשורה הראשונה )של המטריצה המקורית( תיהיה במקום ה 
+\begin_inset Formula $n+1$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+ואז 
+\begin_inset Formula $f$
+\end_inset
+
+ תיהיה ב 
+\begin_inset Formula $m$
+\end_inset
+
+ השורות האחרונות
+\begin_inset Quotes erd
+\end_inset
+
+, והשורה ה 
+\begin_inset Formula $m$
+\end_inset
+
+ )של המטריצה מקורית( תיהיה בשורה הראשונה כלומר 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $g$
+\end_inset
+
+ תיהיה ב 
+\begin_inset Formula $n$
+\end_inset
+
+ השורות הראשונות
+\begin_inset Quotes erd
+\end_inset
+
+ )מספר השורות הוא 
+\begin_inset Formula $n+m$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+החתימה של מחזור באורך 
+\begin_inset Formula $l$
+\end_inset
+
+ הוא 
+\begin_inset Formula $l-1$
+\end_inset
+
+ )הוכחת טענה זו חורגת ממסגרת המאמר הזה( ולכן כל מחזור כזה הוא באורך 
+\begin_inset Formula $l=n+m-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבצע 
+\begin_inset Formula $n$
+\end_inset
+
+ מחזורים כאלו ע
+\begin_inset Quotes erd
+\end_inset
+
+מ להחליף בין 
+\begin_inset Formula $f$
+\end_inset
+
+ ל 
+\begin_inset Formula $g$
+\end_inset
+
+ ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ נקבל שהסימן הוא 
+\begin_inset Formula 
+\[
+\left[\left(-1\right)^{\left(m+n-1\right)}\right]^{n}=\left(-1\right)^{\left(nm+n^{2}-n\right)}=\left(-1\right)^{nm}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השוויון האחרות מתקיים כיון ש- 
+\begin_inset Formula $n^{2}-n=n\left(n-1\right)$
+\end_inset
+
+ תמיד מספר זוגי כי 
+\begin_inset Formula $n$
+\end_inset
+
+ זוגי או 
+\begin_inset Formula $n-1$
+\end_inset
+
+ זוגי, ולכן 
+\begin_inset Formula $nm+n^{2}-n$
+\end_inset
+
+ ו 
+\begin_inset Formula $mn$
+\end_inset
+
+ חולקים את אותה זוגיות.
+\end_layout
+
+\begin_layout Standard
+במשוואה 
+\begin_inset Formula $\left(1.1\right)$
+\end_inset
+
+ נעשה שימוש בהמשך.
+\end_layout
+
 \end_body
 \end_document
