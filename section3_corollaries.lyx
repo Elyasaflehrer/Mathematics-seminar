@@ -1486,7 +1486,7 @@ b_{n+m+l}
 \end_layout
 
 \begin_layout Standard
-נשים לב שאם נסכום את הזוגות של האינדקסים המתאימיםנקבל שהסכום הינו 
+נשים לב שאם נסכום את הזוגות של האינדקסים המתאימים נקבל שהסכום הינו 
 \begin_inset Formula $n+m-l$
 \end_inset
 
@@ -1508,6 +1508,40 @@ b_{n+m+l}
 \begin_layout Standard
 נחשב את המכפלה 
 \begin_inset Formula $pf+qg$
+\end_inset
+
+כאשר נרחיב את הפולינומים למעלה 
+\begin_inset Formula $m+n$
+\end_inset
+
+ עם מקדמים 
+\begin_inset Formula $0$
+\end_inset
+
+ לפי הצורך
+\end_layout
+
+\begin_layout Standard
+נקבל 
+\begin_inset Formula 
+\begin{align*}
+pf+qg & =\sum_{i=1}^{n+m}a_{i}x^{i}\sum_{\tau=1}^{n+m}\alpha_{\tau}x^{\tau}+\sum_{j=1}^{n+m}b_{j}x^{j}\sum_{k=1}^{n+m}\beta_{k}x^{k}\\
+ & =\sum_{i=1}^{n+m}a_{i}x^{i}\sum_{\tau=1}^{n+m}\alpha_{\tau}x^{\tau}+\sum_{j=1}^{n+m}b_{j}x^{j}\sum_{k=1}^{n+m}\beta_{k}x^{k}\\
+ & =\sum_{k=1}^{m+n}\sum_{i+\tau=k}a_{i}\alpha_{\tau}x^{k}+\sum_{l=1}^{n+m}\sum_{j+k=l}b_{j}\beta_{k}x^{l}\\
+\forall i>n\,\,a_{i}=0\to & =\sum_{k=1}^{n}\sum_{i+\tau=k}a_{i}\alpha_{\tau}x^{k}+\sum_{k=1}^{n+m}\sum_{j+k=i}b_{j}\beta_{k}x^{l}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{l}\to\sum_{i=1}^{n+m}a_{i}x^{i}\sum_{\tau=1}^{n+m}\alpha_{\tau}x^{\tau}=\sum_{i=1}^{m+n}\sum_{i+\tau=l}a_{i}\alpha_{\tau}x^{l}
+\]
+
 \end_inset
 
 
