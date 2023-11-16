@@ -119,8 +119,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\resb}{\overline{R}\left(f,g\right)}
-{\overline{R}\left(f,g\right)}
+\newcommand{\resb}{R\left(f,g\right)}
+{R\left(f,g\right)}
 \end_inset
 
 
@@ -128,8 +128,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\Resb}[2]{\overline{R}_{#1,#2}\left(f,g\right)}
-{\overline{R}_{#1,#2}\left(f,g\right)}
+\newcommand{\Resb}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
 \end_inset
 
 
@@ -137,8 +137,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\RESb}[4]{\overline{R}_{#1,#2}\left(#3,#4\right)}
-{\overline{R}_{#1,#2}\left(#3,#4\right)}
+\newcommand{\RESb}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
 \end_inset
 
 
@@ -400,6 +400,26 @@
 \end_layout
 
 \begin_layout Standard
+נזכיר שלמען הנוחות עד שנוכיח את השקילות בין ההגדרות בהגדרה 
+\begin_inset Formula $2.1$
+\end_inset
+
+ נסמן את הרזולטנט של 
+\begin_inset Formula $f,g$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $\resb$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -449,7 +469,7 @@
 \uwave default
 \noun default
 \color inherit
-)הגדרת הרזולטנט לפי מכפלה השורשים(
+)הגדרת הרזולטנט לפי מכפלת השורשים(
 \end_layout
 
 \begin_layout Standard
@@ -743,6 +763,38 @@
 \end_layout
 
 \begin_layout Standard
+כדי להוכיח את משפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+, נשתמש בצורה שקולה לו שנביא במשפט 
+\begin_inset Formula $2.2$
+\end_inset
+
+, והוכחה של משפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+ תקפה גם למשפט 
+\begin_inset Formula $2.2$
+\end_inset
+
+, ומכיון שכך נוכיח את משפט 
+\begin_inset Formula $2.2$
+\end_inset
+
+ ולאחר מיכן נפנה להוכחה של משפטים 
+\begin_inset Formula $2.1$
+\end_inset
+
+ ו 
+\begin_inset Formula $2.2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -801,26 +853,6 @@
 
 
 \begin_inset Formula $\resb=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-מכיון שבהוכחת הגדרה 
-\begin_inset Formula $2.1$
-\end_inset
-
- נשתמש בצורה השקולה משפט 
-\begin_inset Formula $2.2$
-\end_inset
-
-, אז תחילה נוכיח את שקילות המשפטים 
-\begin_inset Formula $2.2$
-\end_inset
-
- ו 
-\begin_inset Formula $2.3$
 \end_inset
 
 
@@ -903,7 +935,7 @@ g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
 
 \begin_layout Standard
 נציב 
-\begin_inset Formula $\xi_{0}\ldots\xi_{m}$
+\begin_inset Formula $\xi_{0}\ldots\xi_{n}$
 \end_inset
 
  ב 
@@ -916,7 +948,7 @@ g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}\,\,\left(2.2\right)
+g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}\,\,\left(*\right)
 \]
 
 \end_inset
@@ -928,9 +960,8 @@ g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\po
 משרשור השווינות הבא נקבל את השוויון
 \begin_inset Formula 
 \begin{align*}
-\resb & =a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
- & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
-\text{hence}\,\left(2.2\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}
+a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+\text{hence}\,\left(*\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}\poi
 \end{align*}
 
 \end_inset
@@ -939,146 +970,20 @@ g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\po
 \end_layout
 
 \begin_layout Standard
-עבור 
-\begin_inset Formula $f$
-\end_inset
-
- נשתמש במשפט
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1.9
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ע
-\begin_inset Quotes erd
-\end_inset
-
-מ לקבל את השוויון.
-\end_layout
-
-\begin_layout Standard
 
 \bar under
-הערה:
-\bar default
- בהוכחת משפט הרזולטנט ללא תלות בהוכחה הנוכחית נוכיח את השוויון 
-\begin_inset Formula $\res=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
+הוכחת 
+\begin_inset Formula $\text{II}$
 \end_inset
 
- ) 
-\begin_inset Formula $\res$
-\end_inset
-
- ולא 
-\begin_inset Formula $\resb$
-\end_inset
-
- ( ולכן נוכל להשתמש במשפט
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
  
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1.9
-\numeric off
-, למען הסדר הטוב לא הבאנו את ההוכחה הזו כאן אלא נביא את ההוכחה בהוכחת שקילות
- המשפטים 
-\begin_inset Formula $1.4$
-\end_inset
-
- ו 
-\begin_inset Formula $2.1$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
-נרשום את 
-\begin_inset Formula $f$
-\end_inset
-
- כמכפלה של גורמים לינאריים.
-\end_layout
-
-\begin_layout Standard
-לפי 
-\begin_inset Formula $\text{I}$
-\end_inset
-
-
+תחילה נבחין 
 \begin_inset Formula 
 \[
-R\left(g,f\right)=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=\left(-1\right)^{nm}b_{m}^{n}a_{n}^{m}\prod_{j=1}^{m}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi
 \]
 
 \end_inset
@@ -1087,11 +992,44 @@ R\left(g,f\right)=b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
 \end_layout
 
 \begin_layout Standard
-ולכן 
+נרשום את 
+\begin_inset Formula $f$
+\end_inset
+
+ כמכפלה של גורמים לינאריים 
+\begin_inset Formula 
+\[
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\poi\,\,\left(**\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב 
+\begin_inset Formula $\eta_{0}\ldots\eta_{m}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f\left(\eta_{j}\right)=a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן שוב משרשור השוויונות הבא נקבל 
 \begin_inset Formula 
 \begin{align*}
-R\left(f,g\right) & \overbrace{=}^{1.9}\left(-1\right)^{nm}R\left(g,f\right)\\
- & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =\left(-1\right)^{nm}b_{m}^{n}a_{n}^{m}\prod_{j=1}^{m}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
+ & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
+\text{hence}\,\left(**\right) & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}\poi
 \end{align*}
 
 \end_inset
@@ -1104,61 +1042,15 @@ R\left(f,g\right) & \overbrace{=}^{1.9}\left(-1\right)^{nm}R\left(g,f\right)\\
 \end_layout
 
 \begin_layout Standard
+נעבור עכשיו להוכחת משפטים 
+\begin_inset Formula $2.1$
+\end_inset
 
-\series bold
-\bar under
-הוכחת משפט
-\family roman
-\shape up
-\size normal
-\emph off
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\shape default
-\size default
-\emph default
-\numeric on
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2.1
-\family roman
-\shape up
-\size normal
-\emph off
-\numeric off
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\shape default
-\size default
-\emph default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-)משפט הרזולטנט(
-\end_layout
+ ו 
+\begin_inset Formula $2.2$
+\end_inset
 
-\begin_layout Standard
-לצורך הוכחת משפט הרזולטנט נצטרך שתי טענות עזר, נביא את הטענות ואת ההוכחות
- שלהם לפני המשפט.
+, תחילה נוכיח שתי טענות עזר שנצטרך להם בהוכחה.
 \end_layout
 
 \begin_layout Standard
@@ -1216,7 +1108,7 @@ R\left(f,g\right) & \overbrace{=}^{1.9}\left(-1\right)^{nm}R\left(g,f\right)\\
 \end_layout
 
 \begin_layout Standard
-אז מתקיים 
+מתקיים 
 \begin_inset Formula 
 \[
 R\left(f+hg,g\right)=\res\poi
@@ -1543,7 +1435,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $.\text{i}$
+\begin_inset Formula $.\text{I}$
 \end_inset
 
  אם 
@@ -1553,7 +1445,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
  אז 
 \begin_inset Formula 
 \[
-\res=a_{n}^{m-k}\RES nkfg\poi
+\RES nmfg=a_{n}^{m-k}\RES nkfg\poi
 \]
 
 \end_inset
@@ -1562,17 +1454,18 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $.\text{ii}$
+\begin_inset Formula $\text{II}$
 \end_inset
 
-אם 
+.
+ אם 
 \begin_inset Formula $\deg f\le k\leq n$
 \end_inset
 
  אז 
 \begin_inset Formula 
 \[
-\res=\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\Res km\poi
+\RES nmfg=\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\Res km\poi
 \]
 
 \end_inset
@@ -1942,15 +1835,56 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 
 \series bold
 \bar under
-הוכחת שקילות המשפטים 
-\begin_inset Formula $1.4$
-\end_inset
-
- ו 
-\begin_inset Formula $2.1$
-\end_inset
-
-
+הוכחת משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.1
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+ו
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
 \end_layout
 
 \begin_layout Standard
@@ -2064,15 +1998,11 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \end_layout
 
 \begin_layout Standard
-נניח שהגדרות 
-\begin_inset Formula $1.4$
-\end_inset
-
- ו 
+נניח שמשפט 
 \begin_inset Formula $2.1$
 \end_inset
 
- שקולים לכל ערך מטריצה קטנה מ 
+ נכון לכל ערך מטריצה קטנה מ 
 \begin_inset Formula $n+m$
 \end_inset
 
@@ -2312,15 +2242,7 @@ g=qf+r
 \begin_inset Formula $\left(**\right)$
 \end_inset
 
- קבלנו את הטענה עבור 
-\begin_inset Formula $0<n=\text{deg}\left(f\right)\le m=\text{deg}\left(g\right)$
-\end_inset
-
- ו 
-\begin_inset Formula $r\neq0$
-\end_inset
-
-.
+ נקבל את הנדרש.
 \end_layout
 
 \begin_layout Standard
@@ -2438,69 +2360,6 @@ g=fq\poi
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-סיכום מקרה
-\family roman
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\numeric off
-:
-\series default
- בנתיים הוכחנו עבור 
-\begin_inset Formula $0<n=\text{deg}\left(f\right)\le m=\text{deg}\left(g\right)$
-\end_inset
-
- שמתקיים 
-\begin_inset Formula $\res=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
-\end_inset
-
-, ולכן לפי 
-\begin_inset Formula $2.2$
-\end_inset
-
- 
-\begin_inset Formula $\resb=\res$
-\end_inset
-
- )בהוכחת 
-\begin_inset Formula $2.2$
-\end_inset
-
- 
-\begin_inset Formula $\text{I}$
-\end_inset
-
- לא השתמשנו ב 
-\begin_inset Formula $\res$
-\end_inset
-
- ולכן ההוכחה מוגדרת היטב(.
-\end_layout
-
-\begin_layout Standard
 מקרה
 \family roman
 \series medium
@@ -2564,7 +2423,7 @@ f=gq+r
 ומאותם נימוקים כמו במקרה הקודם 
 \begin_inset Formula 
 \[
-\left(*\right)\,\res=\RES{}{}{f-gq}g=\RES{}{}rg
+\left(***\right)\,\res=\RES{}{}{f-gq}g=\RES{}{}rg
 \]
 
 \end_inset
@@ -2595,10 +2454,10 @@ f=gq+r
  נקבל 
 \begin_inset Formula 
 \begin{align*}
-\left(**\right)\,\RES nmrg & \overbrace{=}^{\text{2.5}}\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\\
+\left(****\right)\,\boxed{\RES nmrg} & \overbrace{=}^{\text{2.5}}\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\\
 \text{\text{induction base}}\to & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}r\left(\eta_{j}\right)\\
- & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)
+ & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}
 \end{align*}
 
 \end_inset
@@ -2627,19 +2486,15 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_layout
 
 \begin_layout Standard
-ולכן בסה
-\begin_inset Quotes erd
+ושוב מ 
+\begin_inset Formula $\left(***\right)$
 \end_inset
 
-כ קבלנו את 
-\begin_inset Formula $2.2$
+ ו 
+\begin_inset Formula $\left(****\right)$
 \end_inset
 
- 
-\begin_inset Formula $\text{II}$
-\end_inset
-
-.
+ נקבל את הנדרש.
 \end_layout
 
 \begin_layout Standard
@@ -2675,7 +2530,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 
 \begin_layout Standard
 וכמו כן השורשים של 
-\begin_inset Formula $f$
+\begin_inset Formula $g$
 \end_inset
 
  הם שורשים של 
@@ -2690,216 +2545,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $\left(2.1\right)$
 \end_inset
 
- מתאפסת ונקבל את השוויון.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-סיכום מקרה
-\family roman
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-:
-\series default
- במקרה זה הוכחנו כי 
-\begin_inset Formula $\res=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
-\end_inset
-
- ולפי משפט
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2.2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-נקבל 
-\begin_inset Formula $\res=\resb$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-סיכום:
-\end_layout
-
-\begin_layout Standard
-תחילה הוכחנו את משפט 
-\begin_inset Formula $2.2$
-\end_inset
-
- 
-\begin_inset Formula $\text{I}$
-\end_inset
-
-, 
-\begin_inset Formula $\resb=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
-\end_inset
-
-, במקרה הראשון של הוכחת שקילות ההגדרות הוכחנו ש 
-\begin_inset Formula $\resb=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)=\res$
-\end_inset
-
-, זה מספיק כדי להוכיח את משפט 
-\begin_inset Formula $2.2$
-\end_inset
-
- 
-\begin_inset Formula $\text{II}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-בנתיים קבלנו שעבור המקרה הראשון 
-\begin_inset Formula $\resb=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)=\res$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-בהוכחת מקרה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-קבלנו 
-\begin_inset Formula $\RES nmrg=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
-\end_inset
-
- לפי הוכחת משפט 
-\begin_inset Formula $2.2$
-\end_inset
-
- נקבל 
-\begin_inset Formula $\res=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)=\resb$
-\end_inset
-
-.
+ מתאפסת ונקבל את השוויון..
 \end_layout
 
 \end_body

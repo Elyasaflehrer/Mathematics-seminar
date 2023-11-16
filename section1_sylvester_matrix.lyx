@@ -1591,7 +1591,7 @@ b_{1} & b_{0} & 0\\
 
 \series bold
 \bar under
-טענת
+טענה
 \family roman
 \shape up
 \size normal
@@ -1630,7 +1630,7 @@ b_{1} & b_{0} & 0\\
  
 \begin_inset Formula 
 \[
-R\left(f,g\right)=\left(-1\right)^{nm}R\left(g,f\right)\,\,\,\left(1.1\right)\poi
+\RES nmfg=\left(-1\right)^{nm}\RES mngf\,\,\,\left(1.1\right)\poi
 \]
 
 \end_inset
