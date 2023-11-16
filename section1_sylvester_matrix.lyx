@@ -154,6 +154,34 @@
 \end_layout
 
 \begin_layout Standard
+
+\series bold
+\size larger
+פרק 
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size giant
+מטריצת סילבסטר
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 פרק זה הוא פרק קצר שבו נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות ומטריצת
  סילבסטר של שני פולינומים, ובסוף הפרק נגדיר את הרזולטנט.
 \end_layout
@@ -276,7 +304,7 @@
 A=\begin{pmatrix}2 & 3 & 1\\
 4 & 2 & 3\\
 1 & 5 & 3
-\end{pmatrix}
+\end{pmatrix}\poi
 \]
 
 \end_inset
@@ -289,7 +317,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $\text{det}\left(A\right)$
 \end_inset
 
-לפי הגדרה
+ לפי הגדרה
 \family roman
 \series medium
 \shape up
@@ -535,7 +563,11 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $\text{Syl}\left(f,g\right)=\SYL nmfg$
 \end_inset
 
- של שני הפולינומים היא מטריצה מגודל 
+ של 
+\begin_inset Formula $f,g$
+\end_inset
+
+ היא מטריצה מגודל 
 \begin_inset Formula $\left(n+m\right)\times\left(n+m\right)$
 \end_inset
 
@@ -621,7 +653,8 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_inset
 
  יזוז אחד ימינה כלומר נתחיל את האיכלוס של התאים מהעמודה השניה, ואת העמודה
- הראשונה נאכלס באפס, ובאופן הזה עד השורה ה 
+ הראשונה נאכלס באפס, ובאופן הזה נמלא את שורות המטריצה כשכל פעם מתחילים מהעמודה
+ הבאה, עד השורה ה 
 \begin_inset Formula $m$
 \end_inset
 
@@ -697,11 +730,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
- מוגדרת ע
-\begin_inset Quotes erd
-\end_inset
-
-י האיבר במיקום 
+ מוגדרת באופן הבא, האיבר במיקום 
 \begin_inset Formula $\left(i,j\right)$
 \end_inset
 
@@ -846,97 +875,6 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-בפרק זה נגדיר את הרזולטנט לפי 
-\begin_inset Formula $\syl$
-\end_inset
-
- הגדרה זו תשמש אותנו להוכחת כמה משפטים, בפרק הבא נגדיר את הרזולטנט לפי מכפלה
- של השורשים של 
-\begin_inset Formula $f,g$
-\end_inset
-
-, ולאחר מיכן בפרק
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-נוכיח את השקילות שלהם,
-\end_layout
-
-\begin_layout Standard
-ע
-\begin_inset Quotes erd
-\end_inset
-
-מ להקל על הקורא להבחין מתי משתמשים בהגדרת הרזולטנט לפי 
-\begin_inset Formula $\syl$
-\end_inset
-
- ומתי לי מכפלה של השורשים, נאמץ את הסימנים הבאים: 
-\begin_inset Formula $\res$
-\end_inset
-
- יסמן את הרזולטנט לפי 
-\begin_inset Formula $\syl$
-\end_inset
-
- ו- 
-\begin_inset Formula $\overline{\res}$
-\end_inset
-
- יסמן את הרזולטנט לפי מכפלה של השורשים.
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 \bar under
@@ -964,14 +902,29 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \noun default
 \color inherit
 1.4
+\family roman
+\shape up
+\size normal
+\emph off
 \numeric off
- הרזולטנט לפי 
-\bar default
-
-\begin_inset Formula $\syl$
-\end_inset
-
-
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הגדרת הרזולטנט
 \end_layout
 
 \begin_layout Standard
@@ -1113,7 +1066,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \begin_inset Formula $m$
 \end_inset
 
- נשלים עם מקדמים 
+ עם מקדמים 
 \begin_inset Formula $0$
 \end_inset
 
@@ -1133,7 +1086,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_layout
 
 \begin_layout Standard
-כלומר:
+ביתר פירוט:
 \end_layout
 
 \begin_layout Standard
@@ -1174,11 +1127,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \begin_inset Formula $\res$
 \end_inset
 
- ובמקרים שנרצה לציין במפורש שהכוונה לכל שני פולינומים ממעלה קטנה 
-\begin_inset Formula $n,m$
-\end_inset
-
- נציין זאת ע
+, במקרים שנרצה להתייחס למימד בצורה מפורשת נציין זאת ע
 \begin_inset Quotes erd
 \end_inset
 
@@ -1288,10 +1237,6 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 
  את הסימנים 
 \begin_inset Formula $a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}$
-\end_inset
-
- לשדה 
-\begin_inset Formula $F$
 \end_inset
 
 , נסמן 
@@ -1585,6 +1530,14 @@ b_{1} & b_{0} & 0\\
 
 \begin_layout Standard
 כנדרש.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1834,14 +1787,6 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
  חולקים את אותה זוגיות.
-\end_layout
-
-\begin_layout Standard
-במשוואה 
-\begin_inset Formula $\left(1.1\right)$
-\end_inset
-
- נעשה שימוש בהמשך.
 \end_layout
 
 \end_body

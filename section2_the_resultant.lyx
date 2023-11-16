@@ -180,37 +180,32 @@
 
 \end_layout
 
-\begin_layout Section*
-פרק
-\family roman
+\begin_layout Standard
+
 \series bold
-\shape up
 \size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
+פרק 
 \numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 2
 \numeric off
-:
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size giant
+הרזולטנט
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -284,146 +279,21 @@
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Section*
-הרזולטנט
-\end_layout
-
-\begin_layout Standard
-בפרק זה נגדיר את הרזולטנט של שני פולינומים ע
-\begin_inset Quotes erd
+\begin_inset Newline newline
 \end_inset
 
-י מכפלת השורשים.
- הגדרה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1.4
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-+ הערה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1.5
-\numeric off
- נותנת לנו הגדרה רחבה יותר מהגדרה שנביא עכשיו, בהגדרה שנביא עכשיו מניחים
- ש 
-\begin_inset Formula $\deg g=m,\deg f=n$
+
+\begin_inset Newline newline
 \end_inset
 
-.
-\end_layout
 
-\begin_layout Standard
-בהמשך הפרק נוכיח שהגדרה 
-\begin_inset Formula $1.4$
-\end_inset
-
- והגדרה 
-\begin_inset Formula $2.1$
-\end_inset
-
- שקולות.
-\end_layout
-
-\begin_layout Standard
-נזכיר שלמען הנוחות עד שנוכיח את השקילות בין ההגדרות בהגדרה 
-\begin_inset Formula $2.1$
-\end_inset
-
- נסמן את הרזולטנט של 
-\begin_inset Formula $f,g$
-\end_inset
-
- ע
-\begin_inset Quotes erd
-\end_inset
-
-י 
-\begin_inset Formula $\resb$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 \bar under
-הגדרה
+משפט
 \family roman
 \shape up
 \size normal
@@ -469,7 +339,7 @@
 \uwave default
 \noun default
 \color inherit
-)הגדרת הרזולטנט לפי מכפלת השורשים(
+משפט הרזולטנט
 \end_layout
 
 \begin_layout Standard
@@ -767,15 +637,7 @@
 \begin_inset Formula $2.1$
 \end_inset
 
-, נשתמש בצורה שקולה לו שנביא במשפט 
-\begin_inset Formula $2.2$
-\end_inset
-
-, והוכחה של משפט 
-\begin_inset Formula $2.1$
-\end_inset
-
- תקפה גם למשפט 
+, נשתמש בצורה שקולה משפט 
 \begin_inset Formula $2.2$
 \end_inset
 
@@ -855,7 +717,7 @@
 \begin_inset Formula $\resb=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -980,7 +842,48 @@ a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & 
 \end_layout
 
 \begin_layout Standard
-תחילה נבחין 
+תחילה נבחין שע
+\begin_inset Quotes erd
+\end_inset
+
+י הוצאת 
+\numeric on
+-1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מהביטוי 
+\series bold
+
+\begin_inset Formula $\left(\eta_{j}-\xi_{i}\right)$
+\end_inset
+
+ 
+\series default
+נקבל את השוויון
 \begin_inset Formula 
 \[
 a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=\left(-1\right)^{nm}b_{m}^{n}a_{n}^{m}\prod_{j=1}^{m}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi
@@ -999,7 +902,7 @@ a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=\l
  כמכפלה של גורמים לינאריים 
 \begin_inset Formula 
 \[
-f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\poi\,\,\left(**\right)
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\poi\,\,\left(**\right)\poi
 \]
 
 \end_inset
@@ -1870,9 +1773,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \uwave off
 \noun off
 \color none
- 
-ו
- 
+ ו 
 \family default
 \shape default
 \size default

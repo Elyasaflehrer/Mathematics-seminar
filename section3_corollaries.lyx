@@ -162,37 +162,32 @@
 
 \end_layout
 
-\begin_layout Section*
-פרק
-\family roman
+\begin_layout Standard
+
 \series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
+\size large
+פרק 
 \numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 3
 \numeric off
-:
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size giant
+תוצאות ממשפט הרזולטנט
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

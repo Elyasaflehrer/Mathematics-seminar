@@ -78,10 +78,19 @@
 \begin_body
 
 \begin_layout Standard
+\align center
 
 \series bold
-\bar under
-הקדמה.
+\size giant
+הקדמה
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
