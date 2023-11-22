@@ -545,7 +545,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \end_inset
 
  , מעל שדה 
-\begin_inset Formula $F$
+\begin_inset Formula $K$
 \end_inset
 
 .
@@ -1224,10 +1224,10 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_inset
 
  מעל שדה 
-\begin_inset Formula $F$
+\begin_inset Formula $K$
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1235,36 +1235,63 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \begin_inset Formula $F$
 \end_inset
 
- את הסימנים 
+ את המשתנים 
 \begin_inset Formula $a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}$
 \end_inset
 
-, נסמן 
-\begin_inset Formula $F\left(a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}\right)$
+, ונסמן 
+\begin_inset Formula $F=K\left(a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-המקדמים של הפולינומים 
-\begin_inset Formula $f,g$
+אם נסמן 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,\,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
 \end_inset
 
- יכולים לקבל כל ערך בשדה 
+, אז 
+\begin_inset Formula $f$
+\end_inset
+
+ ו 
+\begin_inset Formula $g$
+\end_inset
+
+ הם פולינומים מעל 
 \begin_inset Formula $F$
 \end_inset
 
-, ולכן נוכל להתייחס אליהם כאל משתנים בלתי תלויים.
- ואז הדטרמיננטה היא בעצמה פולינום מעל שדה 
-\begin_inset Formula $F\left(a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}\right)$
+.
+\end_layout
+
+\begin_layout Standard
+ואז
+\begin_inset Formula $\deg{\syl}$
 \end_inset
 
- עם 
-\begin_inset Formula $m+n$
+ היא בעצמה איבר של 
+\begin_inset Formula $F$
 \end_inset
 
- משתנים בלתי תלויים.
+ כלומר פולינום מעל השדה 
+\begin_inset Formula $K$
+\end_inset
+
+ במשתנים 
+\begin_inset Formula $a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ולכן נוכל להתייחס 
+\begin_inset Formula $\det\left(\syl\right)$
+\end_inset
+
+ כפולינום במשתנים אלו.
 \end_layout
 
 \begin_layout Standard
