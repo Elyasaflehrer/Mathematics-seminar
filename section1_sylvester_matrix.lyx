@@ -219,8 +219,33 @@
 \noun default
 \color inherit
 1.1
+\family roman
+\shape up
+\size normal
+\emph off
 \numeric off
- הגדרת הדטרמיננטה לפי תמורות
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הגדרת הדטרמיננטה לפי תמורות
+\begin_inset Formula $^{\left[1\right]}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -944,11 +969,14 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-עבור 
-\begin_inset Formula $n,m\in\text{N}$
+יהיו 
+\begin_inset Formula $n,m\in\mathbb{N}$
 \end_inset
 
- , 
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $\res=a_{0}b_{0}$
 \end_inset
 
@@ -956,7 +984,7 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \begin_inset Formula $n=m=0$
 \end_inset
 
-,
+, 
 \end_layout
 
 \begin_layout Standard
@@ -1295,6 +1323,22 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_layout
 
 \begin_layout Standard
+מכאן ולהבא כשנזכיר את השדה 
+\begin_inset Formula $F$
+\end_inset
+
+ כוונתנו ל- 
+\begin_inset Formula $F$
+\end_inset
+
+ כפי שהיא מוגדרת בהערה 
+\begin_inset Formula $1.7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -1331,16 +1375,20 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-קיבלנו פולינום ב 
-\begin_inset Formula $5$
-\end_inset
-
- משתנים בלתי תלויים מעל שדה 
+קיבלנו איבר בשדה 
 \begin_inset Formula $F$
 \end_inset
 
-, כאשר המשתנים הבלתי תלויים הם 
+, שהוא פולינום ב 
+\begin_inset Formula $5$
+\end_inset
+
+ משתנים בלתי תלויים 
 \begin_inset Formula $a_{2},a_{1},a_{0},b_{1}b_{0}$
+\end_inset
+
+ מעל השדה 
+\begin_inset Formula $K$
 \end_inset
 
 .
@@ -1427,7 +1475,11 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-נחזור למטריצת סילבסטר, זוהי מטריצה מסדר 
+נחזור ל 
+\begin_inset Formula $\syl$
+\end_inset
+
+, זוהי מטריצה מסדר 
 \begin_inset Formula $n+m\times n+m$
 \end_inset
 
@@ -1642,7 +1694,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-י פעולות על שורות המטריצה,ולכן נבדוק מה יהיה המחיר לעבור מ 
+י פעולות על שורות המטריצה, ולכן נבדוק מה יהיה המחיר לעבור מ 
 \begin_inset Formula $\Syl fg$
 \end_inset
 
@@ -1753,7 +1805,11 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $l-1$
 \end_inset
 
- )הוכחת טענה זו חורגת ממסגרת המאמר הזה( ולכן כל מחזור כזה הוא באורך 
+ )הוכחת טענה זו חורגת ממסגרת המאמר הזה
+\begin_inset Formula $^{\left[2\right]}$
+\end_inset
+
+( ולכן כל מחזור כזה הוא באורך 
 \begin_inset Formula $l=n+m-1$
 \end_inset
 

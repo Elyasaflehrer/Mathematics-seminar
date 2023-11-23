@@ -92,8 +92,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\res}{R_{n,m}\left(f,g\right)}
-{R_{n,m}\left(f,g\right)}
+\newcommand{\res}{R\left(f,g\right)}
+{R\left(f,g\right)}
 \end_inset
 
 
@@ -111,6 +111,33 @@
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\RES}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\resb}{R\left(f,g\right)}
+{R\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Resb}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\RESb}[4]{R_{#1,#2}\left(#3,#4\right)}
 {R_{#1,#2}\left(#3,#4\right)}
 \end_inset
 
@@ -146,8 +173,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\gcd}{\text{GCD}\left(f,g\right)}
-{\text{GCD}\left(f,g\right)}
+\newcommand{\poi}{\,.}
+{\,.}
 \end_inset
 
 
@@ -155,8 +182,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\poi}{\,.}
-{\,.}
+\newcommand{\gcd}{\text{GCD}\left(f,g\right)}
+{\text{GCD}\left(f,g\right)}
 \end_inset
 
 
@@ -219,6 +246,8 @@
 \noun default
 \color inherit
 2
+\numeric off
+.
 \end_layout
 
 \begin_layout Standard
@@ -378,12 +407,11 @@
 \begin_inset Formula $f,g$
 \end_inset
 
- יש גורם משותף ולכן יש להם שורש משותף ולכן הרזולטנט מתאפס, ולפי הטענה הקודמת
- 
-\begin_inset Formula $\res=0$
+ יש גורם משותף ולכן יש להם שורש משותף וממשפט 
+\begin_inset Formula $2.1$
 \end_inset
 
-.
+ נקבל את הטענה.
 \end_layout
 
 \begin_layout Standard
@@ -611,7 +639,7 @@
 \end_inset
 
 , ובהוכחת טענת עזר 
-\begin_inset Formula $2.4$
+\begin_inset Formula $2.3$
 \end_inset
 
  ראינו שאפשר לעבור מ 
@@ -638,7 +666,7 @@
 \begin_inset Formula $h$
 \end_inset
 
- לפי האלגוריתים של אוקלידס ,ותוך כדי התהליך נקטין את גודל המטריצות ונוכיח
+ לפי האלגוריתים של אוקלידס, ותוך כדי התהליך נקטין את גודל המטריצות ונוכיח
  שהמימד של המשלים של המטריצות המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה(
  נמצא את המימד של המשלים של 
 \begin_inset Formula $\syl$
@@ -702,7 +730,7 @@ f=qg+r\poi
 
 \begin_layout Standard
 מתקיים תנאי משפט 
-\begin_inset Formula $2.4$
+\begin_inset Formula $2.3$
 \end_inset
 
  ולכן לפי 
@@ -1437,33 +1465,6 @@ b_{n+m-j}
 \end_layout
 
 \begin_layout Standard
-#############################################################
-\end_layout
-
-\begin_layout Standard
-נשים לב שאם נסכום את הזוגות של האינדקסים המתאימים נקבל שהסכום הינו 
-\begin_inset Formula $n+m-j$
-\end_inset
-
- כלומר הסכום אינו תלוי בשורה אלא רק בעמודה.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\left(\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}+\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-j}\right)x^{n+m-j}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-############################################################
-\end_layout
-
-\begin_layout Standard
 נוכיח ש
 \begin_inset Formula 
 \[
@@ -1574,7 +1575,7 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 
 \begin_inset Formula 
 \[
-\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}=\sum_{k=0}^{m}\alpha_{k}a_{l-k}+\sum_{k=0}^{n}\beta_{k}b_{l-k}
+\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}=\sum_{k=0}^{m}\alpha_{k}a_{l-k}+\sum_{k=0}^{n}\beta_{k}b_{l-k}\poi
 \]
 
 \end_inset

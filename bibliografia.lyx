@@ -78,7 +78,24 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset Formula $McConnell\,(1957)\,.Applications\,of\,TensorAnalysis\,.Dover\,Publications.$
+\align left
+\begin_inset Formula $\text{McConnell\,(1957)\,.Applications\,of\,Tensor Analysis\,.Dover\,Publications.}$
+\end_inset
+
+ 
+\begin_inset Formula $\left[1\right].$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{Rotman, Joseph J. (2006), A First Course in Abstract Algebra with Applications (3rd ed.), Prentice-Hall}$
+\end_inset
+
+ .
+\begin_inset Formula $\left[2\right]$
 \end_inset
 
 

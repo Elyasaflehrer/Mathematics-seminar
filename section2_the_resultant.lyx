@@ -224,6 +224,14 @@
 \begin_inset Formula $F$
 \end_inset
 
+ )
+\begin_inset Formula $F$
+\end_inset
+
+ השדה שהוגדר בהערה 
+\begin_inset Formula $1.7$
+\end_inset
+
 .
 \end_layout
 
@@ -407,7 +415,7 @@
  
 \begin_inset Formula 
 \[
-\resb=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\,\,\poi\left(2.1\right)
+\Resb nm=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\,\,\poi\left(2.1\right)
 \]
 
 \end_inset
@@ -621,11 +629,7 @@
 \end_layout
 
 \begin_layout Standard
-כלומר במקרה זה קבלנו שקילות בין הגדרה 
-\begin_inset Formula $1.4$
-\end_inset
-
- להגדרה 
+כלומר במקרה זה מתקיים משפט 
 \begin_inset Formula $2.1$
 \end_inset
 
@@ -641,7 +645,7 @@
 \begin_inset Formula $2.2$
 \end_inset
 
-, ומכיון שכך נוכיח את משפט 
+, ומכיון שכך תחילה נוכיח את משפט 
 \begin_inset Formula $2.2$
 \end_inset
 
@@ -895,7 +899,12 @@ a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=\l
 \end_layout
 
 \begin_layout Standard
-נרשום את 
+מכאן נוכל להמשיך כמו בהוכחה של 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+.
+ נרשום את 
 \begin_inset Formula $f$
 \end_inset
 
@@ -960,30 +969,9 @@ a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & 
 
 \series bold
 \bar under
-טענה עזר
-\family roman
-\shape up
-\size normal
-\emph off
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\shape default
-\size default
-\emph default
+טענה עזר 
 \numeric on
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2.4
+2.3
 \end_layout
 
 \begin_layout Standard
@@ -1094,7 +1082,7 @@ R\left(f,g+hf\right)=\res\poi
 \end_layout
 
 \begin_layout Standard
-תחילה נוכיח שהמשפט מתקיים עבור מונום יחיד
+תחילה נוכיח שהמשפט מתקיים עבור מונום יחיד 
 \begin_inset Formula $cx^{\rho}$
 \end_inset
 
@@ -1287,7 +1275,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 נשים לב שתוך כדאי שרשור השוויונות קבלנו ש 
 \begin_inset Formula 
 \[
-\Syl{f+hg}g=\syl\,\,\left(2.4\right)
+\Syl{f+hg}g=\syl\,\,\left(2.2\right)
 \]
 
 \end_inset
@@ -1334,7 +1322,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-2.5
+2.4
 \end_layout
 
 \begin_layout Standard
@@ -1866,7 +1854,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
  
 \begin_inset Formula 
 \[
-\res=\det\left(\syl\right)=b_{0}^{n}\poi
+\res=b_{0}^{n}\poi
 \]
 
 \end_inset
@@ -1886,7 +1874,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
  
 \begin_inset Formula 
 \[
-\res=\det\left(\syl\right)=a_{0}^{m}\poi
+\res=a_{0}^{m}\poi
 \]
 
 \end_inset
@@ -2030,7 +2018,7 @@ g=qf+r
 \noun default
 \color inherit
 
-\begin_inset Formula $2.4$
+\begin_inset Formula $2.3$
 \end_inset
 
 
@@ -2094,7 +2082,7 @@ g=qf+r
 
 \begin_layout Standard
 מהנחת האינדוקציה וטענת עזר 
-\begin_inset Formula $2.5$
+\begin_inset Formula $2.4$
 \end_inset
 
 
@@ -2349,13 +2337,13 @@ f=gq+r
 \end_inset
 
 , ומהנחת האינדוקציה וטענת עזר 
-\begin_inset Formula $2.5$
+\begin_inset Formula $2.4$
 \end_inset
 
  נקבל 
 \begin_inset Formula 
 \begin{align*}
-\left(****\right)\,\boxed{\RES nmrg} & \overbrace{=}^{\text{2.5}}\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\\
+\left(****\right)\,\boxed{\RES nmrg} & =\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\\
 \text{\text{induction base}}\to & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}r\left(\eta_{j}\right)\\
  & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}
