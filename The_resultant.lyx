@@ -1,0 +1,5868 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "default"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2cm
+\rightmargin 2.5cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\deg}[1]{\text{deg}\left(#1\right)}
+{\text{deg}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\res}{R\left(f,g\right)}
+{R\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Res}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\RES}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\resb}{R\left(f,g\right)}
+{R\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Resb}[2]{R_{#1,#2}\left(f,g\right)}
+{R_{#1,#2}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\RESb}[4]{R_{#1,#2}\left(#3,#4\right)}
+{R_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\syl}{\text{Syl}\left(f,g\right)}
+{\text{Syl}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Syl}[2]{\text{Syl}\left(#1,#2\right)}
+{\text{Syl}\left(#1,#2\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\renewcommand{\syl}{\text{Syl}\left(f,g\right)}
+{\text{Syl}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\renewcommand{\Syl}[2]{\text{Syl}\left(#1,#2\right)}
+{\text{Syl}\left(#1,#2\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\SYL}[4]{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+{\text{Syl}_{#1,#2}\left(#3,#4\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\poi}{\,.}
+{\,.}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gcd}{\text{GCD}\left(f,g\right)}
+{\text{GCD}\left(f,g\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size giant
+הקדמה
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במבניים אלגבריים לומדים שבהינתן שני פולינומים ע
+\begin_inset Quotes erd
+\end_inset
+
+י האלגוריתים של אוקלידס ניתן למצוא את המחלק המשותף המירבי שלהם, 
+\end_layout
+
+\begin_layout Standard
+ע
+\begin_inset Quotes erd
+\end_inset
+
+י המחלק המשותף המירבי ניתן למצוא את השורשים המשותפים של שני הפולינומים.
+\end_layout
+
+\begin_layout Standard
+בעבודה זו נרצה להוכיח דרך נוספת לדעת האם לשני פולינומים יש מחלק שורשים משותפים
+ בדרך פשוטה יותר ללא צורך להשתמש באלגריתים של אוקלידס,
+\end_layout
+
+\begin_layout Standard
+אמנם לא נקבל מהם השורשים, אבל בדרך הרבה יותר פשוטה נוכל לדעת האם יש שורשים.
+\end_layout
+
+\begin_layout Standard
+ובנוסף )לא בעבודה זו( בדרך שבה נוכיח בעבודה זו ניתן להרחיב לפולינומים בכמה
+ משתנים, כלומר ניתן לדעת האם לשני פולינומים בכמה משתנים יש שורשים משותפים.
+\end_layout
+
+\begin_layout Standard
+ונציין שהאלגוריתים של אוקלידס טוב רק לפולינמים במשתנה יחיד ולא בכמה משתנים.
+\end_layout
+
+\begin_layout Standard
+תחילה נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות, ונגדיר את מטריצת סילבסטר,
+ ובהמשך נגדיר את הרזולטנט ונוכיח את משפט הרזולטנט )פרק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+( שהוא החלק העיקרי של העבודה.
+\end_layout
+
+\begin_layout Standard
+את המשפט עצמו מתי לשני פולינומים יש שורשים משותפים נוכיח בפרק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+, וכן נוכיח עוד כמה תוצאות מעניינות שנובעות מיידי ממשפט הרזולטנט.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+פרק 
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size giant
+מטריצת סילבסטר
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+פרק זה הוא פרק קצר שבו נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות ומטריצת
+ סילבסטר של שני פולינומים, ובסוף הפרק נגדיר את הרזולטנט.
+\end_layout
+
+\begin_layout Standard
+הגדרות אלו ילוו אותנו לאורך כל העבודה פעמים במשפטים עצמם ופעמים בהוכחות
+ של המשפטים.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הגדרה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.1
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הגדרת הדטרמיננטה לפי תמורות
+\begin_inset Formula $^{\left[1\right]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $A=\left(\alpha_{i,j}\right)$
+\end_inset
+
+ מטריצה מגודל 
+\begin_inset Formula $n\times n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{det}\left(A\right)=\sum_{\sigma\in S_{n}}\text{sgn}\left(\sigma\right)\sigma_{1,\sigma\left(1\right)}\sigma_{2,\sigma\left(2\right)}\cdots\sigma_{n,\sigma\left(n\right)}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הסכום הוא על 
+\begin_inset Formula $n!$
+\end_inset
+
+ התמורות 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ של המספרים 
+\begin_inset Formula $\left\{ 1,2,\ldots,n\right\} $
+\end_inset
+
+, כאשר אם עבור השורה ה 
+\begin_inset Formula $i$
+\end_inset
+
+ ניקח את האיבר בעמודה ה 
+\begin_inset Formula $j$
+\end_inset
+
+ נקבל את 
+\begin_inset Quotes eld
+\end_inset
+
+ההזזה
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $i\to j$
+\end_inset
+
+, ו- 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
+\end_inset
+
+ אם התמורה זוגית, ו 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=-1$
+\end_inset
+
+ אם התמורה אי-זוגית.
+\end_layout
+
+\begin_layout Standard
+נעבור לדוגמא:
+\end_layout
+
+\begin_layout Standard
+תהי מטריצה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\begin{pmatrix}2 & 3 & 1\\
+4 & 2 & 3\\
+1 & 5 & 3
+\end{pmatrix}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את 
+\begin_inset Formula $\text{det}\left(A\right)$
+\end_inset
+
+ לפי הגדרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1.1$
+\end_inset
+
+
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נבחר לדוגמא את תמורת הזהות 
+\begin_inset Formula $\sigma=\begin{pmatrix}1 & 2 & 3\\
+1 & 2 & 3
+\end{pmatrix}\in S_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השורה הראשונה מייצגת את השורה במטריצה והשורה השניה בתמורה מייצגת את העמודה
+ במטריצה, ולכן במקרה זה נבחר מהשורה הראשונה את האיבר מהעמודה הראשונה, מהשורה
+ השניה את האיבר בעמודה השניה, וכן הלאה.
+\end_layout
+
+\begin_layout Standard
+תמורת הזהות היא זוגית ולכן 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
+\end_inset
+
+, ובסה
+\begin_inset Quotes erd
+\end_inset
+
+כ מתמורת הזהות נקבל את המכפלה 
+\begin_inset Formula $2\cdot2\cdot3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבחר תמורה נוספת 
+\begin_inset Formula $\begin{pmatrix}1 & 2 & 3\\
+3 & 1 & 2
+\end{pmatrix}\in S_{3}$
+\end_inset
+
+, במקרה זה מהשורה הראשונה נבחר את האיבר מהעמודה השלישית, מהשורה השניה את
+ האיבר מהעמודה הראשונה, ומהשורה השלישית את האיבר בעמודה השניה.
+\end_layout
+
+\begin_layout Standard
+ע
+\begin_inset Quotes erd
+\end_inset
+
+י פירוק לחילופים נקבל את 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\left(132\right)=\left(13\right)\left(21\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קבלנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
+\end_inset
+
+ ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ מתמורה זו נקבל את המכפלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $1\cdot4\cdot5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+תמורה נוספת לדוגמא 
+\begin_inset Formula $\begin{pmatrix}1 & 2 & 3\\
+2 & 1 & 3
+\end{pmatrix}\in S_{3}$
+\end_inset
+
+, זהו חילוף ולכן 
+\begin_inset Formula $\text{sgn}\left(\sigma\right)=-1$
+\end_inset
+
+ ובסה
+\begin_inset Quotes erd
+\end_inset
+
+כ מתמורה זו נקבל את המכפלה 
+\begin_inset Formula $-3\cdot4\cdot3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ולאחר חישוב כל התמורות נקבל
+\begin_inset Formula 
+\begin{align*}
+\text{det}\left(A\right) & =\sum_{\sigma\in S_{3}}\text{sgn}\left(\sigma\right)\sigma_{1,\sigma\left(1\right)}\sigma_{2,\sigma\left(2\right)}\cdots\sigma_{n,\sigma\left(n\right)}\\
+ & =2\cdot2\cdot3-2\cdot3\cdot5-3\cdot4\cdot3+3\cdot3\cdot1-1\cdot2\cdot1+1\cdot4\cdot5\\
+ & =12-30-36+9-2+20=25\poi
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הגדרה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.2
+\numeric off
+ מטריצת סילבסטר
+\end_layout
+
+\begin_layout Standard
+יהיו שני פולינומים 
+\begin_inset Formula $f\left(x\right),g\left(x\right)$
+\end_inset
+
+ , מעל שדה 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{Syl}\left(f,g\right)=\SYL nmfg$
+\end_inset
+
+ של 
+\begin_inset Formula $f,g$
+\end_inset
+
+ היא מטריצה מגודל 
+\begin_inset Formula $\left(n+m\right)\times\left(n+m\right)$
+\end_inset
+
+ המוגדרת ע
+\begin_inset Quotes erd
+\end_inset
+
+י
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Syl}\left(f,g\right)=\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
+0 & a_{n} & a_{n-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & a_{1} & a_{0} & 0\\
+0 & 0 & 0 & \ldots & a_{2} & a_{1} & a_{0}\\
+b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+0 & b_{m} & b_{m-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ב- 
+\begin_inset Formula $m$
+\end_inset
+
+ השורות הראשונות יש את המקדמים של 
+\begin_inset Formula $f$
+\end_inset
+
+ באופן הבא:
+\end_layout
+
+\begin_layout Standard
+בשורה הראשונה מתחילים מהמקום הראשון עם 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+ בעמודה שלאחריה 
+\begin_inset Formula $a_{n-1}$
+\end_inset
+
+ וכן הלאה עד 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ ,בפולינום 
+\begin_inset Formula $f$
+\end_inset
+
+יש 
+\begin_inset Formula $n$
+\end_inset
+
+ איברים ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ יתמלאו 
+\begin_inset Formula $n$
+\end_inset
+
+ העמודות הראשונות נשארו 
+\begin_inset Formula $m$
+\end_inset
+
+ עמודות אותן נאכלס עם אפסים,
+\end_layout
+
+\begin_layout Standard
+בשורה השניה נבצע את אותו הדבר עם שינוי קטן 
+\begin_inset Formula $a_{n}$
+\end_inset
+
+ יזוז אחד ימינה כלומר נתחיל את האיכלוס של התאים מהעמודה השניה, ואת העמודה
+ הראשונה נאכלס באפס, ובאופן הזה נמלא את שורות המטריצה כשכל פעם מתחילים מהעמודה
+ הבאה, עד השורה ה 
+\begin_inset Formula $m$
+\end_inset
+
+ שבה יהיו בהתחלה 
+\begin_inset Formula $m$
+\end_inset
+
+ אפסים ובסוף 
+\begin_inset Formula $n$
+\end_inset
+
+ איברי 
+\begin_inset Formula $f$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+באותו האופן נאכלס את 
+\begin_inset Formula $n$
+\end_inset
+
+ השורות האחרונות עם איברי הפולינום 
+\begin_inset Formula $g$
+\end_inset
+
+, בשורה ה 
+\begin_inset Formula $m+1$
+\end_inset
+
+ את העמודה הראשונה נאכלס עם 
+\begin_inset Formula $g_{m}$
+\end_inset
+
+, את העמודה השניה עם 
+\begin_inset Formula $g_{m-1}$
+\end_inset
+
+ וכך נמשיך עד העמודה ה 
+\begin_inset Formula $m$
+\end_inset
+
+, ואת שאר העמודות נאכלס באפסים, בשורה ה 
+\begin_inset Formula $m+2$
+\end_inset
+
+ נתחיל בעמודה השניה עם 
+\begin_inset Formula $g_{m}$
+\end_inset
+
+ ואת העמודה הראשונה נאכלס באפס, ונמשיך באופן הזה כמו עם 
+\begin_inset Formula $f$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נביא הגדרה נוספת כללית יותר.
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים ממעלה 
+\begin_inset Formula $n,m$
+\end_inset
+
+ בהתאמה 
+\begin_inset Formula $\SYL nmfg$
+\end_inset
+
+ מוגדרת באופן הבא, האיבר במיקום 
+\begin_inset Formula $\left(i,j\right)$
+\end_inset
+
+ שווה ל 
+\begin_inset Formula $a_{n+i-j}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $1\leq i\leq m$
+\end_inset
+
+ ו- 
+\begin_inset Formula $b_{i-j}$
+\end_inset
+
+ אם 
+\begin_inset Formula $m+1\leq i\leq m+n$
+\end_inset
+
+, 
+\begin_inset Formula $a_{i}=0$
+\end_inset
+
+ אם 
+\begin_inset Formula $i>n$
+\end_inset
+
+ או 
+\begin_inset Formula $i<0$
+\end_inset
+
+, 
+\begin_inset Formula $b_{i}=0$
+\end_inset
+
+ אם 
+\begin_inset Formula $i>m$
+\end_inset
+
+ או 
+\begin_inset Formula $i<0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+דוגמא
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $f\left(x\right)=a_{3}x^{3}+a_{2}x^{2}+a_{1}x+a_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $g\left(x\right)=b_{2}x^{2}+b_{1}x+b_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+במקרה זה 
+\begin_inset Formula $n=3$
+\end_inset
+
+ 
+\begin_inset Formula $m=2$
+\end_inset
+
+, ולכן
+\begin_inset Formula 
+\[
+\text{Syl}_{2,3}\left(f,g\right)=\begin{pmatrix}a_{3} & a_{2} & a_{1} & a_{0} & 0\\
+0 & a_{3} & a_{2} & a_{1} & a_{0}\\
+b_{2} & b_{1} & b_{0} & 0 & 0\\
+0 & b_{2} & b_{1} & b_{0} & 0\\
+0 & 0 & b_{2} & b_{1} & b_{0}
+\end{pmatrix}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הבחנה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.3
+\end_layout
+
+\begin_layout Standard
+אם אחד הפולינומים 
+\begin_inset Formula $f$
+\end_inset
+
+ או 
+\begin_inset Formula $g$
+\end_inset
+
+, ממעלה 
+\begin_inset Formula $0$
+\end_inset
+
+ אז 
+\begin_inset Formula $\syl$
+\end_inset
+
+ היא מטריצה משולשת.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הגדרה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.4
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הגדרת הרזולטנט
+\end_layout
+
+\begin_layout Standard
+יהיו שני פולינומים 
+\begin_inset Formula $f\left(x\right),g\left(x\right)$
+\end_inset
+
+ , מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר את הרזולטנט שלהם להיות 
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $n,m\in\mathbb{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\res=a_{0}b_{0}$
+\end_inset
+
+ אם 
+\begin_inset Formula $n=m=0$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+בכל מקרה אחר
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הערה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.5
+\end_layout
+
+\begin_layout Standard
+לפי הגדרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $1.4$
+\end_inset
+
+ 
+\begin_inset Formula $\res$
+\end_inset
+
+ נקבע באופן חח
+\begin_inset Quotes erd
+\end_inset
+
+ע לפי 
+\begin_inset Formula $f,g$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נרחיב את ההגדרה 
+\begin_inset Formula $1.4$
+\end_inset
+
+ לכל שני פולינומים ממעלה קטנה מ- 
+\begin_inset Formula $n,m$
+\end_inset
+
+, עבור 
+\begin_inset Formula $f$
+\end_inset
+
+ נשלים עד למעלה 
+\begin_inset Formula $n$
+\end_inset
+
+ עם מקדמים 
+\begin_inset Formula $0$
+\end_inset
+
+ , ובאותו אופן עבור 
+\begin_inset Formula $g$
+\end_inset
+
+ נשלים עד למעלה 
+\begin_inset Formula $m$
+\end_inset
+
+ עם מקדמים 
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ובאופן הזה הגדרה 
+\begin_inset Formula $1.4$
+\end_inset
+
+ נכונה לכל שני פולינומים ממעלה קטנה או שווה ל- 
+\begin_inset Formula $n,m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ביתר פירוט:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\deg{\left(f\right)}\le k<m$
+\end_inset
+
+ נגדיר 
+\begin_inset Formula $\hat{f}\left(x\right)=\sum_{i=0}^{k}a_{i}\cdot x^{i}+\sum_{i=k+1}^{n}0\cdot x^{i}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ הם המקדמים של הפולינום 
+\begin_inset Formula $f$
+\end_inset
+
+, ולכן 
+\begin_inset Formula $f=\hat{f}$
+\end_inset
+
+.
+ ובאותו אופן נעשה עם הפולינום 
+\begin_inset Formula $g$
+\end_inset
+
+ אם 
+\begin_inset Formula $\deg g<m$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+באופן כללי נמשיך להשתמש בסימון 
+\begin_inset Formula $\res$
+\end_inset
+
+, במקרים שנרצה להתייחס למימד בצורה מפורשת נציין זאת ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $\RES nmfg$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הבחנה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.6
+\end_layout
+
+\begin_layout Standard
+נבחין שבמקרה שגם 
+\begin_inset Formula $\deg f<n$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\deg g<m$
+\end_inset
+
+, ב
+\begin_inset Formula $\syl$
+\end_inset
+
+ נקבל עמודת אפסים ולכן 
+\begin_inset Formula $R_{n,m}\left(f,g\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הערה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.7
+\end_layout
+
+\begin_layout Standard
+עבור שני פולינומים 
+\begin_inset Formula $f,g$
+\end_inset
+
+ מעל שדה 
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוסיף לשדה 
+\begin_inset Formula $F$
+\end_inset
+
+ את המשתנים 
+\begin_inset Formula $a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}$
+\end_inset
+
+, ונסמן 
+\begin_inset Formula $F=K\left(a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם נסמן 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,\,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+, אז 
+\begin_inset Formula $f$
+\end_inset
+
+ ו 
+\begin_inset Formula $g$
+\end_inset
+
+ הם פולינומים מעל 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ואז
+\begin_inset Formula $\deg{\syl}$
+\end_inset
+
+ היא בעצמה איבר של 
+\begin_inset Formula $F$
+\end_inset
+
+ כלומר פולינום מעל השדה 
+\begin_inset Formula $K$
+\end_inset
+
+ במשתנים 
+\begin_inset Formula $a_{0},\ldots,a_{n},b_{0},\ldots,b_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ולכן נוכל להתייחס 
+\begin_inset Formula $\det\left(\syl\right)$
+\end_inset
+
+ כפולינום במשתנים אלו.
+\end_layout
+
+\begin_layout Standard
+מכאן ולהבא כשנזכיר את השדה 
+\begin_inset Formula $F$
+\end_inset
+
+ כוונתנו ל- 
+\begin_inset Formula $F$
+\end_inset
+
+ כפי שהיא מוגדרת בהערה 
+\begin_inset Formula $1.7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $f\left(x\right)=a_{2}x^{2}+a_{1}x+a_{0}$
+\end_inset
+
+ 
+\begin_inset Formula $g\left(x\right)=b_{1}x+b_{0}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+נחשב את הדטרמיננטה של מטריצת סילבסטר 
+\begin_inset Formula 
+\begin{align*}
+\res & =\text{det}\left(\SYL 21fg\right)\\
+ & =\text{det}\left(\begin{array}{ccc}
+a_{2} & a_{1} & a_{0}\\
+b_{1} & b_{0} & 0\\
+0 & b_{1} & b_{0}
+\end{array}\right)=a_{0}b_{1}^{2}+a_{2}b_{0}^{2}-b_{0}a_{1}b_{1}\poi
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיבלנו איבר בשדה 
+\begin_inset Formula $F$
+\end_inset
+
+, שהוא פולינום ב 
+\begin_inset Formula $5$
+\end_inset
+
+ משתנים בלתי תלויים 
+\begin_inset Formula $a_{2},a_{1},a_{0},b_{1}b_{0}$
+\end_inset
+
+ מעל השדה 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.8
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\res$
+\end_inset
+
+ הוא פולינום הומוגני עם מקדמים שלמים במקדמים 
+\begin_inset Formula $a_{i},b_{i}$
+\end_inset
+
+, כאשר עבור 
+\begin_inset Formula $a_{n}\ldots a_{0}$
+\end_inset
+
+ המעלה היא 
+\begin_inset Formula $m$
+\end_inset
+
+, ועבור 
+\begin_inset Formula $b_{m}\ldots b_{0}$
+\end_inset
+
+ המעלה היא 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+הוכחה זו מתבססת על הגדרת הדטרמיננטה לפי תמורות.
+\end_layout
+
+\begin_layout Standard
+נחזור ל 
+\begin_inset Formula $\syl$
+\end_inset
+
+, זוהי מטריצה מסדר 
+\begin_inset Formula $n+m\times n+m$
+\end_inset
+
+, נתבונן באיבר כלשהוא בסכום הנתון בהגדרה 
+\begin_inset Formula $1.1$
+\end_inset
+
+ נבחר 
+\begin_inset Formula $\sigma\in S_{n+m}$
+\end_inset
+
+, המחובר בסכום מתקבל ע
+\begin_inset Quotes erd
+\end_inset
+
+י כפל בין איברי המטריצה כך שכל שורה וכל עמודה מופיעה בדיוק פעם אחת.
+\end_layout
+
+\begin_layout Standard
+כלומר עבור 
+\begin_inset Formula $\sigma_{i_{1},j_{1}},\sigma_{i_{2},j_{2}}$
+\end_inset
+
+ אם 
+\begin_inset Formula $i_{1}\neq i_{2}$
+\end_inset
+
+ אז 
+\begin_inset Formula $j_{1}\neq j_{2}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i_{k},j_{l}$
+\end_inset
+
+, 
+\begin_inset Formula $1\le k,l\le n+m$
+\end_inset
+
+, ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ מספר האיברים במכפלה הינו כמספר השורות )או העמודות( וזה בדיוק 
+\begin_inset Formula $n+m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי הגדרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1.2$
+\end_inset
+
+
+\numeric off
+ מ- 
+\begin_inset Formula $m$
+\end_inset
+
+ השורות הראשונות מקבלים מקדמים של הפולינום 
+\begin_inset Formula $f\left(x\right)$
+\end_inset
+
+, ומ- 
+\begin_inset Formula $n$
+\end_inset
+
+ השורות האחרונות מקבלים מקדמים מהפולינום 
+\begin_inset Formula $g\left(x\right)$
+\end_inset
+
+, ובסה
+\begin_inset Quotes erd
+\end_inset
+
+כ סכום החזקות של האיבר 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ הוא 
+\begin_inset Formula $m$
+\end_inset
+
+ מאיברי 
+\begin_inset Formula $f\left(x\right)$
+\end_inset
+
+ ו 
+\begin_inset Formula $n$
+\end_inset
+
+ מאיברי 
+\begin_inset Formula $g\left(x\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1.9
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+\RES nmfg=\left(-1\right)^{nm}\RES mngf\,\,\,\left(1.1\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נפתח בדיון אינטואיטיבי:
+\end_layout
+
+\begin_layout Standard
+ניתן לעבור מ 
+\begin_inset Formula $\Syl fg$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl gf$
+\end_inset
+
+, ע
+\begin_inset Quotes erd
+\end_inset
+
+י פעולות על שורות המטריצה, ולכן נבדוק מה יהיה המחיר לעבור מ 
+\begin_inset Formula $\Syl fg$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl gf$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נזכור שהחלפת שורות בין שורות המטריצה מחליפה את הסימן של הדטרמיננטה, ולכן
+ נרצה לבדוק כמה החלפות בין השורות נדרש ע
+\begin_inset Quotes erd
+\end_inset
+
+מ להפוך בין 
+\begin_inset Formula $f,g$
+\end_inset
+
+ וזה יהיה הסימן המבוקש.
+\end_layout
+
+\begin_layout Standard
+נעבור להוכחה.
+\end_layout
+
+\begin_layout Standard
+ההחלפה בין השורות תיעשה באופן הבא: 
+\end_layout
+
+\begin_layout Standard
+את השורה הראשונה נעביר להיות בשורה השניה את השניה לשלישית וכן הלאה עד האחרונה.
+ את האחרונה נעביר להיות השורה הראשונה.
+\end_layout
+
+\begin_layout Standard
+בכתיב תמורות נקבל את המעגל 
+\begin_inset Formula 
+\[
+\left(r_{1}r_{2}\ldots r_{m}r_{m+1}\ldots r_{n+m}\right)\text{\poi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבצע את המעגל הזה 
+\begin_inset Formula $n$
+\end_inset
+
+ פעמים.
+ כך נקבל שהשורה הראשונה )של המטריצה המקורית( תיהיה במקום ה 
+\begin_inset Formula $n+1$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+ואז 
+\begin_inset Formula $f$
+\end_inset
+
+ תיהיה ב 
+\begin_inset Formula $m$
+\end_inset
+
+ השורות האחרונות
+\begin_inset Quotes erd
+\end_inset
+
+, והשורה ה 
+\begin_inset Formula $m$
+\end_inset
+
+ )של המטריצה מקורית( תיהיה בשורה הראשונה כלומר 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $g$
+\end_inset
+
+ תיהיה ב 
+\begin_inset Formula $n$
+\end_inset
+
+ השורות הראשונות
+\begin_inset Quotes erd
+\end_inset
+
+ )מספר השורות הוא 
+\begin_inset Formula $n+m$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+החתימה של מחזור באורך 
+\begin_inset Formula $l$
+\end_inset
+
+ הוא 
+\begin_inset Formula $l-1$
+\end_inset
+
+ )הוכחת טענה זו חורגת ממסגרת המאמר הזה
+\begin_inset Formula $^{\left[2\right]}$
+\end_inset
+
+( ולכן כל מחזור כזה הוא באורך 
+\begin_inset Formula $l=n+m-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבצע 
+\begin_inset Formula $n$
+\end_inset
+
+ מחזורים כאלו ע
+\begin_inset Quotes erd
+\end_inset
+
+מ להחליף בין 
+\begin_inset Formula $f$
+\end_inset
+
+ ל 
+\begin_inset Formula $g$
+\end_inset
+
+ ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ נקבל שהסימן הוא 
+\begin_inset Formula 
+\[
+\left[\left(-1\right)^{\left(m+n-1\right)}\right]^{n}=\left(-1\right)^{\left(nm+n^{2}-n\right)}=\left(-1\right)^{nm}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השוויון האחרות מתקיים כיון ש- 
+\begin_inset Formula $n^{2}-n=n\left(n-1\right)$
+\end_inset
+
+ תמיד מספר זוגי כי 
+\begin_inset Formula $n$
+\end_inset
+
+ זוגי או 
+\begin_inset Formula $n-1$
+\end_inset
+
+ זוגי, ולכן 
+\begin_inset Formula $nm+n^{2}-n$
+\end_inset
+
+ ו 
+\begin_inset Formula $mn$
+\end_inset
+
+ חולקים את אותה זוגיות.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+פרק 
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size giant
+הרזולטנט
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תחילה נציג כמה מוסכמות לפרק זה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\boldsymbol{.1}$
+\end_inset
+
+
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,\,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+ )
+\begin_inset Formula $F$
+\end_inset
+
+ השדה שהוגדר בהערה 
+\begin_inset Formula $1.7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $.\boldsymbol{2}$
+\end_inset
+
+ ללא הגבלת כלליות ניתן להניח ש 
+\begin_inset Formula $F$
+\end_inset
+
+ הוא שדה הפיצול של 
+\begin_inset Formula $f\cdot g$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $F$
+\end_inset
+
+ מכיל את כל השורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ ו- 
+\begin_inset Formula $g$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula $.\boldsymbol{3}$
+\end_inset
+
+
+\series default
+ 
+\begin_inset Formula $\xi_{0}\ldots\xi_{n}$
+\end_inset
+
+ הם השורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+, ו 
+\begin_inset Formula $\eta_{0}\ldots\eta_{m}$
+\end_inset
+
+ הם השורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.1
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משפט הרזולטנט
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $m=0$
+\end_inset
+
+ ו 
+\begin_inset Formula $n>0$
+\end_inset
+
+, 
+\begin_inset Formula $\resb=a_{0}^{m}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $n=0$
+\end_inset
+
+ ו 
+\begin_inset Formula $m>0$
+\end_inset
+
+, 
+\begin_inset Formula $\resb=b_{0}^{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $m=n=0$
+\end_inset
+
+, 
+\begin_inset Formula $\resb=a_{0}b_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $n,m>0$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\Resb nm=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\,\,\poi\left(2.1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+דוגמא
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\left(x\right)=x\left(x^{2}-4\right)=x\left(x+2\right)\left(x-2\right)=x^{3}-4x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g\left(x\right)=\left(x+1\right)\left(x-3\right)=x^{2}-2x-3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין כי השורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ הם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $0,2,-2$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ והשורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+ הם 
+\begin_inset Formula $-1,3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula 
+\[
+\xi_{1}=0,\xi_{2}=2,\xi_{3}=-2\,\,\,\,\eta_{1}=-1,\eta_{2}=3
+\]
+
+\end_inset
+
+נציב במשוואה 
+\begin_inset Formula $\left(2.1\right)$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $a_{n}^{m}=1^{2}\,,b_{m}^{n}=1^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\left(0-\left(-1\right)\right)\left(0-3\right)\right)\left(\left(2-\left(-1\right)\right)\left(2-3\right)\right)\left(\left(-2-\left(-1\right)\right)\left(-2-3\right)\right)=45
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קבלנו ש-
+\begin_inset Formula 
+\[
+\resb=45
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב לפי הגדרה 
+\begin_inset Formula $1.1$
+\end_inset
+
+ את 
+\begin_inset Formula $\syl$
+\end_inset
+
+ :
+\begin_inset Formula 
+\[
+\res=\begin{vmatrix}1 & 0 & -4 & 0 & 0\\
+0 & 1 & 0 & -4 & 0\\
+1 & -2 & -3 & 0 & 0\\
+0 & 1 & -2 & -3 & 0\\
+0 & 0 & 1 & -2 & -3
+\end{vmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין שמהשורה הראשונה תמיד נבחר את העמודה הראשונה או השלישית אחרת המכפלה
+ תתאפס.
+\end_layout
+
+\begin_layout Standard
+ומאותו הטעם מהשורה החמישית נבחר את האיבר החמישי ולכן התמורות יהיו מהצורה
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+1 &  &  &  & 5
+\end{pmatrix}\,\,\text{or}\,\,\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+3 &  &  &  & 5
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לאחר שנשלים את כל התמורות נקבל את התמורות הבאות:
+\begin_inset Formula 
+\[
+\underbrace{\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+1 & 2 & 3 & 4 & 5
+\end{pmatrix}}_{\text{sgn}\left(\sigma\right)=1},\underbrace{\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+1 & 4 & 3 & 2 & 5
+\end{pmatrix}}_{\text{sgn}\left(\sigma\right)=-1},\underbrace{\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+1 & 4 & 2 & 3 & 5
+\end{pmatrix}}_{\text{sgn}\left(\sigma\right)=1},\underbrace{\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+3 & 2 & 1 & 4 & 5
+\end{pmatrix}}_{\text{sgn}\left(\sigma\right)=-1},\underbrace{\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+3 & 4 & 1 & 2 & 5
+\end{pmatrix}}_{\text{sgn}\left(\sigma\right)=1}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+את הסימן רשמנו מתחת לתמורה
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לאחר חישוב של המכפלות המתאימות נקבל
+\begin_inset Formula 
+\[
+\left(-27\right)-\left(-36\right)+\left(48\right)-\left(-36\right)+\left(-48\right)=45
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר במקרה זה מתקיים משפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כדי להוכיח את משפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+, נשתמש בצורה שקולה משפט 
+\begin_inset Formula $2.2$
+\end_inset
+
+, ומכיון שכך תחילה נוכיח את משפט 
+\begin_inset Formula $2.2$
+\end_inset
+
+ ולאחר מיכן נפנה להוכחה של משפטים 
+\begin_inset Formula $2.1$
+\end_inset
+
+ ו 
+\begin_inset Formula $2.2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{.I}$
+\end_inset
+
+ 
+\begin_inset Formula $\resb=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{.II}$
+\end_inset
+
+
+\begin_inset Formula $\resb=\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחת משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
+\end_layout
+
+\begin_layout Standard
+טענה זו נובעת כמעט ישירות מהמשפט היסודי של האלגברה.
+\end_layout
+
+\begin_layout Standard
+נציין שלפי המשפט היסודי של האלגברה מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+ ניתן לרשום את 
+\begin_inset Formula $f,g$
+\end_inset
+
+ כמכפלה של גורמים לינאריים.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחת 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נרשום את 
+\begin_inset Formula $g$
+\end_inset
+
+ כמכפלה של גורמים לינארים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב 
+\begin_inset Formula $\xi_{0}\ldots\xi_{n}$
+\end_inset
+
+ ב 
+\begin_inset Formula $g$
+\end_inset
+
+ נקבל 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\poi}\,\,\left(*\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משרשור השווינות הבא נקבל את השוויון
+\begin_inset Formula 
+\begin{align*}
+a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
+\text{hence}\,\left(*\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}\poi
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הוכחת 
+\begin_inset Formula $\text{II}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+תחילה נבחין שע
+\begin_inset Quotes erd
+\end_inset
+
+י הוצאת 
+\numeric on
+-1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מהביטוי 
+\series bold
+
+\begin_inset Formula $\left(\eta_{j}-\xi_{i}\right)$
+\end_inset
+
+ 
+\series default
+נקבל את השוויון
+\begin_inset Formula 
+\[
+a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=\left(-1\right)^{nm}b_{m}^{n}a_{n}^{m}\prod_{j=1}^{m}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכאן נוכל להמשיך כמו בהוכחה של 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+.
+ נרשום את 
+\begin_inset Formula $f$
+\end_inset
+
+ כמכפלה של גורמים לינאריים 
+\begin_inset Formula 
+\[
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\poi\,\,\left(**\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב 
+\begin_inset Formula $\eta_{0}\ldots\eta_{m}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f\left(\eta_{j}\right)=a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן שוב משרשור השוויונות הבא נקבל 
+\begin_inset Formula 
+\begin{align*}
+a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =\left(-1\right)^{nm}b_{m}^{n}a_{n}^{m}\prod_{j=1}^{m}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
+ & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
+\text{hence}\,\left(**\right) & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}\poi
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+נעבור עכשיו להוכחת משפטים 
+\begin_inset Formula $2.1$
+\end_inset
+
+ ו 
+\begin_inset Formula $2.2$
+\end_inset
+
+, תחילה נוכיח שתי טענות עזר שנצטרך להם בהוכחה.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה עזר 
+\numeric on
+2.3
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים ממעלה 
+\begin_inset Formula $m,n$
+\end_inset
+
+ בהתאמה כך שמתקיים 
+\begin_inset Formula $m\le n$
+\end_inset
+
+, ויהי 
+\begin_inset Formula $h$
+\end_inset
+
+ פולינום כך ש 
+\begin_inset Formula $\text{deg}\left(h\right)\leq n-m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\begin_inset Formula 
+\[
+R\left(f+hg,g\right)=\res\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+באופן סימטרי אם 
+\begin_inset Formula $n\leq m$
+\end_inset
+
+ אז עבור 
+\begin_inset Formula $h$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\text{deg}\left(h\right)\leq m-n$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+R\left(f,g+hf\right)=\res\poi
+\]
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הדרישה ש 
+\begin_inset Formula $\text{deg}\left(h\right)\leq n-m$
+\end_inset
+
+ במקרה הראשון )ובדומה 
+\begin_inset Formula $\text{deg}\left(h\right)\leq m-n$
+\end_inset
+
+( הכרחית, נניח ש- 
+\begin_inset Formula $\deg h>n-m$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\deg{gh}>n-m+m=n$
+\end_inset
+
+ ולכן גם 
+\begin_inset Formula $\deg{f+hg}>n$
+\end_inset
+
+ ואז השוויון לא יוכל להתקיים.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נוכיח באינדוקציה על המעלה של 
+\begin_inset Formula $h$
+\end_inset
+
+, נניח ש 
+\begin_inset Formula $k\leq n-m$
+\end_inset
+
+ ונסמן 
+\begin_inset Formula $h=\sum_{l=\rho}^{k}h_{\rho}x^{\rho}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+תחילה נוכיח שהמשפט מתקיים עבור מונום יחיד 
+\begin_inset Formula $cx^{\rho}$
+\end_inset
+
+ עם 
+\begin_inset Formula $\rho\in\mathbb{Z}$
+\end_inset
+
+, ובפרט הוא מתקיים עבור 
+\begin_inset Formula $h_{\rho}x^{\rho}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נוכל להניח ללא הגבלת כלליות ש 
+\begin_inset Formula $k=n-m$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י הגדרת 
+\begin_inset Formula $h_{\rho}=0$
+\end_inset
+
+ לכל שאר החזקות.
+\end_layout
+
+\begin_layout Standard
+מכיון ש 
+\begin_inset Formula $m<n$
+\end_inset
+
+, לפי הגדרת מטריצת סילבסטר נקבל
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}a_{n}+cb_{n-\rho} & a_{n-1}+cb_{n-\rho-1} & a_{n-2}+cb_{n-2} & \ldots & 0 & 0 & 0\\
+0 & a_{n}+h_{\rho}b_{n-\rho} & a_{n-1}+cb_{n-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & a_{1}+cb_{1} & a_{0}+cb_{0} & 0\\
+0 & 0 & 0 & \ldots & a_{2}+cb_{2} & a_{1}+cb_{1} & a_{0}+cb_{0}\\
+b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+0 & b_{m} & b_{m-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}=\RES{}{}{f+\left(cx^{\rho}\right)g}g
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הביטוי 
+\begin_inset Formula $n-\rho$
+\end_inset
+
+ נובע מכך שהכפל 
+\begin_inset Formula $cx^{\rho}$
+\end_inset
+
+ מזיז את איברי 
+\begin_inset Formula $g$
+\end_inset
+
+ 
+\begin_inset Formula $\rho$
+\end_inset
+
+ מקומות כי 
+\begin_inset Formula $cx^{\rho}b_{j}x^{j}=cb_{j}x^{j+\rho}$
+\end_inset
+
+, ולאחר הצבה 
+\begin_inset Formula $i=j+\rho$
+\end_inset
+
+ נקבל 
+\begin_inset Formula $j=i-\rho$
+\end_inset
+
+ כלומר המקדם של החזקה ה 
+\begin_inset Formula $i$
+\end_inset
+
+ הוא 
+\begin_inset Formula $b_{i-\rho}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכך ש 
+\begin_inset Formula $\rho<n-m$
+\end_inset
+
+, כל אחד מ 
+\begin_inset Formula $m$
+\end_inset
+
+ השורות הראשונות ב 
+\begin_inset Formula $\Syl{f+cx^{\rho}g}g$
+\end_inset
+
+ הוא סכום של השורה המתאימה במטריצה 
+\begin_inset Formula $\syl$
+\end_inset
+
+ עם אחד השורות מ 
+\begin_inset Formula $n$
+\end_inset
+
+ השורות האחרונות וקומבינציה לינארית של שורות אחרות.
+\end_layout
+
+\begin_layout Standard
+במילים אחרות ניתן לעבור מ 
+\begin_inset Formula $\syl$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl{f+cx^{\rho}g}g$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י פעולות על השורות של המטריצה וקומבינציה לינארית של שורות אחרות.
+ אבל הוספת קומבינציה לינארית של שורות לשורה אחרת במטריצה לא משנה את הדטרמיננטה
+ ולכן:
+\begin_inset Formula 
+\[
+\boxed{\RES{}{}{f+\left(h_{\rho}x^{\rho}\right)g}g=\res}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הנחת האינדוקציה:
+\end_layout
+
+\begin_layout Standard
+נניח שהטענה נכונה עבור פולינום ממעלה 
+\begin_inset Formula $k-1$
+\end_inset
+
+ ונוכיח עבור פולינום ממעלה 
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+צעד האינדוקציה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\boxed{\RES{}{}{f+hg}g} & =\det\left(\Syl{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
+ & =\det\left(\Syl{f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g}g\right)\\
+\text{induction step} & =\det\left(\Syl{f+\left(h_{k}x^{k}\right)g}g\right)\\
+\text{base case} & =\det\left(\syl\right)\\
+ & =\boxed{\res}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+נשים לב שתוך כדאי שרשור השוויונות קבלנו ש 
+\begin_inset Formula 
+\[
+\Syl{f+hg}g=\syl\,\,\left(2.2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשוויון זה נעשה שימוש בהמשך.
+\end_layout
+
+\begin_layout Standard
+עבור המקרה השני 
+\begin_inset Formula $\RES{}{}f{g+hf}=\res$
+\end_inset
+
+ נקבל את השוויון באותו האופן.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענת עזר
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.4
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $.\text{I}$
+\end_inset
+
+ אם 
+\begin_inset Formula $\deg g\le k\le m$
+\end_inset
+
+ אז 
+\begin_inset Formula 
+\[
+\RES nmfg=a_{n}^{m-k}\RES nkfg\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{II}$
+\end_inset
+
+.
+ אם 
+\begin_inset Formula $\deg f\le k\leq n$
+\end_inset
+
+ אז 
+\begin_inset Formula 
+\[
+\RES nmfg=\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\Res km\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+הוכחה מתבססת על כך שאם המקדם של החזקה הגבוהה ביותר הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז התת מטריצת המתקבלת ע
+\begin_inset Quotes erd
+\end_inset
+
+י מחיקת השורה הראשונה והעמודה 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+הראשונה 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+היא מטריצת סילבסטר,
+\end_layout
+
+\begin_layout Standard
+כלומר נניח ש 
+\begin_inset Formula $g_{m}=0$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula 
+\[
+\text{Syl}\left(f,g\right)=\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
+0 & a_{n} & a_{n-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & a_{1} & a_{0} & 0\\
+0 & 0 & 0 & \ldots & a_{2} & a_{1} & a_{0}\\
+\boldsymbol{0} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+0 & \boldsymbol{0} & b_{m-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין שאם נמחק את השורה הראשונה והעמודה הראשונה נקבל את המטריצה 
+\begin_inset Formula 
+\[
+\text{Syl}\left(f,\hat{g}\right)=\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
+0 & a_{n} & a_{n-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & a_{1} & a_{0} & 0\\
+0 & 0 & 0 & \ldots & a_{2} & a_{1} & a_{0}\\
+b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
+0 & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $\hat{g}\left(x\right)=\sum_{j=0}^{m-1}b_{j}x^{j}$
+\end_inset
+
+ ומכיון ש 
+\begin_inset Formula $b_{m}=0$
+\end_inset
+
+ אז 
+\begin_inset Formula $\hat{g}\left(x\right)=g\left(x\right)$
+\end_inset
+
+, ולכן אם נפתח את הדטרמיננטה 
+\begin_inset Formula $\res$
+\end_inset
+
+ לפי העמודה הראשונה נקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boxed{\res}=a_{n}\RES nmf\hat{g}=\boxed{a_{n}\RES n{m-1}fg}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשביל לסיים את ההוכחה נגדיר את 
+\begin_inset Formula $g$
+\end_inset
+
+ לכל 
+\begin_inset Formula $\deg g\leq j\leq m$
+\end_inset
+
+ להיום עם מקדם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $0$
+\end_inset
+
+, ונקבל
+\begin_inset Formula 
+\begin{align*}
+\res & =a_{n}\RES n{m-1}fg\\
+ & =a_{n}a_{n}\RES n{m-2}fg\\
+ & =\left(\underbrace{a_{n}a_{n}\ldots a_{n}}_{r\,\text{times}}\right)\RES n{m-r}fg\\
+ & =a_{n}^{r}\RES n{m-r}fg
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $m-r-1$
+\end_inset
+
+ הוא המקדם הראשון שאינו 
+\begin_inset Formula $0$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $m-r=k$
+\end_inset
+
+ ונקבל 
+\begin_inset Formula $\res=a_{n}^{m-k}\RES nkfg$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Standard
+הוכחת 
+\begin_inset Formula $.\text{II}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+לפי 
+\numeric on
+
+\begin_inset Formula $1.9$
+\end_inset
+
+
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+\begin_inset Formula 
+\[
+\res=\left(-1\right)^{nm}\RES mngf
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי 
+\begin_inset Formula $\text{I}$
+\end_inset
+
+ והתנאי ש 
+\begin_inset Formula $\deg f<k<n$
+\end_inset
+
+ נקבל
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\left(-1\right)^{nm}\RES mngf=\left(-1\right)^{nm}b_{m}^{n-k}\RES mkgf\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שוב לפי משוואה 
+\begin_inset Formula $1.9$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\RES mkgf=\left(-1\right)^{km}\RES kmfg
+\]
+
+\end_inset
+
+נציב ונקבל 
+\begin_inset Formula 
+\begin{align*}
+\left(-1\right)^{nm}\RES mngf & =\left(-1\right)^{nm}b_{m}^{n-k}\left(-1\right)^{km}\RES kmfg\\
+ & =\left(-1\right)^{m\left(n+k\right)}b_{m}^{n-k}\RES kmfg\poi\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומכיון של 
+\begin_inset Formula $m+n+k$
+\end_inset
+
+ ו 
+\begin_inset Formula $n-k$
+\end_inset
+
+ אותה זוגיות נקבל לאחר כל השוויונות 
+\begin_inset Formula 
+\[
+\boxed{\res=\left(-1\right)^{m\left(n-k\right)}b_{m}^{n-k}\RES kmfg}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחת משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.1
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ ו 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
+\end_layout
+
+\begin_layout Standard
+נוכיח באינדוקציה על הגודל של המטריצה 
+\begin_inset Formula $n+m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי המוסכמות בראש הפרק והמשפט היסודי של האלגברה נוכל לרשום את 
+\begin_inset Formula $f,g$
+\end_inset
+
+ כמכפלה של גורמים לינאריים
+\begin_inset Formula 
+\[
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסיס האינדוקציה:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $m=n=0$
+\end_inset
+
+ הטענה מתקיימת.
+\end_layout
+
+\begin_layout Standard
+עבור המקרה 
+\begin_inset Formula $n=0$
+\end_inset
+
+ ו 
+\begin_inset Formula $m>0$
+\end_inset
+
+ לפי הבחנה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1.3$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\res=b_{0}^{n}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובדומה עבור 
+\begin_inset Formula $m=0$
+\end_inset
+
+ ו 
+\begin_inset Formula $n>0$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\res=a_{0}^{m}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הנחת האינדוקציה:
+\end_layout
+
+\begin_layout Standard
+נניח שמשפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+ נכון לכל ערך מטריצה קטנה מ 
+\begin_inset Formula $n+m$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $0<n=\text{deg}\left(f\right)\le m=\text{deg}\left(g\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+קיימים פולינומים 
+\begin_inset Formula $q,r$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\text{deg}\left(r\right)<\text{deg}\left(f\right)$
+\end_inset
+
+ ומתקיים
+\begin_inset Formula 
+\[
+g=qf+r
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבחין כי 
+\begin_inset Formula 
+\[
+\deg{g-r}=\deg{qf}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן נקבל את השוויונות הבאים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\deg q=\deg{qf}-\deg f=\deg{g-r}-n=m-n\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קבלנו ש 
+\begin_inset Formula $\deg q=m-n$
+\end_inset
+
+ ולכן נוכל להשתמש בטענת עזר
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $2.3$
+\end_inset
+
+
+\numeric off
+, נקבל
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(*\right)\,\res=\RES{}{}f{g-qf}=\RES{}{}fr\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחלק שוב למקרים.
+\end_layout
+
+\begin_layout Standard
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+א.
+ 
+\begin_inset Formula $r\neq0$
+\end_inset
+
+ נסמן 
+\begin_inset Formula $k=\deg r\ge0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+מהנחת האינדוקציה וטענת עזר 
+\begin_inset Formula $2.4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(**\right)\,\RES nmfr\overbrace{=}^{2.5}a_{n}^{m-k}\RES nkfr\overbrace{=}^{\text{induction base}}a_{n}^{m-k}a_{n}^{k}\prod_{i=1}^{n}r\left(\xi_{i}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השוויון האחרות נובע מכך ש 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ ולכן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boxed{g\left(\xi_{i}\right)}=\underbrace{q\left(\xi_{i}\right)f\left(\xi_{i}\right)}_{=0}+r\left(\xi_{i}\right)=\boxed{r\left(\xi_{i}\right)}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מ 
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ ו- 
+\begin_inset Formula $\left(**\right)$
+\end_inset
+
+ נקבל את הנדרש.
+\end_layout
+
+\begin_layout Standard
+מקרה ב.
+ 
+\begin_inset Formula $r=0$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+g=fq\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה הראשונה של מקרה זה 
+\begin_inset Formula $n>0$
+\end_inset
+
+ ולכן 
+\begin_inset Formula 
+\[
+\Syl fr=\Syl f0="0"\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $"0"$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בשוויון האחרון הכוונה למטריצת האפס.
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\res=0\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מצד שני כיון ש 
+\begin_inset Formula $f$
+\end_inset
+
+ מחלק את 
+\begin_inset Formula $g$
+\end_inset
+
+ אז השורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+ גם כן, ולכן בנוסחה 
+\begin_inset Formula $2.1$
+\end_inset
+
+ קיימים 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ ו 
+\begin_inset Formula $\eta_{j}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\xi_{i}=\eta_{j}$
+\end_inset
+
+ ולכן המכפלה מתאפסת, ומתקיים השוויון הנדרש.
+\end_layout
+
+\begin_layout Standard
+מקרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=\deg g<n=\deg f$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כמו במקרה הקודם קיימים 
+\begin_inset Formula $q,r$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\deg r<m$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula 
+\[
+f=gq+r
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומאותם נימוקים כמו במקרה הקודם 
+\begin_inset Formula 
+\[
+\left(***\right)\,\res=\RES{}{}{f-gq}g=\RES{}{}rg
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ופה נחלק שוב למקרים
+\end_layout
+
+\begin_layout Standard
+מקרה א.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r\neq0$
+\end_inset
+
+ נסמן 
+\begin_inset Formula $k=\deg r\ge0$
+\end_inset
+
+, ומהנחת האינדוקציה וטענת עזר 
+\begin_inset Formula $2.4$
+\end_inset
+
+ נקבל 
+\begin_inset Formula 
+\begin{align*}
+\left(****\right)\,\boxed{\RES nmrg} & =\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\\
+\text{\text{induction base}}\to & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
+ & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}r\left(\eta_{j}\right)\\
+ & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ושוב השוויון האחרון נובע מכך ש 
+\begin_inset Formula $\eta_{j}$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+ ולכן
+\begin_inset Formula 
+\[
+f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}_{=0}+r\left(\eta_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ושוב מ 
+\begin_inset Formula $\left(***\right)$
+\end_inset
+
+ ו 
+\begin_inset Formula $\left(****\right)$
+\end_inset
+
+ נקבל את הנדרש.
+\end_layout
+
+\begin_layout Standard
+מקרה ב.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r=0$
+\end_inset
+
+ , דומה מאוד לאותו מקרה בהוכחה הקודמת 
+\begin_inset Formula 
+\[
+\Syl rg=\Syl 0g="0"\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula 
+\[
+\RES nm0g=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכמו כן השורשים של 
+\begin_inset Formula $g$
+\end_inset
+
+ הם שורשים של 
+\begin_inset Formula $f$
+\end_inset
+
+ ג
+\begin_inset Quotes erd
+\end_inset
+
+כ ולכן המכפלה 
+\begin_inset Formula $\left(2.1\right)$
+\end_inset
+
+ מתאפסת ונקבל את השוויון.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+פרק 
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size giant
+תוצאות ממשפט הרזולטנט
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בפרק זה נמשיך עם המוסכמות שבתחילת פרק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.1
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+ ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש שורש משותף אם ורק אם 
+\begin_inset Formula $\res=0$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+לפי משפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\res=0\Longleftrightarrow a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=0\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וזה מתקיים אם ורק אם קיימים 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ ו 
+\begin_inset Formula $\eta_{j}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\eta_{j}=\xi_{i}$
+\end_inset
+
+, כלומר אם ורק אם ל 
+\begin_inset Formula $f$
+\end_inset
+
+ ו- 
+\begin_inset Formula $g$
+\end_inset
+
+ יש שורש משותף.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+טענה 
+\numeric on
+3.2
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+, ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש גורם משותף אם ורק אם 
+\begin_inset Formula $R\left(f,g\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+צד אחד
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Longleftarrow$
+\end_inset
+
+ אם ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש גורם משותף אז 
+\begin_inset Formula $\res=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש גורם משותף ולכן יש להם שורש משותף וממשפט 
+\begin_inset Formula $2.1$
+\end_inset
+
+ נקבל את הטענה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Longrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\res=0$
+\end_inset
+
+ אז ל 
+\begin_inset Formula $f$
+\end_inset
+
+ ו 
+\begin_inset Formula $g$
+\end_inset
+
+ יש גורם משותף.
+\end_layout
+
+\begin_layout Standard
+לפי ההנחה ש 
+\begin_inset Formula $\res=0$
+\end_inset
+
+ מטענה 
+\begin_inset Formula $3.1$
+\end_inset
+
+ ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש שורש משותף נסמן 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, נוכל נוציא את 
+\begin_inset Formula $x-\alpha$
+\end_inset
+
+ גורם משותף מ 
+\begin_inset Formula $f,g$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+וקבלנו את הטענה.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לצורך המשפט הבא נזכיר מהו מימד של מטריצה.
+\end_layout
+
+\begin_layout Standard
+מימד של מטריצה הוא המימד שנפרס ע
+\begin_inset Quotes erd
+\end_inset
+
+י וקטורי השורות או העמודות של המטריצה.
+\end_layout
+
+\begin_layout Standard
+ובמקרה שהשורות תלויות לינארית אז המימד שנפרש ע
+\begin_inset Quotes erd
+\end_inset
+
+י המטריצה קטן מהגודל של המטריצה.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.3
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים בשדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן ב- 
+\begin_inset Formula $h=\gcd$
+\end_inset
+
+ את המחלק המשותף המירבי של 
+\begin_inset Formula $f,g$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+המעלה של המימד של 
+\begin_inset Formula $\text{Syl}\left(f,g\right)$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n+m-\deg h$
+\end_inset
+
+, ובאופן שקול המעלה של המימד של המשלים של 
+\begin_inset Formula $\syl$
+\end_inset
+
+ הוא 
+\begin_inset Formula $\deg h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הערה:
+\bar default
+ מכיון שגודל המימד של מטריצה וגודל המימד של המשלים תלויים אחד בשני, לפעמיים
+ נתייחס רק לגודל של אחד מהם כשהכוונה לשניהם.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+לפני שנכנסים לגוף ההוכחה נציין:
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+\begin_inset Formula $.\left(1\right)$
+\end_inset
+
+
+\numeric off
+ החלפה בין שורות המטריצה לא משנה את המימד שנפרש ע
+\begin_inset Quotes erd
+\end_inset
+
+י וקטורי השורות )או העמודות( של המטריצה.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+\begin_inset Formula $.\left(2\right)$
+\end_inset
+
+
+\numeric off
+ 
+\begin_inset Formula $\syl$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl gf$
+\end_inset
+
+ שוות פרט לסדר של השורות, ולכן המימד שנפרש על ידם שווה, ולכן ללא הגבלת כלליות
+ נוכל להניח ש 
+\begin_inset Formula $m\le n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $.\left(3\right)$
+\end_inset
+
+ קיימים 
+\begin_inset Formula $r,q$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\deg r<m$
+\end_inset
+
+ המקיימים 
+\begin_inset Formula $f=qg+r$
+\end_inset
+
+, ובהוכחת טענת עזר 
+\begin_inset Formula $2.3$
+\end_inset
+
+ ראינו שאפשר לעבור מ 
+\begin_inset Formula $\syl$
+\end_inset
+
+ ל 
+\begin_inset Formula $\Syl{f+\left(-qg\right)}g=\Syl rg$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י פועלות על שורות המטריצה ולכן המימד שלהם שווה.
+\end_layout
+
+\begin_layout Standard
+רעיון ההוכחה:
+\end_layout
+
+\begin_layout Standard
+נמצא את 
+\begin_inset Formula $h$
+\end_inset
+
+ לפי האלגוריתים של אוקלידס, ותוך כדי התהליך נקטין את גודל המטריצות ונוכיח
+ שהמימד של המשלים של המטריצות המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה(
+ נמצא את המימד של המשלים של 
+\begin_inset Formula $\syl$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נתחיל...
+\end_layout
+
+\begin_layout Standard
+נחלק את ההוכחה לשלבים כדי להקל על הקורא להבין את ההוכחה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב 
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $q$
+\end_inset
+
+ וקיים 
+\begin_inset Formula $r$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $k=\deg r<m$
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula 
+\[
+f=qg+r\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\deg q=\deg{qg}-\deg g=n-m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקיים תנאי משפט 
+\begin_inset Formula $2.3$
+\end_inset
+
+ ולכן לפי 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ המימד של 
+\begin_inset Formula $\SYL nmfg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ שווה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $r=\sum_{l=0}^{n}\upsilon_{l}x^{l}$
+\end_inset
+
+, ונתבונן ב 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ , נבחין של- 
+\begin_inset Formula $r$
+\end_inset
+
+ יש 
+\begin_inset Formula $n-k$
+\end_inset
+
+ מקדמים שהם אפסים ולכן 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ מהצורה:
+\begin_inset Formula 
+\[
+\text{\SYL nmrg}=\begin{pmatrix}\boldsymbol{0} & \cdots & \boldsymbol{0} & \upsilon_{n-k-1} & \upsilon_{n-k-2} & \upsilon_{n-k-3} & \ldots & 0 & 0 & 0\\
+0 & \boldsymbol{0} & \cdots & \boldsymbol{0} & \upsilon_{n-k-1} & \upsilon_{n-k-2} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \ddots & \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \boldsymbol{0} & \boldsymbol{0} & \boldsymbol{0} & \ldots & \upsilon_{1} & \upsilon_{0} & 0\\
+0 & 0 & 0 & 0 & \boldsymbol{0} & \boldsymbol{0} & \ldots & \upsilon_{2} & \upsilon_{1} & \upsilon_{0}\\
+b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+0 & b_{m} & b_{m-1} & 0 & b_{m} & b_{m-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots & \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & 0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בעמודה הראשונה יש רק איבר יחיד 
+\begin_inset Formula $b_{m}$
+\end_inset
+
+ ולכן וקטור זה שייך למימד שנפרש ע
+\begin_inset Quotes erd
+\end_inset
+
+י וקטורי העמודות )או השורות(, ולכן מחיקת העמודה הראשונה והשורה ה 
+\begin_inset Formula $m+1$
+\end_inset
+
+ )השורה שבה יש את האיבר שאינו אפס בעמודה הראשונה( לא תשפיע על המימד של המשלים.
+\end_layout
+
+\begin_layout Standard
+נובע מכך שהמימד של המשלים של 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL{n-1}mrg$
+\end_inset
+
+ שווים, כאשר 
+\begin_inset Formula $\SYL{n-1}mrg$
+\end_inset
+
+ היא המטריצה שהתקבלה אחרי המחיקה של השורה והעמודה המתאימה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+נחזור שוב על שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ )במקרה ש 
+\begin_inset Formula $n-k>1$
+\end_inset
+
+(, על המטריצה 
+\begin_inset Formula $\SYL{n-1}mrg$
+\end_inset
+
+, וכך נמשיך עד שנקבל את המטריצה 
+\begin_inset Formula $\SYL kmrg$
+\end_inset
+
+, ולפי ההסבר בשלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ המימד של המשלים של המטריצות המתקבלות ע
+\begin_inset Quotes erd
+\end_inset
+
+י מחיקה העמודה והשורה המתאימה לה לא משתנה.
+\end_layout
+
+\begin_layout Standard
+סיכום ביניים:
+\end_layout
+
+\begin_layout Standard
+המימד של המשלים של 
+\begin_inset Formula $\SYL nmfg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL nmrg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL kmrg$
+\end_inset
+
+ שווים, כאשר 
+\begin_inset Formula $r$
+\end_inset
+
+ הוא השארית של החלוקה של 
+\begin_inset Formula $f$
+\end_inset
+
+ ב 
+\begin_inset Formula $g$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+לפי 
+\begin_inset Formula $\left(2\right)$
+\end_inset
+
+ המימד של 
+\begin_inset Formula $\SYL kmrg$
+\end_inset
+
+ ו 
+\begin_inset Formula $\SYL mkgr$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבצע את שלבים 
+\begin_inset Formula $1-3$
+\end_inset
+
+ על 
+\begin_inset Formula $\SYL mkgr$
+\end_inset
+
+, עם 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ 
+\begin_inset Formula $k_{0}=\deg{r_{0}}<k$
+\end_inset
+
+ ו- 
+\begin_inset Formula $q_{0}$
+\end_inset
+
+ המקיימים 
+\begin_inset Formula $g=rq_{0}+r_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נמשיך שוב ושוב את שלבים 
+\begin_inset Formula $1-3$
+\end_inset
+
+)כלומר נבצע את האלגוריתים של אוקלידס( עד שנקבל 
+\begin_inset Formula $r_{d}$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $r_{d-2}=q_{d}r_{d-1}+r_{d}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $r_{d}=0$
+\end_inset
+
+, ומהאלגוריתים של אוקלידס 
+\begin_inset Formula $r_{d-1}=h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שלב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+משלבים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ המימדים של המשלימים של 
+\begin_inset Formula $\SYL nmfg,\SYL kmrg,\SYL{k_{0}}k{r_{0}}r,\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}\ldots,\SYL{k_{d-1}}l0h$
+\end_inset
+
+ שווים.
+\end_layout
+
+\begin_layout Standard
+ולכן נשאר לבדוק מהו המימד של המשלים של 
+\begin_inset Formula $\SYL{k_{d-1}}l0h$
+\end_inset
+
+ לפי הגדרת מטריצת סילבסטר למטריצה 
+\begin_inset Formula $\SYL{k_{d-1}}l0h$
+\end_inset
+
+ יש 
+\begin_inset Formula $l$
+\end_inset
+
+ שורות אפסים ו 
+\begin_inset Formula $d-1$
+\end_inset
+
+ שורות בת
+\begin_inset Quotes erd
+\end_inset
+
+ל ולכן המימד של המשלים של 
+\begin_inset Formula $\SYL{k_{d-1}}l0h$
+\end_inset
+
+ הוא 
+\begin_inset Formula $l$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+וזה בדיוק 
+\begin_inset Formula $\deg h$
+\end_inset
+
+, ולכן המימד של 
+\begin_inset Formula $\SYL nmfg$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n+m-\deg h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+משפט
+\family roman
+\shape up
+\size normal
+\emph off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.4
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $f,g$
+\end_inset
+
+ פולינומים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $\upsilon=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)$
+\end_inset
+
+ וקטור שורה מדרגה 
+\begin_inset Formula $m+n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מתקיים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\upsilon\SYL nmfg=0\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם ורק אם 
+\begin_inset Formula $pf+qg=0$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $q=\beta_{n-1}x^{n-1}+\cdots+\beta_{0}x^{0}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $p=\alpha_{m-1}x^{m-1}+\cdots+\alpha_{0}x^{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הוכחה
+\end_layout
+
+\begin_layout Standard
+נתבונן במכפלה 
+\begin_inset Formula $\gamma=\upsilon\SYL nmfg$
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align*}
+\gamma & =\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
+0 & a_{n} & a_{n-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & a_{1} & a_{0} & 0\\
+0 & 0 & 0 & \ldots & a_{2} & a_{1} & a_{0}\\
+b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
+0 & b_{m} & b_{m-1} & \ldots & 0 & 0 & 0\\
+\vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
+0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
+0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
+\end{pmatrix}\\
+ & =\left(\underbrace{\alpha_{m-1}a_{n}+\beta_{n-1}b_{m}}_{\gamma_{1}},\underbrace{\alpha_{m-1}a_{n-1}+\alpha_{m-2}a_{n}+\beta_{n-1}b_{m-1}+\beta_{n-2}b_{m}}_{\gamma_{2}},\ldots,\underbrace{\alpha_{0}a_{0}+\beta_{0}b_{0}}_{\gamma_{n+m}}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הרכיב ה 
+\begin_inset Formula $j$
+\end_inset
+
+ של 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ מתקבל ע
+\begin_inset Quotes erd
+\end_inset
+
+י המכפלה
+\begin_inset Formula 
+\[
+\gamma_{j}=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n+1-j}\\
+\vdots\\
+a_{n+m-j}\\
+b_{m+1-j}\\
+\vdots\\
+b_{n+m-j}
+\end{pmatrix}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $1\le j\le n+m$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+נרשום 
+\begin_inset Formula $\gamma_{j}$
+\end_inset
+
+ כסכום של טורים, הטור הראשון הוא 
+\begin_inset Formula $\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}$
+\end_inset
+
+, ובטור השני האינדקס מתחיל 
+\begin_inset Formula $m+1$
+\end_inset
+
+ ולכן נסמן 
+\begin_inset Formula $i=i-m$
+\end_inset
+
+, ונקבל 
+\begin_inset Formula $\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ 
+\begin_inset Formula 
+\[
+\gamma_{j}=\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}+\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-j}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתבונן באינדקסים של המקדמים,
+\end_layout
+
+\begin_layout Standard
+נוכיח ש
+\begin_inset Formula 
+\[
+pf+qg=\sum_{j}\gamma_{j}x^{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובזה נסיים את ההוכחה.
+\end_layout
+
+\begin_layout Standard
+נחקור את הביטוי 
+\begin_inset Formula 
+\[
+\gamma_{j}=\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}+\sum_{i=m+1}^{n+m}\beta_{n+m-i}b_{i-j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב כל אחד מהמחוברים בנפרד
+\end_layout
+
+\begin_layout Standard
+נבצע החלפת אינדקסים 
+\begin_inset Formula $i=m-k$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}=\sum_{k=0}^{m-1}\alpha_{k}a_{n+m-k-j}=\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+) השוויון האחרון נובע מכך ש 
+\begin_inset Formula $\alpha_{m}=0$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+בדומה עבור הביטוי השני נבצע את ההחלפת האינדקסים 
+\begin_inset Formula $i=m+n-k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{i=m+1}^{n+m}\beta_{n+m-i}b_{i-j}=\sum_{k=0}^{n-1}\beta_{k}b_{m+n-k-j}=\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}
+\]
+
+\end_inset
+
+) השוויון האחרון נובע מכך ש 
+\begin_inset Formula $\beta_{n}=0$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ קבלנו כי 
+\begin_inset Formula 
+\[
+\gamma_{j}=\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבצע החלפת אינדקסים 
+\begin_inset Formula $j=m+n-l$
+\end_inset
+
+, 
+\begin_inset Formula $0\le j\le n+m$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $0\le l\le n+m$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}=\sum_{k=0}^{m}\alpha_{k}a_{l-k}+\sum_{k=0}^{n}\beta_{k}b_{l-k}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור המקרה 
+\begin_inset Formula $m>l$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+מכיון שלכל 
+\begin_inset Formula $k>l$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{k}=0$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+\sum_{k=0}^{m}\alpha_{k}a_{l-k}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור המקרה 
+\begin_inset Formula $m<l$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיון שלכל 
+\begin_inset Formula $k\ge m$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{k}=0$
+\end_inset
+
+ מכיון ש 
+\begin_inset Formula $\deg p=m-1$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+\sum_{k=0}^{m}\alpha_{k}a_{l-k}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובאותו אופן מתקיים 
+\begin_inset Formula 
+\[
+\sum_{k=0}^{n}\beta_{k}b_{l-k}=\sum_{k=0}^{l}\beta_{k}b_{l-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קבלנו ש 
+\begin_inset Formula 
+\[
+\gamma_{j}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}+\sum_{k=0}^{l}\beta_{k}b_{l-k}\,\,\left(*\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את המכפלה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\boxed{fp+gq} & =\sum_{i}a_{i}x^{i}\sum_{\tau}\alpha_{\tau}x^{\tau}+\sum_{i}b_{i}x^{i}\sum_{\tau}\beta_{\tau}x^{\tau}\\
+ & =\sum_{k}\sum_{i+\tau=k}a_{i}\alpha_{\tau}x^{k}+\sum_{k}\sum_{i+\tau=k}b_{i}\beta_{\tau}x^{k}\\
+ & =\sum_{k}\sum_{i=0}^{k}a_{i}\alpha_{k-i}x^{k}+\sum_{k}\sum_{i=0}^{k}b_{i}\beta_{k-i}x^{k}\\
+ & =\sum_{k}\left(\sum_{i=0}^{k}a_{i}\alpha_{k-i}+\sum_{i=0}^{k}b_{i}\beta_{k-i}\right)x^{k}\\
+\left(*\right) & =\boxed{\sum_{k}\gamma_{k}x^{k}}\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(*\right)$
+\end_inset
+
+ מתקבל ע
+\begin_inset Quotes erd
+\end_inset
+
+י החלפת האינדקס 
+\begin_inset Formula $k=i\,\,l=k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{McConnell\,(1957)\,.Applications\,of\,Tensor Analysis\,.Dover\,Publications.}$
+\end_inset
+
+ 
+\begin_inset Formula $\left[1\right].$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Formula $\text{Rotman, Joseph J. (2006), A First Course in Abstract Algebra with Applications (3rd ed.), Prentice-Hall}$
+\end_inset
+
+ .
+\begin_inset Formula $\left[2\right]$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
