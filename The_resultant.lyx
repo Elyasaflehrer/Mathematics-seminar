@@ -208,6 +208,197 @@
 \end_layout
 
 \begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+האוניברסיטה הפתוחה
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+עבודה סמינריונית בנושא הרזולטנט
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+אליסף לרר
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+ת.ז.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+308376458
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+מנחה: אלעד פארן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+תוכן העניינים:
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+הקדמה
+\begin_inset Formula $...........................................................................................................$
+\end_inset
+
+1
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+פרק 1
+\begin_inset Formula $..............................................................................................................$
+\end_inset
+
+2
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+פרק 2
+\begin_inset Formula $..............................................................................................................$
+\end_inset
+
+6
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+פרק 3
+\begin_inset Formula $.............................................................................................................$
+\end_inset
+
+
+\numeric on
+14
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+בבליוגרפיה
+\begin_inset Formula $......................................................................................................$
+\end_inset
+
+
+\numeric on
+19
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\lang english
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 
 \series bold
@@ -3408,7 +3599,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\boxed{\res}=a_{n}\RES nmf\hat{g}=\boxed{a_{n}\RES n{m-1}fg}\poi
+\boxed{\res}=a_{n}\RES nmf{\hat{g}}=\boxed{a_{n}\RES n{m-1}fg}\poi
 \]
 
 \end_inset
