@@ -5997,11 +5997,11 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-\boxed{fp+gq} & =\sum_{i}a_{i}x^{i}\sum_{\tau}\alpha_{\tau}x^{\tau}+\sum_{i}b_{i}x^{i}\sum_{\tau}\beta_{\tau}x^{\tau}\\
- & =\sum_{k}\sum_{i+\tau=k}a_{i}\alpha_{\tau}x^{k}+\sum_{k}\sum_{i+\tau=k}b_{i}\beta_{\tau}x^{k}\\
- & =\sum_{k}\sum_{i=0}^{k}a_{i}\alpha_{k-i}x^{k}+\sum_{k}\sum_{i=0}^{k}b_{i}\beta_{k-i}x^{k}\\
- & =\sum_{k}\left(\sum_{i=0}^{k}a_{i}\alpha_{k-i}+\sum_{i=0}^{k}b_{i}\beta_{k-i}\right)x^{k}\\
-\left(*\right) & =\boxed{\sum_{k}\gamma_{k}x^{k}}\\
+\boxed{pf+qg} & =\sum_{\tau}\alpha_{\tau}x^{\tau}\sum_{k}a_{k}x^{k}+\sum_{\tau}\beta_{\tau}x^{\tau}\sum_{k}b_{k}x^{k}\\
+ & =\sum_{l}\sum_{k+\tau=l}\alpha_{\tau}a_{k}x^{l}+\sum_{l}\sum_{k+\tau=l}\beta_{\tau}b_{k}x^{l}\\
+ & =\sum_{l}\sum_{k=0}^{l}\alpha_{k}a_{l-k}x^{l}+\sum_{l}\sum_{k=0}^{l}\beta_{k}b_{l-k}x^{l}\\
+ & =\sum_{l}\left(\sum_{k=0}^{l}\alpha_{k}a_{l-k}+\sum_{k=0}^{l}\beta_{k}b_{l-k}\right)x^{l}\\
+\left(*\right) & =\boxed{\sum_{k}\gamma_{j}x^{k}}\\
 \end{align*}
 
 \end_inset
@@ -6010,18 +6010,7 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left(*\right)$
-\end_inset
-
- מתקבל ע
-\begin_inset Quotes erd
-\end_inset
-
-י החלפת האינדקס 
-\begin_inset Formula $k=i\,\,l=k$
-\end_inset
-
-.
+ואכן קבלנו את השוויון הנדרש.
 \end_layout
 
 \begin_layout Standard

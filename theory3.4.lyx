@@ -193,12 +193,11 @@
 \begin_inset Formula $f,g$
 \end_inset
 
- פולינומים בשדה 
+ פולינומים מעל שדה 
 \begin_inset Formula $F$
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Standard
@@ -210,13 +209,17 @@
 \begin_inset Formula $m+n$
 \end_inset
 
+.
+\end_layout
 
+\begin_layout Standard
+מתקיים
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\upsilon\SYL nmfg=0
+\upsilon\SYL nmfg=0\poi
 \]
 
 \end_inset
@@ -237,7 +240,7 @@
 \begin_inset Formula $p=\alpha_{m-1}x^{m-1}+\cdots+\alpha_{0}x^{0}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -254,8 +257,8 @@
 
  
 \begin_inset Formula 
-\[
-\gamma=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
+\begin{align*}
+\gamma & =\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
 0 & a_{n} & a_{n-1} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & a_{1} & a_{0} & 0\\
@@ -265,57 +268,18 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
 0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
-\end{pmatrix}=\left(\underbrace{\alpha_{m-1}a_{n}+\beta_{n-1}b_{m}}_{\gamma_{1}},\underbrace{\alpha_{m-1}a_{n-1}+\alpha_{m-2}a_{n}+\beta_{n-1}b_{m-1}+\beta_{n-2}b_{m}}_{\gamma_{2}},\ldots,\underbrace{\alpha_{0}a_{0}+\beta_{0}b_{0}}_{\gamma_{n+m}}\right)
-\]
+\end{pmatrix}\\
+ & =\left(\underbrace{\alpha_{m-1}a_{n}+\beta_{n-1}b_{m}}_{\gamma_{1}},\underbrace{\alpha_{m-1}a_{n-1}+\alpha_{m-2}a_{n}+\beta_{n-1}b_{m-1}+\beta_{n-2}b_{m}}_{\gamma_{2}},\ldots,\underbrace{\alpha_{0}a_{0}+\beta_{0}b_{0}}_{\gamma_{n+m}}\right)
+\end{align*}
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-נחקור את הוקטור 
-\begin_inset Formula $\gamma$
-\end_inset
-
- , נתבונן ב 
-\begin_inset Formula $f$
-\end_inset
-
- ו 
-\begin_inset Formula $g$
-\end_inset
-
- המורחבים 
-\begin_inset Formula $f=\sum_{i=0}^{n+m}a_{i}$
-\end_inset
-
- כך ש- 
-\begin_inset Formula $a_{i}=0$
-\end_inset
-
- לכל 
-\begin_inset Formula $i>n$
-\end_inset
-
-, ו 
-\begin_inset Formula $g=\sum_{j=0}^{n+m}b_{j}$
-\end_inset
-
- כך ש- 
-\begin_inset Formula $b_{j}=0$
-\end_inset
-
- לכל 
-\begin_inset Formula $j>m$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
 הרכיב ה 
-\begin_inset Formula $l$
+\begin_inset Formula $j$
 \end_inset
 
  של 
@@ -329,16 +293,12 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 י המכפלה
 \begin_inset Formula 
 \[
-\gamma_{l}=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n+1-l}\\
+\gamma_{j}=\left(\alpha_{m-1},\ldots,\alpha_{0},\beta_{n-1},\ldots,\beta_{0}\right)\begin{pmatrix}a_{n+1-j}\\
 \vdots\\
-a_{n+i-l}\\
+a_{n+m-j}\\
+b_{m+1-j}\\
 \vdots\\
-a_{n+m-l}\\
-b_{m+1-l}\\
-\vdots\\
-b_{m+i-l}\\
-\vdots\\
-b_{n+m+l}
+b_{n+m-j}
 \end{pmatrix}\poi
 \]
 
@@ -349,18 +309,22 @@ b_{n+m+l}
 
 \begin_layout Standard
 כאשר 
-\begin_inset Formula $1\le i\le m$
+\begin_inset Formula $1\le j\le n+m$
 \end_inset
 
 ,
 \end_layout
 
 \begin_layout Standard
-נרשום את זה כסכום של טורים, הטור הראשון הוא 
-\begin_inset Formula $\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-l}$
+נרשום 
+\begin_inset Formula $\gamma_{j}$
 \end_inset
 
-, והטור השני האינדקס מתחיל 
+ כסכום של טורים, הטור הראשון הוא 
+\begin_inset Formula $\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}$
+\end_inset
+
+, ובטור השני האינדקס מתחיל 
 \begin_inset Formula $m+1$
 \end_inset
 
@@ -369,7 +333,7 @@ b_{n+m+l}
 \end_inset
 
 , ונקבל 
-\begin_inset Formula $\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-l}$
+\begin_inset Formula $\sum_{i=m+1}^{n+m}\beta_{n+m-i}b_{i-j}$
 \end_inset
 
 
@@ -383,7 +347,7 @@ b_{n+m+l}
 כ 
 \begin_inset Formula 
 \[
-\gamma_{l}=\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-l}+\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-l}\poi
+\gamma_{j}=\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}+\sum_{i=m+1}^{n+m}\beta_{n+m-i}b_{i-j}\poi
 \]
 
 \end_inset
@@ -392,30 +356,14 @@ b_{n+m+l}
 \end_layout
 
 \begin_layout Standard
-נתבונן באינדקסים של המקדמים 
-\begin_inset Formula $m-i,n+i-l$
-\end_inset
-
- ו- 
-\begin_inset Formula $n+m-i,i-l$
-\end_inset
-
- ,
+נתבונן באינדקסים של המקדמים,
 \end_layout
 
 \begin_layout Standard
-נשים לב שאם נסכום את הזוגות של האינדקסים המתאימיםנקבל שהסכום הינו 
-\begin_inset Formula $n+m-l$
-\end_inset
-
- כלומר הסכום אינו תלוי בשורה אלא רק בעמודה.
-\end_layout
-
-\begin_layout Standard
-נתייחס לביטוי שקבלנו כפולינום 
+נוכיח ש-
 \begin_inset Formula 
 \[
-\left(\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-l}+\sum_{m+1}^{n+m}\beta_{n+m-i}b_{i-l}\right)x^{m+n-l}
+pf+qg=\sum_{j}\gamma_{j}x^{j}
 \]
 
 \end_inset
@@ -424,39 +372,121 @@ b_{n+m+l}
 \end_layout
 
 \begin_layout Standard
-נחשב את המכפלה 
-\begin_inset Formula $pf+qg$
+ובזה נסיים את ההוכחה.
+\end_layout
+
+\begin_layout Standard
+נחקור את הביטוי 
+\begin_inset Formula 
+\[
+\gamma_{j}=\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}+\sum_{i=m+1}^{n+m}\beta_{n+m-i}b_{i-j}\poi
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-
-\series bold
-===================== צריך לסיים
+נחקור כל אחד מהמחוברים בנפרד,
 \end_layout
 
 \begin_layout Standard
-נמצא את המקדם 
-\begin_inset Formula $x^{n+m-l}$
+נבצע את החלפת אינדקסים 
+\begin_inset Formula $i=m-k$
 \end_inset
 
- עבור 
+, 
+\begin_inset Formula $1\le i\le m$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $0\le k\le m-1$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+\sum_{i=1}^{m}\alpha_{m-i}a_{n+i-j}=\sum_{k=0}^{m-1}\alpha_{k}a_{n+m-k-j}=\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+) השוויון האחרון נובע מכך ש 
+\begin_inset Formula $\alpha_{m}=0$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+בדומה עבור הביטוי השני נבצע את ההחלפת האינדקסים 
+\begin_inset Formula $i=m+n-k$
+\end_inset
+
+, 
+\begin_inset Formula $m+1\le i\le m+1$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $0\le k\le n-1$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{i=m+1}^{n+m}\beta_{n+m-i}b_{i-j}=\sum_{k=0}^{n-1}\beta_{k}b_{m+n-k-j}=\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}
+\]
+
+\end_inset
+
+) השוויון האחרון נובע מכך ש 
+\begin_inset Formula $\beta_{n}=0$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ קבלנו כי 
+\begin_inset Formula 
+\[
+\gamma_{j}=\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבצע החלפת אינדקסים 
+\begin_inset Formula $j=m+n-l$
+\end_inset
+
+, 
+\begin_inset Formula $0\le j\le n+m$
+\end_inset
+
+ ולכן 
 \begin_inset Formula $0\le l\le n+m$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-נבחר
-\end_layout
-
-\begin_layout Standard
+,
 \begin_inset Formula 
 \[
-\sum_{i=1}^{n}a_{i}x^{i}\sum_{\tau=1}^{m}\alpha_{\tau}x^{\tau}+\sum_{j=0}^{m}b_{j}x^{j}\sum_{k=1}^{n}\beta_{k}x^{k}=x^{0}\left(a_{0}\alpha_{0}+b_{0}\beta_{0}\right)+x^{1}\left(a_{0}\alpha_{1}+a_{1}\alpha_{0}+b_{0}\beta_{1}+b_{1}\beta_{0}\right)+\ldots+x^{n+m-1}\left(\right)
+\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}=\sum_{k=0}^{m}\alpha_{k}a_{l-k}+\sum_{k=0}^{n}\beta_{k}b_{l-k}\poi
 \]
 
 \end_inset
@@ -465,34 +495,102 @@ b_{n+m+l}
 \end_layout
 
 \begin_layout Standard
-נבדוק את כל הקומבינציות האפשריות ש 
-\begin_inset Formula $i+\tau=n+m-l$
-\end_inset
-
- ו 
-\begin_inset Formula $j+k=n+m-l$
+עבור המקרה 
+\begin_inset Formula $m>l$
 \end_inset
 
  
 \end_layout
 
 \begin_layout Standard
-ומכיון 
+מכיון שלכל 
+\begin_inset Formula $k>l$
+\end_inset
+
+ 
+\begin_inset Formula $a_{l-k}=0$
+\end_inset
+
+, נקבל את השויון
+\begin_inset Formula 
+\[
+\sum_{k=0}^{m}\alpha_{k}a_{l-k}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}\poi
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-נסמן 
-\begin_inset Formula $l=l+1$
+עבור המקרה 
+\begin_inset Formula $m<l$
 \end_inset
 
- נקבל ש 
+
+\end_layout
+
+\begin_layout Standard
+מכיון שלכל 
+\begin_inset Formula $k\ge m$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{k}=0$
+\end_inset
+
+ מכיון ש 
+\begin_inset Formula $\deg p=m-1$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+\sum_{k=0}^{m}\alpha_{k}a_{l-k}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובאותו אופן מתקיים 
+\begin_inset Formula 
+\[
+\sum_{k=0}^{n}\beta_{k}b_{l-k}=\sum_{k=0}^{l}\beta_{k}b_{l-k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קבלנו ש 
+\begin_inset Formula 
+\[
+\gamma_{j}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}+\sum_{k=0}^{l}\beta_{k}b_{l-k}\,\,\left(*\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את המכפלה
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\sum_{i=1}^{n+1}a_{i-1}x^{i-1}\sum_{l=1}^{m}\alpha_{l-1}x^{l-1}
-\]
+\begin{align*}
+\boxed{pf+qg} & =\sum_{\tau}\alpha_{\tau}x^{\tau}\sum_{k}a_{k}x^{k}+\sum_{\tau}\beta_{\tau}x^{\tau}\sum_{k}b_{k}x^{k}\\
+ & =\sum_{l}\sum_{k+\tau=l}\alpha_{\tau}a_{k}x^{l}+\sum_{l}\sum_{k+\tau=l}\beta_{\tau}b_{k}x^{l}\\
+ & =\sum_{l}\sum_{k=0}^{l}\alpha_{k}a_{l-k}x^{l}+\sum_{l}\sum_{k=0}^{l}\beta_{k}b_{l-k}x^{l}\\
+ & =\sum_{l}\left(\sum_{k=0}^{l}\alpha_{k}a_{l-k}+\sum_{k=0}^{l}\beta_{k}b_{l-k}\right)x^{l}\\
+\left(*\right) & =\boxed{\sum_{k}\gamma_{j}x^{k}}\\
+\end{align*}
 
 \end_inset
 
