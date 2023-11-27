@@ -318,7 +318,7 @@ thispagestyle{empty}
 
 \begin_layout Standard
 \noindent
-\align center
+\align right
 
 \size largest
 תוכן העניינים:
@@ -327,27 +327,12 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
+\begin_inset space \hspace*{}
+\length 1.5cm
 \end_inset
 
 הקדמה
-\begin_inset Formula $...........................................................................................................$
+\begin_inset Formula $.................................................................................$
 \end_inset
 
 1
@@ -356,27 +341,12 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
-\begin_inset space ~
+\begin_inset space \hspace*{}
+\length 1.5cm
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-פרק 1
-\begin_inset Formula $..............................................................................................................$
+מטריצת סילבסטר
+\begin_inset Formula $...................................................................$
 \end_inset
 
 2
@@ -385,27 +355,12 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
-\begin_inset space ~
+\begin_inset space \hspace*{}
+\length 1.5cm
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-פרק 2
-\begin_inset Formula $..............................................................................................................$
+משפט הרזולטנט
+\begin_inset Formula $.....................................................................$
 \end_inset
 
 6
@@ -414,27 +369,12 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
-\begin_inset space ~
+\begin_inset space \hspace*{}
+\length 1.5cm
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-פרק 3
-\begin_inset Formula $.............................................................................................................$
+תוצאות ממשפט הרזולטנט
+\begin_inset Formula $........................................................$
 \end_inset
 
 
@@ -445,27 +385,12 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
+\begin_inset space \hspace*{}
+\length 1.5cm
 \end_inset
 
 בבליוגרפיה
-\begin_inset Formula $......................................................................................................$
+\begin_inset Formula $............................................................................$
 \end_inset
 
 
@@ -6003,12 +5928,33 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \end_layout
 
 \begin_layout Standard
-\align left
-\begin_inset Formula $\text{McConnell\,(1957)\,.Applications\,of\,Tensor Analysis\,.Dover\,Publications.}$
+\noindent
+\align center
+
+\series bold
+\size giant
+בבליוגרפיה
+\begin_inset Newline newline
 \end_inset
 
- 
-\begin_inset Formula $\left[1\right].$
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ֵ
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+
+\size footnotesize
+\lang english
+\begin_inset Formula $\left[1\right].\,Mc\,Connell\,(1957).\,Applications\,of\,TensorAnalysis\,.Dover\,Publications.$
 \end_inset
 
 
@@ -6016,14 +5962,13 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 
 \begin_layout Standard
 \align left
-\begin_inset Formula $\text{Rotman, Joseph J. (2006), A First Course in Abstract Algebra with Applications (3rd ed.), Prentice-Hall}$
+
+\size footnotesize
+\lang english
+\begin_inset Formula $\left[2\right].\,Rotman,Joseph\,J.\,(2006),\,A\,First\,Coursein\,Abstract\,Algebrawith\,Applications\,(3rded.),\,Prentice-Hall$
 \end_inset
 
- .
-\begin_inset Formula $\left[2\right]$
-\end_inset
-
-
+.
 \end_layout
 
 \end_body
