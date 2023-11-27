@@ -325,6 +325,25 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 הקדמה
 \begin_inset Formula $...........................................................................................................$
 \end_inset
@@ -335,6 +354,25 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 פרק 1
 \begin_inset Formula $..............................................................................................................$
 \end_inset
@@ -345,6 +383,25 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 פרק 2
 \begin_inset Formula $..............................................................................................................$
 \end_inset
@@ -355,6 +412,25 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 פרק 3
 \begin_inset Formula $.............................................................................................................$
 \end_inset
@@ -367,6 +443,25 @@ thispagestyle{empty}
 \begin_layout Standard
 
 \size larger
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 בבליוגרפיה
 \begin_inset Formula $......................................................................................................$
 \end_inset
@@ -653,26 +748,6 @@ setcounter{page}{1}
 \begin_inset Formula $\left\{ 1,2,\ldots,n\right\} $
 \end_inset
 
-, כאשר אם עבור השורה ה 
-\begin_inset Formula $i$
-\end_inset
-
- ניקח את האיבר בעמודה ה 
-\begin_inset Formula $j$
-\end_inset
-
- נקבל את 
-\begin_inset Quotes eld
-\end_inset
-
-ההזזה
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset Formula $i\to j$
-\end_inset
-
 , ו- 
 \begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
 \end_inset
@@ -690,9 +765,6 @@ setcounter{page}{1}
 
 \begin_layout Standard
 תהי מטריצה
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
 A=\begin{pmatrix}2 & 3 & 1\\
@@ -758,12 +830,6 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \end_layout
 
 \begin_layout Standard
-השורה הראשונה מייצגת את השורה במטריצה והשורה השניה בתמורה מייצגת את העמודה
- במטריצה, ולכן במקרה זה נבחר מהשורה הראשונה את האיבר מהעמודה הראשונה, מהשורה
- השניה את האיבר בעמודה השניה, וכן הלאה.
-\end_layout
-
-\begin_layout Standard
 תמורת הזהות היא זוגית ולכן 
 \begin_inset Formula $\text{sgn}\left(\sigma\right)=1$
 \end_inset
@@ -786,12 +852,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \end{pmatrix}\in S_{3}$
 \end_inset
 
-, במקרה זה מהשורה הראשונה נבחר את האיבר מהעמודה השלישית, מהשורה השניה את
- האיבר מהעמודה הראשונה, ומהשורה השלישית את האיבר בעמודה השניה.
-\end_layout
-
-\begin_layout Standard
-ע
+, ע
 \begin_inset Quotes erd
 \end_inset
 
@@ -891,7 +952,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 ולאחר חישוב כל התמורות נקבל
 \begin_inset Formula 
 \begin{align*}
-\text{det}\left(A\right) & =\sum_{\sigma\in S_{3}}\text{sgn}\left(\sigma\right)\sigma_{1,\sigma\left(1\right)}\sigma_{2,\sigma\left(2\right)}\cdots\sigma_{n,\sigma\left(n\right)}\\
+\text{det}\left(A\right) & =\sum_{\sigma\in S_{3}}\text{sgn}\left(\sigma\right)\alpha_{1,\sigma\left(1\right)}\alpha_{2,\sigma\left(2\right)}\cdots\alpha_{n,\sigma\left(n\right)}\\
  & =2\cdot2\cdot3-2\cdot3\cdot5-3\cdot4\cdot3+3\cdot3\cdot1-1\cdot2\cdot1+1\cdot4\cdot5\\
  & =12-30-36+9-2+20=25\poi
 \end{align*}
@@ -954,6 +1015,15 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \end_layout
 
 \begin_layout Standard
+מטריצת סילבסטר של 
+\begin_inset Formula $f,g$
+\end_inset
+
+ מסומנת ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
 \begin_inset Formula $\text{Syl}\left(f,g\right)=\SYL nmfg$
 \end_inset
 
@@ -961,7 +1031,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $f,g$
 \end_inset
 
- היא מטריצה מגודל 
+, המטריצה מגודל 
 \begin_inset Formula $\left(n+m\right)\times\left(n+m\right)$
 \end_inset
 
@@ -1010,15 +1080,16 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $a_{n}$
 \end_inset
 
- בעמודה שלאחריה 
+, בעמודה שלאחריה 
 \begin_inset Formula $a_{n-1}$
 \end_inset
 
- וכן הלאה עד 
+, וכן הלאה עד 
 \begin_inset Formula $a_{0}$
 \end_inset
 
- ,בפולינום 
+.
+ בפולינום 
 \begin_inset Formula $f$
 \end_inset
 
@@ -1034,21 +1105,23 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $n$
 \end_inset
 
- העמודות הראשונות נשארו 
+ העמודות הראשונות.
+ נשארו 
 \begin_inset Formula $m$
 \end_inset
 
- עמודות אותן נאכלס עם אפסים,
+ עמודות אותן נאכלס עם אפסים.
 \end_layout
 
 \begin_layout Standard
-בשורה השניה נבצע את אותו הדבר עם שינוי קטן 
+בשורה השניה נבצע את אותו הדבר עם שינוי קטן: 
 \begin_inset Formula $a_{n}$
 \end_inset
 
  יזוז אחד ימינה כלומר נתחיל את האיכלוס של התאים מהעמודה השניה, ואת העמודה
- הראשונה נאכלס באפס, ובאופן הזה נמלא את שורות המטריצה כשכל פעם מתחילים מהעמודה
- הבאה, עד השורה ה 
+ הראשונה נאכלס באפס.
+ ובאופן הזה נמלא את שורות המטריצה כשכל פעם מתחילים מהעמודה הבאה, עד השורה
+ ה 
 \begin_inset Formula $m$
 \end_inset
 
@@ -1076,7 +1149,8 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $g$
 \end_inset
 
-, בשורה ה 
+.
+ בשורה ה 
 \begin_inset Formula $m+1$
 \end_inset
 
@@ -1088,11 +1162,12 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $g_{m-1}$
 \end_inset
 
- וכך נמשיך עד העמודה ה 
+, וכך נמשיך עד העמודה ה 
 \begin_inset Formula $m$
 \end_inset
 
-, ואת שאר העמודות נאכלס באפסים, בשורה ה 
+, ואת שאר העמודות נאכלס באפסים.
+ בשורה ה 
 \begin_inset Formula $m+2$
 \end_inset
 
@@ -1120,11 +1195,12 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $n,m$
 \end_inset
 
- בהתאמה 
+ בהתאמה.
+ 
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
- מוגדרת באופן הבא, האיבר במיקום 
+ מוגדרת באופן הבא: האיבר במיקום 
 \begin_inset Formula $\left(i,j\right)$
 \end_inset
 
@@ -1144,28 +1220,29 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $m+1\leq i\leq m+n$
 \end_inset
 
-, 
+.
+ 
 \begin_inset Formula $a_{i}=0$
 \end_inset
 
  אם 
-\begin_inset Formula $i>n$
+\begin_inset Formula $\deg f>n$
 \end_inset
 
  או 
-\begin_inset Formula $i<0$
+\begin_inset Formula $\deg f<0$
 \end_inset
 
-, 
+, ו 
 \begin_inset Formula $b_{i}=0$
 \end_inset
 
  אם 
-\begin_inset Formula $i>m$
+\begin_inset Formula $\deg g>m$
 \end_inset
 
  או 
-\begin_inset Formula $i<0$
+\begin_inset Formula $\deg g<0$
 \end_inset
 
 .
@@ -1198,7 +1275,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $n=3$
 \end_inset
 
- 
+ ו- 
 \begin_inset Formula $m=2$
 \end_inset
 
@@ -1266,6 +1343,10 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \end_inset
 
  היא מטריצה משולשת.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1326,23 +1407,23 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \begin_inset Formula $f\left(x\right),g\left(x\right)$
 \end_inset
 
- , מעל שדה 
+ ממעלה 
+\begin_inset Formula $n,m$
+\end_inset
+
+ בהתאמה , מעל שדה 
 \begin_inset Formula $F$
+\end_inset
+
+ יהיו 
+\begin_inset Formula $n,m\in\mathbb{N}$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-נגדיר את הרזולטנט שלהם להיות 
-\end_layout
-
-\begin_layout Standard
-יהיו 
-\begin_inset Formula $n,m\in\mathbb{N}$
-\end_inset
-
-
+נגדיר את הרזולטנט שלהם 
 \end_layout
 
 \begin_layout Standard
@@ -1353,7 +1434,7 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \begin_inset Formula $n=m=0$
 \end_inset
 
-, 
+.
 \end_layout
 
 \begin_layout Standard
@@ -1483,43 +1564,6 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_layout
 
 \begin_layout Standard
-ביתר פירוט:
-\end_layout
-
-\begin_layout Standard
-אם 
-\begin_inset Formula $\deg{\left(f\right)}\le k<m$
-\end_inset
-
- נגדיר 
-\begin_inset Formula $\hat{f}\left(x\right)=\sum_{i=0}^{k}a_{i}\cdot x^{i}+\sum_{i=k+1}^{n}0\cdot x^{i}$
-\end_inset
-
- כאשר 
-\begin_inset Formula $a_{i}$
-\end_inset
-
- הם המקדמים של הפולינום 
-\begin_inset Formula $f$
-\end_inset
-
-, ולכן 
-\begin_inset Formula $f=\hat{f}$
-\end_inset
-
-.
- ובאותו אופן נעשה עם הפולינום 
-\begin_inset Formula $g$
-\end_inset
-
- אם 
-\begin_inset Formula $\deg g<m$
-\end_inset
-
- .
-\end_layout
-
-\begin_layout Standard
 באופן כללי נמשיך להשתמש בסימון 
 \begin_inset Formula $\res$
 \end_inset
@@ -1533,6 +1577,10 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1583,6 +1631,10 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1624,11 +1676,8 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \begin_inset Formula $K$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-נוסיף לשדה 
+.
+ נוסיף לשדה 
 \begin_inset Formula $F$
 \end_inset
 
@@ -1645,7 +1694,11 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 
 \begin_layout Standard
 אם נסמן 
-\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,\,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\begin_inset Formula $g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}$
 \end_inset
 
 , אז 
@@ -1664,8 +1717,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_layout
 
 \begin_layout Standard
-ואז
-\begin_inset Formula $\deg{\syl}$
+\begin_inset Formula $\det\left(\syl\right)$
 \end_inset
 
  היא בעצמה איבר של 
@@ -1684,7 +1736,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_layout
 
 \begin_layout Standard
-ולכן נוכל להתייחס 
+ולכן נוכל להתייחס ל- 
 \begin_inset Formula $\det\left(\syl\right)$
 \end_inset
 
@@ -1692,11 +1744,11 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_layout
 
 \begin_layout Standard
-מכאן ולהבא כשנזכיר את השדה 
+מכאן ולהבא, כשנזכיר את השדה 
 \begin_inset Formula $F$
 \end_inset
 
- כוונתנו ל- 
+, כוונתנו ל- 
 \begin_inset Formula $F$
 \end_inset
 
@@ -1719,15 +1771,11 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \begin_inset Formula $f\left(x\right)=a_{2}x^{2}+a_{1}x+a_{0}$
 \end_inset
 
- 
+ ו- 
 \begin_inset Formula $g\left(x\right)=b_{1}x+b_{0}$
 \end_inset
 
-,
-\end_layout
-
-\begin_layout Standard
-נחשב את הדטרמיננטה של מטריצת סילבסטר 
+, נחשב את הדטרמיננטה של מטריצת סילבסטר 
 \begin_inset Formula 
 \begin{align*}
 \res & =\text{det}\left(\SYL 21fg\right)\\
@@ -1795,7 +1843,11 @@ b_{1} & b_{0} & 0\\
 
 \begin_layout Standard
 יהיו 
-\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\begin_inset Formula $g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}$
 \end_inset
 
  פולינומים מעל שדה 
@@ -1856,7 +1908,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $1.1$
 \end_inset
 
- נבחר 
+ ונבחר 
 \begin_inset Formula $\sigma\in S_{n+m}$
 \end_inset
 
@@ -1869,7 +1921,11 @@ b_{1} & b_{0} & 0\\
 
 \begin_layout Standard
 כלומר עבור 
-\begin_inset Formula $\sigma_{i_{1},j_{1}},\sigma_{i_{2},j_{2}}$
+\begin_inset Formula $\sigma_{i_{2},j_{2}}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $\sigma_{i_{1},j_{1}}$
 \end_inset
 
  אם 
@@ -1881,18 +1937,26 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
  לכל 
-\begin_inset Formula $i_{k},j_{l}$
+\begin_inset Formula $j_{l}$
 \end_inset
 
-, 
-\begin_inset Formula $1\le k,l\le n+m$
+ ו 
+\begin_inset Formula $i_{k}$
+\end_inset
+
+ עם 
+\begin_inset Formula $l\le n+m$
+\end_inset
+
+ ו 
+\begin_inset Formula $1\le k$
 \end_inset
 
 , ולכן בסה
 \begin_inset Quotes erd
 \end_inset
 
-כ מספר האיברים במכפלה הינו כמספר השורות )או העמודות( וזה בדיוק 
+כ מספר האיברים במכפלה הינו כמספר השורות )או העמודות(, וזה בדיוק 
 \begin_inset Formula $n+m$
 \end_inset
 
@@ -1932,8 +1996,33 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
 \numeric off
- מ- 
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מ- 
 \begin_inset Formula $m$
 \end_inset
 
@@ -1953,7 +2042,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-כ סכום החזקות של האיבר 
+כ סכום החזקות של 
 \begin_inset Formula $\sigma$
 \end_inset
 
@@ -1973,11 +2062,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $g\left(x\right)$
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
-כנדרש.
+ כנדרש.
 \begin_inset Newline newline
 \end_inset
 
@@ -2096,7 +2181,8 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-את השורה הראשונה נעביר להיות בשורה השניה את השניה לשלישית וכן הלאה עד האחרונה.
+את השורה הראשונה נעביר להיות בשורה השניה, את השניה לשלישית, וכן הלאה עד
+ האחרונה.
  את האחרונה נעביר להיות השורה הראשונה.
 \end_layout
 
@@ -2118,7 +2204,7 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
  פעמים.
- כך נקבל שהשורה הראשונה )של המטריצה המקורית( תיהיה במקום ה 
+ כך נקבל שהשורה הראשונה )של המטריצה המקורית( תהיה במקום ה 
 \begin_inset Formula $n+1$
 \end_inset
 
@@ -2130,7 +2216,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $f$
 \end_inset
 
- תיהיה ב 
+ תהיה ב 
 \begin_inset Formula $m$
 \end_inset
 
@@ -2142,7 +2228,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $m$
 \end_inset
 
- )של המטריצה מקורית( תיהיה בשורה הראשונה כלומר 
+ )של המטריצה מקורית( תהיה בשורה הראשונה כלומר 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2178,7 +2264,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $^{\left[2\right]}$
 \end_inset
 
-( ולכן כל מחזור כזה הוא באורך 
+( וכל מחזור כזה הוא באורך 
 \begin_inset Formula $l=n+m-1$
 \end_inset
 
@@ -2285,7 +2371,11 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
 
-\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,\,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\begin_inset Formula $g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}$
 \end_inset
 
  פולינומים מעל שדה 
@@ -2300,14 +2390,14 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $1.7$
 \end_inset
 
-.
+(.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula $.\boldsymbol{2}$
 \end_inset
 
- ללא הגבלת כלליות ניתן להניח ש 
+ ללא הגבלת הכלליות, ניתן להניח ש 
 \begin_inset Formula $F$
 \end_inset
 
@@ -2480,7 +2570,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $n,m>0$
 \end_inset
 
- 
+, 
 \begin_inset Formula 
 \[
 \Resb nm=a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\,\,\poi\left(2.1\right)
@@ -2562,7 +2652,7 @@ b_{1} & b_{0} & 0\\
 נסמן 
 \begin_inset Formula 
 \[
-\xi_{1}=0,\xi_{2}=2,\xi_{3}=-2\,\,\,\,\eta_{1}=-1,\eta_{2}=3
+\xi_{1}=0,\,\xi_{2}=2,\,\xi_{3}=-2,\,\eta_{1}=-1,\,\eta_{2}=3
 \]
 
 \end_inset
@@ -2629,10 +2719,7 @@ b_{1} & b_{0} & 0\\
 \begin_layout Standard
 נבחין שמהשורה הראשונה תמיד נבחר את העמודה הראשונה או השלישית אחרת המכפלה
  תתאפס.
-\end_layout
-
-\begin_layout Standard
-ומאותו הטעם מהשורה החמישית נבחר את האיבר החמישי ולכן התמורות יהיו מהצורה
+ ומאותו הטעם מהשורה החמישית נבחר את האיבר החמישי ולכן התמורות יהיו מהצורה
  
 \end_layout
 
@@ -2652,7 +2739,7 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-לאחר שנשלים את כל התמורות נקבל את התמורות הבאות:
+ביתר דיוק נקבל את התמורות הבאות:
 \begin_inset Formula 
 \[
 \underbrace{\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
@@ -2709,23 +2796,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $2.1$
 \end_inset
 
-, נשתמש בצורה שקולה משפט 
-\begin_inset Formula $2.2$
-\end_inset
-
-, ומכיון שכך תחילה נוכיח את משפט 
-\begin_inset Formula $2.2$
-\end_inset
-
- ולאחר מיכן נפנה להוכחה של משפטים 
-\begin_inset Formula $2.1$
-\end_inset
-
- ו 
-\begin_inset Formula $2.2$
-\end_inset
-
-.
+, נוכיח תחילה שהוא שקול למשפט הבא.
 \end_layout
 
 \begin_layout Standard
@@ -2767,7 +2838,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $F$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2823,19 +2894,16 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-טענה זו נובעת כמעט ישירות מהמשפט היסודי של האלגברה.
-\end_layout
-
-\begin_layout Standard
-נציין שלפי המשפט היסודי של האלגברה מעל שדה 
-\begin_inset Formula $F$
-\end_inset
-
- ניתן לרשום את 
+טענה זו נובעת כמעט ישירות מהמשפט היסודי של האלגברה כי לפי זה ניתן לרשום
+ את 
 \begin_inset Formula $f,g$
 \end_inset
 
- כמכפלה של גורמים לינאריים.
+ כמכפלה של גורמים לינאריים מעל שדה 
+\begin_inset Formula $F$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2876,7 +2944,7 @@ g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\text{\poi}
 \begin_inset Formula $g$
 \end_inset
 
- נקבל 
+ ונקבל 
 \end_layout
 
 \begin_layout Standard
@@ -3103,30 +3171,6 @@ R\left(f,g+hf\right)=\res\poi
 \end_layout
 
 \begin_layout Standard
-הדרישה ש 
-\begin_inset Formula $\text{deg}\left(h\right)\leq n-m$
-\end_inset
-
- במקרה הראשון )ובדומה 
-\begin_inset Formula $\text{deg}\left(h\right)\leq m-n$
-\end_inset
-
-( הכרחית, נניח ש- 
-\begin_inset Formula $\deg h>n-m$
-\end_inset
-
- ולכן 
-\begin_inset Formula $\deg{gh}>n-m+m=n$
-\end_inset
-
- ולכן גם 
-\begin_inset Formula $\deg{f+hg}>n$
-\end_inset
-
- ואז השוויון לא יוכל להתקיים.
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 \bar under
@@ -3134,7 +3178,7 @@ R\left(f,g+hf\right)=\res\poi
 \end_layout
 
 \begin_layout Standard
-נוכיח באינדוקציה על המעלה של 
+ההוכחה באינדוקציה על המעלה של 
 \begin_inset Formula $h$
 \end_inset
 
@@ -3143,30 +3187,10 @@ R\left(f,g+hf\right)=\res\poi
 \end_inset
 
  ונסמן 
-\begin_inset Formula $h=\sum_{l=\rho}^{k}h_{\rho}x^{\rho}$
+\begin_inset Formula $h=\sum_{\rho=0}^{k}h_{\rho}x^{\rho}$
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
-תחילה נוכיח שהמשפט מתקיים עבור מונום יחיד 
-\begin_inset Formula $cx^{\rho}$
-\end_inset
-
- עם 
-\begin_inset Formula $\rho\in\mathbb{Z}$
-\end_inset
-
-, ובפרט הוא מתקיים עבור 
-\begin_inset Formula $h_{\rho}x^{\rho}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-נוכל להניח ללא הגבלת כלליות ש 
+, נוכל להניח ללא הגבלת כלליות ש 
 \begin_inset Formula $k=n-m$
 \end_inset
 
@@ -3182,6 +3206,22 @@ R\left(f,g+hf\right)=\res\poi
 \end_layout
 
 \begin_layout Standard
+תחילה נוכיח שהמשפט מתקיים עבור מונום יחיד 
+\begin_inset Formula $cx^{\rho}$
+\end_inset
+
+ עם 
+\begin_inset Formula $\rho\in\mathbb{N}$
+\end_inset
+
+, ובפרט הוא מתקיים עבור 
+\begin_inset Formula $h_{\rho}x^{\rho}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 מכיון ש 
 \begin_inset Formula $m<n$
 \end_inset
@@ -3192,8 +3232,8 @@ R\left(f,g+hf\right)=\res\poi
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\begin{pmatrix}a_{n}+cb_{n-\rho} & a_{n-1}+cb_{n-\rho-1} & a_{n-2}+cb_{n-2} & \ldots & 0 & 0 & 0\\
-0 & a_{n}+h_{\rho}b_{n-\rho} & a_{n-1}+cb_{n-1} & \ldots & 0 & 0 & 0\\
+\begin{pmatrix}a_{n}+cb_{n-\rho} & a_{n-1}+cb_{n-\rho-1} & a_{n-2}+cb_{n-\rho-2} & \ldots & 0 & 0 & 0\\
+0 & a_{n}+cb_{n-\rho} & a_{n-1}+cb_{n-1} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & a_{1}+cb_{1} & a_{0}+cb_{0} & 0\\
 0 & 0 & 0 & \ldots & a_{2}+cb_{2} & a_{1}+cb_{1} & a_{0}+cb_{0}\\
@@ -3202,7 +3242,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
 0 & 0 & 0 & \ldots & b_{1} & b_{0} & 0\\
 0 & 0 & 0 & \ldots & b_{2} & b_{1} & b_{0}
-\end{pmatrix}=\RES{}{}{f+\left(cx^{\rho}\right)g}g
+\end{pmatrix}=R\left(f+\left(cx^{\rho}\right)g,g\right)
 \]
 
 \end_inset
@@ -3219,7 +3259,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $cx^{\rho}$
 \end_inset
 
- מזיז את איברי 
+ מזיז ב 
+\begin_inset Formula $g$
+\end_inset
+
+ מקומות את המונומים של 
 \begin_inset Formula $g$
 \end_inset
 
@@ -3231,7 +3275,8 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $cx^{\rho}b_{j}x^{j}=cb_{j}x^{j+\rho}$
 \end_inset
 
-, ולאחר הצבה 
+.
+ לאחר הצבה 
 \begin_inset Formula $i=j+\rho$
 \end_inset
 
@@ -3251,7 +3296,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-מכך ש 
+כיון ש 
 \begin_inset Formula $\rho<n-m$
 \end_inset
 
@@ -3263,15 +3308,15 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\Syl{f+cx^{\rho}g}g$
 \end_inset
 
- הוא סכום של השורה המתאימה במטריצה 
-\begin_inset Formula $\syl$
+ הוא סכום של אותה שורה מוכפלת ב 
+\begin_inset Formula $c$
 \end_inset
 
- עם אחד השורות מ 
+ עם אחת השורות מ- 
 \begin_inset Formula $n$
 \end_inset
 
- השורות האחרונות וקומבינציה לינארית של שורות אחרות.
+ השורות האחרונות.
 \end_layout
 
 \begin_layout Standard
@@ -3287,12 +3332,12 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-י פעולות על השורות של המטריצה וקומבינציה לינארית של שורות אחרות.
+י פעולות של הוספת קומבינציה לינארית של שורות אחרות על שורה במטריצה.
  אבל הוספת קומבינציה לינארית של שורות לשורה אחרת במטריצה לא משנה את הדטרמיננטה
- ולכן:
+ לכן
 \begin_inset Formula 
 \[
-\boxed{\RES{}{}{f+\left(h_{\rho}x^{\rho}\right)g}g=\res}
+\boxed{R\left(f+\left(cx^{\rho}\right)g,g\right)=\res}
 \]
 
 \end_inset
@@ -3301,7 +3346,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-הנחת האינדוקציה:
+עתה נשלים את ההוכחה למקרה הכללי.
 \end_layout
 
 \begin_layout Standard
@@ -3309,7 +3354,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $k-1$
 \end_inset
 
- ונוכיח עבור פולינום ממעלה 
+ ונוכיח אותה עבור פולינום ממעלה 
 \begin_inset Formula $k$
 \end_inset
 
@@ -3323,10 +3368,10 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-\boxed{\RES{}{}{f+hg}g} & =\det\left(\Syl{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
+\boxed{R\left(f+hg,g\right)} & =\det\left(\Syl{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
  & =\det\left(\Syl{f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g}g\right)\\
 \text{induction step} & =\det\left(\Syl{f+\left(h_{k}x^{k}\right)g}g\right)\\
-\text{base case} & =\det\left(\syl\right)\\
+\text{monom case} & =\det\left(\syl\right)\\
  & =\boxed{\res}
 \end{align*}
 
@@ -3340,27 +3385,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-נשים לב שתוך כדאי שרשור השוויונות קבלנו ש 
-\begin_inset Formula 
-\[
-\Syl{f+hg}g=\syl\,\,\left(2.2\right)
-\]
-
+המקרה השני 
+\begin_inset Formula $\text{R\left(f,g+hf\right)}=\res$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-בשוויון זה נעשה שימוש בהמשך.
-\end_layout
-
-\begin_layout Standard
-עבור המקרה השני 
-\begin_inset Formula $\RES{}{}f{g+hf}=\res$
-\end_inset
-
- נקבל את השוויון באותו האופן.
+ מתקבל באותו האופן.
 \end_layout
 
 \begin_layout Standard
@@ -3440,7 +3469,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-הוכחה מתבססת על כך שאם המקדם של החזקה הגבוהה ביותר הוא
+ההוכחה מתבססת על כך שאם המקדם של החזקה הגבוהה ביותר הוא
 \family roman
 \series medium
 \shape up
@@ -3524,12 +3553,12 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-היא מטריצת סילבסטר,
+היא מטריצת סילבסטר.
 \end_layout
 
 \begin_layout Standard
 כלומר נניח ש 
-\begin_inset Formula $g_{m}=0$
+\begin_inset Formula $b_{m}=0$
 \end_inset
 
 .
@@ -3555,7 +3584,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-נבחין שאם נמחק את השורה הראשונה והעמודה הראשונה נקבל את המטריצה 
+ניתםן להבחין שאם נמחק את השורה הראשונה והעמודה הראשונה נקבל את המטריצה 
 \begin_inset Formula 
 \[
 \text{Syl}\left(f,\hat{g}\right)=\begin{pmatrix}a_{n} & a_{n-1} & a_{n-2} & \ldots & 0 & 0 & 0\\
@@ -3581,15 +3610,15 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\hat{g}\left(x\right)=\sum_{j=0}^{m-1}b_{j}x^{j}$
 \end_inset
 
- ומכיון ש 
+, מכיון ש 
 \begin_inset Formula $b_{m}=0$
 \end_inset
 
- אז 
+, 
 \begin_inset Formula $\hat{g}\left(x\right)=g\left(x\right)$
 \end_inset
 
-, ולכן אם נפתח את הדטרמיננטה 
+, לכן אם נפתח את הדטרמיננטה 
 \begin_inset Formula $\res$
 \end_inset
 
@@ -3608,45 +3637,22 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-בשביל לסיים את ההוכחה נגדיר את 
-\begin_inset Formula $g$
+באופן כללי אם 
+\begin_inset Formula $b_{i}=0$
 \end_inset
 
- לכל 
-\begin_inset Formula $\deg g\leq j\leq m$
+ עבור כל 
+\begin_inset Formula $i$
 \end_inset
 
- להיום עם מקדם
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $0$
+ כך ש- 
+\begin_inset Formula $r\le i<m$
 \end_inset
 
-, ונקבל
+ אז
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
 \res & =a_{n}\RES n{m-1}fg\\
@@ -3657,19 +3663,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-כאשר 
-\begin_inset Formula $m-r-1$
-\end_inset
-
- הוא המקדם הראשון שאינו 
-\begin_inset Formula $0$
-\end_inset
-
- .
+.
 \end_layout
 
 \begin_layout Standard
@@ -3727,10 +3721,6 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \end_inset
 
  נקבל
-\end_layout
-
-\begin_layout Standard
-ולכן 
 \begin_inset Formula 
 \[
 \left(-1\right)^{nm}\RES mngf=\left(-1\right)^{nm}b_{m}^{n-k}\RES mkgf\poi
@@ -3768,14 +3758,14 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 
 \begin_layout Standard
 ומכיון של 
-\begin_inset Formula $m+n+k$
+\begin_inset Formula $n+k$
 \end_inset
 
  ו 
 \begin_inset Formula $n-k$
 \end_inset
 
- אותה זוגיות נקבל לאחר כל השוויונות 
+ חולקים אותה זוגיות, נקבל לאחר כל השוויונות 
 \begin_inset Formula 
 \[
 \boxed{\res=\left(-1\right)^{m\left(n-k\right)}b_{m}^{n-k}\RES kmfg}
@@ -3818,43 +3808,23 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \noun default
 \color inherit
 2.1
-\family roman
-\shape up
-\size normal
-\emph off
-\numeric off
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- ו 
-\family default
-\shape default
-\size default
-\emph default
-\numeric on
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2.2
 \end_layout
 
 \begin_layout Standard
-נוכיח באינדוקציה על הגודל של המטריצה 
+ההוכחה באינדוקציה על הגודל של המטריצה 
 \begin_inset Formula $n+m$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-לפי המוסכמות בראש הפרק והמשפט היסודי של האלגברה נוכל לרשום את 
-\begin_inset Formula $f,g$
+לפי המוסכמות בראש הפרק והמשפט היסודי של האלגברה, נוכל לרשום את 
+\begin_inset Formula $f$
+\end_inset
+
+ ו- 
+\begin_inset Formula $g$
 \end_inset
 
  כמכפלה של גורמים לינאריים
@@ -3877,7 +3847,11 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $m=n=0$
 \end_inset
 
- הטענה מתקיימת.
+ הטענה מתקיימת לפי ההגדרה של 
+\begin_inset Formula $\syl$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -3889,7 +3863,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $m>0$
 \end_inset
 
- לפי הבחנה
+, לפי הבחנה
 \family roman
 \series medium
 \shape up
@@ -3919,7 +3893,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $1.3$
 \end_inset
 
- 
+,
 \begin_inset Formula 
 \[
 \res=b_{0}^{n}\poi
@@ -3931,7 +3905,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \end_layout
 
 \begin_layout Standard
-ובדומה עבור 
+בדומה עבור 
 \begin_inset Formula $m=0$
 \end_inset
 
@@ -3951,6 +3925,34 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \end_layout
 
 \begin_layout Standard
+עתה נניח ש- 
+\begin_inset Formula $0<m-n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי המוסכמות בראש הפרק והמשפט היסודי של האלגברה, נוכל לרשום את 
+\begin_inset Formula $f$
+\end_inset
+
+ ו- 
+\begin_inset Formula $g$
+\end_inset
+
+ כמכפלה של גורמים לינאריים
+\begin_inset Formula 
+\[
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\poi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 הנחת האינדוקציה:
 \end_layout
 
@@ -3959,7 +3961,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 \begin_inset Formula $2.1$
 \end_inset
 
- נכון לכל ערך מטריצה קטנה מ 
+ נכון לכל מטריצה ממעלה קטנה מ 
 \begin_inset Formula $n+m$
 \end_inset
 
@@ -4008,17 +4010,21 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right
 
 \begin_layout Standard
 קיימים פולינומים 
-\begin_inset Formula $q,r$
+\begin_inset Formula $r$
 \end_inset
 
- כך ש 
+ ו- 
+\begin_inset Formula $q$
+\end_inset
+
+ עם 
 \begin_inset Formula $\text{deg}\left(r\right)<\text{deg}\left(f\right)$
 \end_inset
 
- ומתקיים
+ כך ש-
 \begin_inset Formula 
 \[
-g=qf+r
+g=qf+r\poi
 \]
 
 \end_inset
@@ -4039,7 +4045,7 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-ולכן נקבל את השוויונות הבאים
+ולכן נקבל את השוויונות הבאים:
 \end_layout
 
 \begin_layout Standard
@@ -4054,11 +4060,11 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-קבלנו ש 
+קבלנו 
 \begin_inset Formula $\deg q=m-n$
 \end_inset
 
- ולכן נוכל להשתמש בטענת עזר
+, לכן נוכל להשתמש בטענת עזר
 \family roman
 \series bold
 \shape up
@@ -4091,13 +4097,13 @@ g=qf+r
 
 
 \numeric off
-, נקבל
+: נקבל
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\left(*\right)\,\res=\RES{}{}f{g-qf}=\RES{}{}fr\poi
+\,\res=R\left(f,g-qf\right)=R\left(f,r\right)\poi\,\,\,\,\left(*\right)
 \]
 
 \end_inset
@@ -4106,7 +4112,7 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-נחלק שוב למקרים.
+נחלק שוב את המקרים.
 \end_layout
 
 \begin_layout Standard
@@ -4141,11 +4147,15 @@ g=qf+r
 \begin_inset Formula $r\neq0$
 \end_inset
 
- נסמן 
+ 
+\end_layout
+
+\begin_layout Standard
+נסמן 
 \begin_inset Formula $k=\deg r\ge0$
 \end_inset
 
-,
+.
 \end_layout
 
 \begin_layout Standard
@@ -4153,13 +4163,13 @@ g=qf+r
 \begin_inset Formula $2.4$
 \end_inset
 
-
+,
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\left(**\right)\,\RES nmfr\overbrace{=}^{2.5}a_{n}^{m-k}\RES nkfr\overbrace{=}^{\text{induction base}}a_{n}^{m-k}a_{n}^{k}\prod_{i=1}^{n}r\left(\xi_{i}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)
+\RES nmfr\overbrace{=}^{2.5}a_{n}^{m-k}\RES nkfr\overbrace{=}^{\text{induction base}}a_{n}^{m-k}a_{n}^{k}\prod_{i=1}^{n}r\left(\xi_{i}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)\,\,\,\,\left(**\right)
 \]
 
 \end_inset
@@ -4168,7 +4178,7 @@ g=qf+r
 \end_layout
 
 \begin_layout Standard
-השוויון האחרות נובע מכך ש 
+כאשר השוויון האחרות נובע מכך ש 
 \begin_inset Formula $\xi_{i}$
 \end_inset
 
@@ -4176,7 +4186,7 @@ g=qf+r
 \begin_inset Formula $f$
 \end_inset
 
- ולכן
+, ולכן
 \end_layout
 
 \begin_layout Standard
@@ -4208,7 +4218,11 @@ g=qf+r
 \begin_inset Formula $r=0$
 \end_inset
 
-, 
+.
+\end_layout
+
+\begin_layout Standard
+אז
 \begin_inset Formula 
 \[
 g=fq\poi
@@ -4220,14 +4234,14 @@ g=fq\poi
 \end_layout
 
 \begin_layout Standard
-לפי ההנחה הראשונה של מקרה זה 
+מכיון שהנחנו ש- 
 \begin_inset Formula $n>0$
 \end_inset
 
- ולכן 
+ מתקיים
 \begin_inset Formula 
 \[
-\Syl fr=\Syl f0="0"\poi
+R\left(f,r\right)=R\left(f,0\right)=0
 \]
 
 \end_inset
@@ -4236,36 +4250,7 @@ g=fq\poi
 \end_layout
 
 \begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $"0"$
-\end_inset
-
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-בשוויון האחרון הכוונה למטריצת האפס.
+על פי מה שהוכחנו לעיל.
 \end_layout
 
 \begin_layout Standard
@@ -4289,19 +4274,19 @@ g=fq\poi
 \begin_inset Formula $g$
 \end_inset
 
- אז השורשים של 
+ השורשים של 
 \begin_inset Formula $f$
 \end_inset
 
- הם שורשים של 
+ הם גם שורשים של 
 \begin_inset Formula $g$
 \end_inset
 
- גם כן, ולכן בנוסחה 
+, ולכן בנוסחה 
 \begin_inset Formula $2.1$
 \end_inset
 
- קיימים 
+, קיימים 
 \begin_inset Formula $\xi_{i}$
 \end_inset
 
@@ -4313,7 +4298,11 @@ g=fq\poi
 \begin_inset Formula $\xi_{i}=\eta_{j}$
 \end_inset
 
- ולכן המכפלה מתאפסת, ומתקיים השוויון הנדרש.
+, מכאן שמכפלת הגורמים 
+\begin_inset Formula $\left(2.1\right)$
+\end_inset
+
+ מתאפסת, ומתקיים השוויון הנדרש.
 \end_layout
 
 \begin_layout Standard
@@ -4358,14 +4347,18 @@ g=fq\poi
 
 \begin_layout Standard
 כמו במקרה הקודם קיימים 
-\begin_inset Formula $q,r$
+\begin_inset Formula $q$
 \end_inset
 
- כך ש 
+ ו 
+\begin_inset Formula $r$
+\end_inset
+
+ עם 
 \begin_inset Formula $\deg r<m$
 \end_inset
 
- ומתקיים 
+ כך ש-
 \begin_inset Formula 
 \[
 f=gq+r
@@ -4380,7 +4373,7 @@ f=gq+r
 ומאותם נימוקים כמו במקרה הקודם 
 \begin_inset Formula 
 \[
-\left(***\right)\,\res=\RES{}{}{f-gq}g=\RES{}{}rg
+\res=R\left(f-gq,g\right)=R\left(r,g\right)\poi\,\,\,\,\,\left(***\right)
 \]
 
 \end_inset
@@ -4389,18 +4382,19 @@ f=gq+r
 \end_layout
 
 \begin_layout Standard
-ופה נחלק שוב למקרים
+ופה נחלק שוב את המקרים
 \end_layout
 
 \begin_layout Standard
 מקרה א.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $r\neq0$
 \end_inset
 
- נסמן 
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
 \begin_inset Formula $k=\deg r\ge0$
 \end_inset
 
@@ -4411,10 +4405,10 @@ f=gq+r
  נקבל 
 \begin_inset Formula 
 \begin{align*}
-\left(****\right)\,\boxed{\RES nmrg} & =\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\\
-\text{\text{induction base}}\to & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
+\boxed{\RES nmrg} & =\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\,\,\,\,\,\left(****\right)\\
+\text{=\left(\text{induction base}\right)} & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}r\left(\eta_{j}\right)\\
- & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}
+ & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right),}
 \end{align*}
 
 \end_inset
@@ -4423,7 +4417,7 @@ f=gq+r
 \end_layout
 
 \begin_layout Standard
-ושוב השוויון האחרון נובע מכך ש 
+כאשר השוויון האחרון נובע מכך ש 
 \begin_inset Formula $\eta_{j}$
 \end_inset
 
@@ -4431,7 +4425,7 @@ f=gq+r
 \begin_inset Formula $g$
 \end_inset
 
- ולכן
+, מה שגורר
 \begin_inset Formula 
 \[
 f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}_{=0}+r\left(\eta_{j}\right)
@@ -4443,7 +4437,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_layout
 
 \begin_layout Standard
-ושוב מ 
+מ 
 \begin_inset Formula $\left(***\right)$
 \end_inset
 
@@ -4462,10 +4456,14 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $r=0$
 \end_inset
 
- , דומה מאוד לאותו מקרה בהוכחה הקודמת 
+ ,
+\end_layout
+
+\begin_layout Standard
+דומה מאוד לאותו מקרה בהוכחה הקודמת 
 \begin_inset Formula 
 \[
-\Syl rg=\Syl 0g="0"\poi
+R\left(r,g\right)=R\left(0,g\right)=0\poi
 \]
 
 \end_inset
@@ -4474,7 +4472,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_layout
 
 \begin_layout Standard
-ולכן 
+לכן 
 \begin_inset Formula 
 \[
 \RES nm0g=0
@@ -4486,7 +4484,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_layout
 
 \begin_layout Standard
-וכמו כן השורשים של 
+כיון ש- השורשים של 
 \begin_inset Formula $g$
 \end_inset
 
@@ -4494,15 +4492,11 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $f$
 \end_inset
 
- ג
-\begin_inset Quotes erd
-\end_inset
-
-כ ולכן המכפלה 
+, נסיק כמקודם שמכפלה הגורמים
 \begin_inset Formula $\left(2.1\right)$
 \end_inset
 
- מתאפסת ונקבל את השוויון.
+מתאפסת ונקבל את השוויון.
 \end_layout
 
 \begin_layout Standard
@@ -4612,7 +4606,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $F$
 \end_inset
 
- ל 
+ אזי ל- 
 \begin_inset Formula $f,g$
 \end_inset
 
@@ -4688,7 +4682,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $F$
 \end_inset
 
-, ל 
+, אזי ל- 
 \begin_inset Formula $f,g$
 \end_inset
 
@@ -4726,11 +4720,15 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_layout
 
 \begin_layout Standard
-לפי ההנחה ל 
+אם ל- 
 \begin_inset Formula $f,g$
 \end_inset
 
- יש גורם משותף ולכן יש להם שורש משותף וממשפט 
+ יש גורם משותף ,אז יש להם שורש משותף בשדה הפיצול של 
+\begin_inset Formula $fg$
+\end_inset
+
+, וממשפט 
 \begin_inset Formula $2.1$
 \end_inset
 
@@ -4757,35 +4755,39 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_layout
 
 \begin_layout Standard
-לפי ההנחה ש 
+אם 
 \begin_inset Formula $\res=0$
 \end_inset
 
- מטענה 
+, מטענה 
 \begin_inset Formula $3.1$
 \end_inset
 
- ל 
+, ל- 
 \begin_inset Formula $f,g$
 \end_inset
 
- יש שורש משותף נסמן 
+ יש שורש משותף בשדה הפיצול 
+\begin_inset Formula $fg$
+\end_inset
+
+ שנסמן 
 \begin_inset Formula $\alpha$
 \end_inset
 
-, נוכל נוציא את 
+, אז 
 \begin_inset Formula $x-\alpha$
 \end_inset
 
- גורם משותף מ 
-\begin_inset Formula $f,g$
+ הוא גורם משותף של 
+\begin_inset Formula $f$
 \end_inset
 
-.
-\end_layout
+ ו- 
+\begin_inset Formula $g$
+\end_inset
 
-\begin_layout Standard
-וקבלנו את הטענה.
+ ומכאן הטענה.
 \begin_inset Newline newline
 \end_inset
 
@@ -4802,14 +4804,7 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_inset
 
 י וקטורי השורות או העמודות של המטריצה.
-\end_layout
-
-\begin_layout Standard
-ובמקרה שהשורות תלויות לינארית אז המימד שנפרש ע
-\begin_inset Quotes erd
-\end_inset
-
-י המטריצה קטן מהגודל של המטריצה.
+ ונציין שבמקרה ושהשורות תלויות לינארית, המימד של המטריצה קטן מהגודל של המטריצה.
 \end_layout
 
 \begin_layout Standard
@@ -4863,11 +4858,8 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $f,g$
 \end_inset
 
- .
-\end_layout
-
-\begin_layout Standard
-המעלה של המימד של 
+.
+ אזי המעלה של המימד של 
 \begin_inset Formula $\text{Syl}\left(f,g\right)$
 \end_inset
 
@@ -4884,6 +4876,10 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4933,12 +4929,12 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $\syl$
 \end_inset
 
- ל 
+ ו- 
 \begin_inset Formula $\Syl gf$
 \end_inset
 
- שוות פרט לסדר של השורות, ולכן המימד שנפרש על ידם שווה, ולכן ללא הגבלת כלליות
- נוכל להניח ש 
+ שוות פרט לסדר של השורות, ולכן המימד שלהן שווה, מכאן, נוכל להניח ללא הגבלת
+ הכלליות ש- 
 \begin_inset Formula $m\le n$
 \end_inset
 
@@ -4950,22 +4946,27 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_inset
 
  קיימים 
-\begin_inset Formula $r,q$
+\begin_inset Formula $q$
 \end_inset
 
- כך ש 
+ ו- 
+\begin_inset Formula $r$
+\end_inset
+
+ עם 
 \begin_inset Formula $\deg r<m$
 \end_inset
 
- המקיימים 
+ כך ש- 
 \begin_inset Formula $f=qg+r$
 \end_inset
 
-, ובהוכחת טענת עזר 
+.
+ בהוכחת טענת עזר 
 \begin_inset Formula $2.3$
 \end_inset
 
- ראינו שאפשר לעבור מ 
+, ראינו שאפשר לעבור מ 
 \begin_inset Formula $\syl$
 \end_inset
 
@@ -4977,7 +4978,8 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Quotes erd
 \end_inset
 
-י פועלות על שורות המטריצה ולכן המימד שלהם שווה.
+י פועלות של הוספת קומבינציה לינארית של שורות לשורה אחרת במטריצה.
+ ולכן המימד שלהם שווה.
 \end_layout
 
 \begin_layout Standard
@@ -4999,10 +5001,6 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \end_layout
 
 \begin_layout Standard
-נתחיל...
-\end_layout
-
-\begin_layout Standard
 נחלק את ההוכחה לשלבים כדי להקל על הקורא להבין את ההוכחה.
 \end_layout
 
@@ -5021,15 +5019,15 @@ f\left(\eta_{j}\right)=\underbrace{g\left(\eta_{j}\right)q\left(\eta_{j}\right)}
 \begin_inset Formula $q$
 \end_inset
 
- וקיים 
+ ו- 
 \begin_inset Formula $r$
 \end_inset
 
- כך ש 
+ עם 
 \begin_inset Formula $k=\deg r<m$
 \end_inset
 
- ומתקיים 
+, כך ש-
 \begin_inset Formula 
 \[
 f=qg+r\poi
@@ -5038,6 +5036,10 @@ f=qg+r\poi
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+מאידך,
 \end_layout
 
 \begin_layout Standard
@@ -5056,7 +5058,7 @@ f=qg+r\poi
 \begin_inset Formula $2.3$
 \end_inset
 
- ולכן לפי 
+, לכן לפי 
 \begin_inset Formula $\left(2\right)$
 \end_inset
 
@@ -5064,11 +5066,11 @@ f=qg+r\poi
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
- ו 
+ שווה למימד של 
 \begin_inset Formula $\SYL nmrg$
 \end_inset
 
- שווה.
+.
 \end_layout
 
 \begin_layout Standard
@@ -5149,11 +5151,11 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $b_{m}$
 \end_inset
 
- ולכן וקטור זה שייך למימד שנפרש ע
+, לכן וקטור זה שייך למימד שנפרש ע
 \begin_inset Quotes erd
 \end_inset
 
-י וקטורי העמודות )או השורות(, ולכן מחיקת העמודה הראשונה והשורה ה 
+י וקטורי העמודות, ולכן מחיקת העמודה הראשונה והשורה ה 
 \begin_inset Formula $m+1$
 \end_inset
 
@@ -5282,7 +5284,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-י מחיקה העמודה והשורה המתאימה לה לא משתנה.
+י מחיקה העמודה והשורה המתאימות לא משתנה.
 \end_layout
 
 \begin_layout Standard
@@ -5290,11 +5292,11 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-המימד של המשלים של 
+המימדים של המשלימים של 
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
- ו 
+, 
 \begin_inset Formula $\SYL nmrg$
 \end_inset
 
@@ -5353,7 +5355,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\left(2\right)$
 \end_inset
 
- המימד של 
+ המימדים של 
 \begin_inset Formula $\SYL kmrg$
 \end_inset
 
@@ -5361,7 +5363,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\SYL mkgr$
 \end_inset
 
-.
+ שווים.
 \end_layout
 
 \begin_layout Standard
@@ -5393,11 +5395,11 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-נמשיך שוב ושוב את שלבים 
+נמשיך שוב ושוב את השלבים 
 \begin_inset Formula $1-3$
 \end_inset
 
-)כלומר נבצע את האלגוריתים של אוקלידס( עד שנקבל 
+ )כלומר נבצע את האלגוריתים של אוקלידס( עד שנקבל 
 \begin_inset Formula $r_{d}$
 \end_inset
 
@@ -5405,11 +5407,11 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $r_{d-2}=q_{d}r_{d-1}+r_{d}$
 \end_inset
 
- כאשר 
+ עם 
 \begin_inset Formula $r_{d}=0$
 \end_inset
 
-, ומהאלגוריתים של אוקלידס 
+, מהאלגוריתים של אוקלידס, נובע ש- 
 \begin_inset Formula $r_{d-1}=h$
 \end_inset
 
@@ -5559,23 +5561,19 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-ל ולכן המימד של המשלים של 
+ל, לכן המימד של המשלים של 
 \begin_inset Formula $\SYL{k_{d-1}}l0h$
 \end_inset
 
  הוא 
-\begin_inset Formula $l$
+\begin_inset Formula $l=\deg h$
 \end_inset
 
 ,
 \end_layout
 
 \begin_layout Standard
-וזה בדיוק 
-\begin_inset Formula $\deg h$
-\end_inset
-
-, ולכן המימד של 
+זה מוכיח שהמימד של 
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
@@ -5647,7 +5645,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\upsilon\SYL nmfg=0\poi
+\upsilon\SYL nmfg=0
 \]
 
 \end_inset
@@ -5740,11 +5738,7 @@ b_{n+m-j}
 \begin_inset Formula $1\le j\le n+m$
 \end_inset
 
-,
-\end_layout
-
-\begin_layout Standard
-נרשום 
+, נרשום 
 \begin_inset Formula $\gamma_{j}$
 \end_inset
 
@@ -5784,11 +5778,7 @@ b_{n+m-j}
 \end_layout
 
 \begin_layout Standard
-נתבונן באינדקסים של המקדמים,
-\end_layout
-
-\begin_layout Standard
-נוכיח ש
+נוכיח ש-
 \begin_inset Formula 
 \[
 pf+qg=\sum_{j}\gamma_{j}x^{j}
@@ -5816,11 +5806,8 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \end_layout
 
 \begin_layout Standard
-נחשב כל אחד מהמחוברים בנפרד
-\end_layout
-
-\begin_layout Standard
-נבצע החלפת אינדקסים 
+לשם כך נחשב כל אחד מהמחוברים בנפרד.
+ נבצע החלפת אינדקסים 
 \begin_inset Formula $i=m-k$
 \end_inset
 
@@ -5871,7 +5858,7 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \begin_inset Quotes erd
 \end_inset
 
-כ קבלנו כי 
+כ קבלנו
 \begin_inset Formula 
 \[
 \gamma_{j}=\sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}
@@ -5887,15 +5874,19 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \begin_inset Formula $j=m+n-l$
 \end_inset
 
-, 
+, לכל 
 \begin_inset Formula $0\le j\le n+m$
 \end_inset
 
- ולכן 
+ בפרט 
 \begin_inset Formula $0\le l\le n+m$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+מתקיים
 \begin_inset Formula 
 \[
 \sum_{k=0}^{m}\alpha_{k}a_{n+m-k-j}+\sum_{k=0}^{n}\beta_{k}b_{m+n-k-j}=\sum_{k=0}^{m}\alpha_{k}a_{l-k}+\sum_{k=0}^{n}\beta_{k}b_{l-k}\poi
@@ -5907,15 +5898,11 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \end_layout
 
 \begin_layout Standard
-עבור המקרה 
+אם 
 \begin_inset Formula $m>l$
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Standard
-מכיון שלכל 
+, מכיון שלכל 
 \begin_inset Formula $k>l$
 \end_inset
 
@@ -5923,7 +5910,7 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \begin_inset Formula $\alpha_{k}=0$
 \end_inset
 
- מתקיים
+, מתקיים
 \begin_inset Formula 
 \[
 \sum_{k=0}^{m}\alpha_{k}a_{l-k}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}\poi
@@ -5935,15 +5922,11 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \end_layout
 
 \begin_layout Standard
-עבור המקרה 
+אם 
 \begin_inset Formula $m<l$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-מכיון שלכל 
+, מכיון שלכל 
 \begin_inset Formula $k\ge m$
 \end_inset
 
@@ -5951,11 +5934,12 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \begin_inset Formula $\alpha_{k}=0$
 \end_inset
 
- מכיון ש 
+)כי 
 \begin_inset Formula $\deg p=m-1$
 \end_inset
 
- מתקיים 
+(.
+ לכן 
 \begin_inset Formula 
 \[
 \sum_{k=0}^{m}\alpha_{k}a_{l-k}=\sum_{k=0}^{l}\alpha_{k}a_{l-k}\poi
@@ -5991,7 +5975,7 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 \end_layout
 
 \begin_layout Standard
-נחשב את המכפלה
+עתה נחשב את המכפלה
 \end_layout
 
 \begin_layout Standard
@@ -6001,7 +5985,7 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
  & =\sum_{l}\sum_{k+\tau=l}\alpha_{\tau}a_{k}x^{l}+\sum_{l}\sum_{k+\tau=l}\beta_{\tau}b_{k}x^{l}\\
  & =\sum_{l}\sum_{k=0}^{l}\alpha_{k}a_{l-k}x^{l}+\sum_{l}\sum_{k=0}^{l}\beta_{k}b_{l-k}x^{l}\\
  & =\sum_{l}\left(\sum_{k=0}^{l}\alpha_{k}a_{l-k}+\sum_{k=0}^{l}\beta_{k}b_{l-k}\right)x^{l}\\
-\left(*\right) & =\boxed{\sum_{k}\gamma_{j}x^{k}}\\
+ & =\boxed{\sum_{k}\gamma_{j}x^{k}}\\
 \end{align*}
 
 \end_inset
