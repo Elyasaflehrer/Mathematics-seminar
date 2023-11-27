@@ -317,6 +317,8 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 
 \size largest
 תוכן העניינים:
