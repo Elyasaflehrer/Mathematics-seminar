@@ -729,7 +729,7 @@ setcounter{page}{1}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\text{det}\left(A\right)=\sum_{\sigma\in S_{n}}\text{sgn}\left(\sigma\right)\sigma_{1,\sigma\left(1\right)}\sigma_{2,\sigma\left(2\right)}\cdots\sigma_{n,\sigma\left(n\right)}\poi
+\text{det}\left(A\right)=\sum_{\sigma\in S_{n}}\text{sgn}\left(\sigma\right)\alpha_{1,\sigma\left(1\right)}\alpha_{2,\sigma\left(2\right)}\cdots\alpha_{n,\sigma\left(n\right)}\poi
 \]
 
 \end_inset
@@ -951,7 +951,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \end_layout
 
 \begin_layout Standard
-ולאחר חישוב כל התמורות נקבל
+ולאחר חישוב כל התמורות האחרות נקבל
 \begin_inset Formula 
 \begin{align*}
 \text{det}\left(A\right) & =\sum_{\sigma\in S_{3}}\text{sgn}\left(\sigma\right)\alpha_{1,\sigma\left(1\right)}\alpha_{2,\sigma\left(2\right)}\cdots\alpha_{n,\sigma\left(n\right)}\\
@@ -1029,11 +1029,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $\text{Syl}\left(f,g\right)=\SYL nmfg$
 \end_inset
 
- של 
-\begin_inset Formula $f,g$
-\end_inset
-
-, המטריצה מגודל 
+, היא מטריצה מגודל 
 \begin_inset Formula $\left(n+m\right)\times\left(n+m\right)$
 \end_inset
 
@@ -2189,7 +2185,7 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-בכתיב תמורות נקבל את המעגל 
+בכתיב תמורות נקבל את המחזור 
 \begin_inset Formula 
 \[
 \left(r_{1}r_{2}\ldots r_{m}r_{m+1}\ldots r_{n+m}\right)\text{\poi}
