@@ -1094,7 +1094,11 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
- מוגדרת באופן הבא: האיבר במיקום 
+ מוגדרת באופן הבא: 
+\end_layout
+
+\begin_layout Standard
+האיבר במיקום 
 \begin_inset Formula $\left(i,j\right)$
 \end_inset
 
@@ -1516,7 +1520,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \begin_inset Formula $\deg g<m$
 \end_inset
 
-, ב
+, ב- 
 \begin_inset Formula $\syl$
 \end_inset
 
@@ -2046,7 +2050,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $\Syl fg$
 \end_inset
 
- ל 
+ ל- 
 \begin_inset Formula $\Syl gf$
 \end_inset
 
@@ -2093,7 +2097,7 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-נבצע את המעגל הזה 
+נבצע את נמחזור הזה 
 \begin_inset Formula $n$
 \end_inset
 
@@ -2882,7 +2886,11 @@ a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & 
 
 י הוצאת 
 \numeric on
--1
+
+\begin_inset Formula $-1$
+\end_inset
+
+
 \family roman
 \series medium
 \shape up
@@ -3713,26 +3721,6 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-לפי המוסכמות בראש הפרק והמשפט היסודי של האלגברה, נוכל לרשום את 
-\begin_inset Formula $f$
-\end_inset
-
- ו- 
-\begin_inset Formula $g$
-\end_inset
-
- כמכפלה של גורמים לינאריים
-\begin_inset Formula 
-\[
-f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\poi
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 בסיס האינדוקציה:
 \end_layout
 
@@ -4386,11 +4374,11 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \begin_inset Formula $f$
 \end_inset
 
-, נסיק כמקודם שמכפלה הגורמים
+, נסיק כמקודם שמכפלה הגורמים 
 \begin_inset Formula $\left(2.1\right)$
 \end_inset
 
-מתאפסת ונקבל את השוויון.
+ מתאפסת ונקבל את השוויון.
 \end_layout
 
 \begin_layout Standard
@@ -4539,7 +4527,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \begin_inset Formula $\xi_{i}$
 \end_inset
 
- ו 
+ ו- 
 \begin_inset Formula $\eta_{j}$
 \end_inset
 
