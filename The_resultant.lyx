@@ -2034,6 +2034,10 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2111,7 +2115,7 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-נבצע את נמחזור הזה 
+נבצע את המחזור הזה 
 \begin_inset Formula $n$
 \end_inset
 
@@ -2232,7 +2236,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $nm+n^{2}-n$
 \end_inset
 
- ו 
+ ו- 
 \begin_inset Formula $mn$
 \end_inset
 
@@ -2701,6 +2705,10 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2963,7 +2971,7 @@ a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)=\l
  כמכפלה של גורמים לינאריים 
 \begin_inset Formula 
 \[
-f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\poi\,\,\left(**\right)\poi
+f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\poi
 \]
 
 \end_inset
@@ -2979,7 +2987,7 @@ f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\poi\,\,\left(**\right
 
 \begin_inset Formula 
 \[
-f\left(\eta_{j}\right)=a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi
+f\left(\eta_{j}\right)=a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi\,\,\left(**\right)
 \]
 
 \end_inset
@@ -3601,6 +3609,14 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \end_inset
 
  כנדרש.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4002,7 +4018,7 @@ g=qf+r\poi
 
 
 \numeric off
-: נקבל
+ נקבל
 \end_layout
 
 \begin_layout Standard
@@ -4871,7 +4887,11 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \begin_inset Formula $2.3$
 \end_inset
 
-, ראינו שאפשר לעבור מ 
+, ראינו שאפשר לעבור 
+\end_layout
+
+\begin_layout Standard
+מ- 
 \begin_inset Formula $\syl$
 \end_inset
 
