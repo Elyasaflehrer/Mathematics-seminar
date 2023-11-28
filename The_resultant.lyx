@@ -3490,7 +3490,15 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-כלומר נניח ש 
+הוכחת 
+\begin_inset Formula $.\text{I}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+נניח ש 
 \begin_inset Formula $b_{m}=0$
 \end_inset
 
@@ -3868,6 +3876,14 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 f\left(x\right)=a_{n}\prod_{i=1}^{n}\left(x-\xi_{i}\right)\,\,\,\,g\left(x\right)=b_{m}\prod_{j=1}^{m}\left(x-\eta_{j}\right)\poi
 \]
 
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
 \end_inset
 
 
@@ -4887,11 +4903,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \begin_inset Formula $2.3$
 \end_inset
 
-, ראינו שאפשר לעבור 
-\end_layout
-
-\begin_layout Standard
-מ- 
+, ראינו שאפשר לעבור מ- 
 \begin_inset Formula $\syl$
 \end_inset
 
