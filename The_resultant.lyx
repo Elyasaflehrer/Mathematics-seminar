@@ -437,13 +437,66 @@ setcounter{page}{1}
 \end_layout
 
 \begin_layout Standard
-בעבודה זו נתעסק בשאלה מתי לשני פוליומים של שורש משותף, אמנם לא מהם השורשים,
- אבל בדרך פשוטה נוכל לדעת האם יש שורשים.
+הרזולטנט של שני פולינומים הוא ביטוי פולינומי של המקדמים שלהם השווה לאפס
+ אם ורק אם לפולינומים יש שורש משותף בשדה הפיצול שלהם.
+ באופן שקול הרזולטנט מתאפס אם רק אם יש להם גורם משותף.
 \end_layout
 
 \begin_layout Standard
-בתחילה העבודה נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות, ונגדיר את מטריצת
- סילבסטר, ובהמשך נגדיר את הרזולטנט ונוכיח את משפט הרזולטנט )פרק
+הרזולטנט מוצאת שימושים נרחבים בתורת המספרים, באופן ישיר או דרך הדסקרמיננטה,
+ שהוא קרוב להיות הרזוטנט של פולינום והנגזרת שלו.
+\end_layout
+
+\begin_layout Standard
+ניתן לחשב את הרזולטנט של שני פולינומים עם מקדמים רציונליים או פולינומיים
+ באופן יעיל אלגורימית.
+ זהו כלי בסיסי במדעי המחשב 
+\begin_inset Formula $\left(\text{computational algebra}\right)$
+\end_inset
+
+, וזה כלי מובנה ברוב המערכות האלגברה הממוחשבת.
+ הרזולטנט גם משמש לפירוק אלגברי גלילי 
+\begin_inset Formula $\left(\text{cylindrical algebraic decomposition}\right)$
+\end_inset
+
+, לאינטגרציה של פונקציות רציונליות, וגם לשרטוט עקומות המוגדרות על ידי משוואה
+ פולינומית בשני משתנים.
+\end_layout
+
+\begin_layout Standard
+הרזולטנט של 
+\begin_inset Formula $n$
+\end_inset
+
+ פולינומים הומוגניים ב- 
+\begin_inset Formula $n$
+\end_inset
+
+ משתנים היא הכללה, שהוצגה על ידי מקאוליי
+\begin_inset Formula $^{1}$
+\end_inset
+
+, של הרזולטנט.
+ עם בסיסי גרובנר, הוא אחד הכלים העיקריים של תורת החילוץ 
+\begin_inset Formula $.\left(\text{elimination theory}\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בעבודה זו נפרש את ההגדרה של הרזולטנט ותכונותיו, ונוכיח את המשפטים העיקריים
+ של תורת הרזולטנט.
+\end_layout
+
+\begin_layout Standard
+בתחילה העבודה, נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות, ונגדיר את מטריצת
+ סילבסטר.
+ בהמשך נגדיר את הרזולטנט ונוכיח את המשפט היסודי )פרק
 \family roman
 \series medium
 \shape up
@@ -476,7 +529,7 @@ setcounter{page}{1}
 \end_layout
 
 \begin_layout Standard
-את המשפט עצמו מתי לשני פולינומים יש שורשים משותפים נוכיח בפרק
+בשאלה של השורשים המשותפים של שני פולינומים נדון בפרק
 \family roman
 \series medium
 \shape up
@@ -604,10 +657,6 @@ setcounter{page}{1}
 \noun default
 \color inherit
 הגדרת הדטרמיננטה לפי תמורות
-\begin_inset Formula $^{\left[1\right]}$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -747,7 +796,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 נבחר תמורה נוספת 
 \begin_inset Formula $\begin{pmatrix}1 & 2 & 3\\
 3 & 1 & 2
-\end{pmatrix}\in S_{3}$
+\end{pmatrix}=\left(132\right)\in S_{3}$
 \end_inset
 
 , ע
@@ -828,7 +877,7 @@ A=\begin{pmatrix}2 & 3 & 1\\
 תמורה נוספת לדוגמא 
 \begin_inset Formula $\begin{pmatrix}1 & 2 & 3\\
 2 & 1 & 3
-\end{pmatrix}\in S_{3}$
+\end{pmatrix}=\left(12\right)\in S_{3}$
 \end_inset
 
 , זהו חילוף ולכן 
@@ -1381,7 +1430,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \end_layout
 
 \begin_layout Standard
-לפי הגדרה
+לפי ההגדרה הכללית בסוף
 \family roman
 \series medium
 \shape up
@@ -1395,66 +1444,27 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \noun off
 \color none
  
+\begin_inset Formula $1.2$
+\end_inset
+
+,
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ הגדרה 
 \begin_inset Formula $1.4$
 \end_inset
 
- 
-\begin_inset Formula $\res$
-\end_inset
-
- נקבע באופן חח
-\begin_inset Quotes erd
-\end_inset
-
-ע לפי 
-\begin_inset Formula $f,g$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-נרחיב את ההגדרה 
-\begin_inset Formula $1.4$
-\end_inset
-
- לכל שני פולינומים ממעלה קטנה מ- 
-\begin_inset Formula $n,m$
-\end_inset
-
-, עבור 
-\begin_inset Formula $f$
-\end_inset
-
- נשלים עד למעלה 
-\begin_inset Formula $n$
-\end_inset
-
- עם מקדמים 
-\begin_inset Formula $0$
-\end_inset
-
- , ובאותו אופן עבור 
-\begin_inset Formula $g$
-\end_inset
-
- נשלים עד למעלה 
-\begin_inset Formula $m$
-\end_inset
-
- עם מקדמים 
-\begin_inset Formula $0$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-ובאופן הזה הגדרה 
-\begin_inset Formula $1.4$
-\end_inset
-
- נכונה לכל שני פולינומים ממעלה קטנה או שווה ל- 
+ עדין תקפה לכל שני פולינומים ממעלה קטנה או שווה ל- 
 \begin_inset Formula $n,m$
 \end_inset
 
@@ -1810,7 +1820,11 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $\sigma\in S_{n+m}$
 \end_inset
 
-, המחובר בסכום מתקבל ע
+, המחובר בסכום המתאים ל- 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ מתקבל ע
 \begin_inset Quotes erd
 \end_inset
 
@@ -3234,7 +3248,16 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-י פעולות של הוספת קומבינציה לינארית של שורות אחרות על שורה במטריצה.
+י פעולות של הוספת קומבינציה לינארית של שורות אחרות על שורה במטריצה )שימו
+ לב ש- 
+\begin_inset Formula $b_{n-\rho-i}=0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n-\rho-i>m$
+\end_inset
+
+ (.
  אבל הוספת קומבינציה לינארית של שורות לשורה אחרת במטריצה לא משנה את הדטרמיננטה
  לכן
 \begin_inset Formula 
@@ -5913,10 +5936,15 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 
 \size footnotesize
 \lang english
-\begin_inset Formula $\left[1\right].\,Mc\,Connell\,(1957).\,Applications\,of\,TensorAnalysis\,.Dover\,Publications.$
+\begin_inset Formula $\left[1\right]$
 \end_inset
 
-
+.
+ Macaulay, F.
+ S.
+ (1902), "Some Formulæ in Elimination", Proc.
+ London Math.
+ Soc., 35: 3–27, doi:10.1112/plms/s1-35.1.3.
 \end_layout
 
 \begin_layout Standard
@@ -5924,10 +5952,16 @@ pf+qg=\sum_{j}\gamma_{j}x^{j}
 
 \size footnotesize
 \lang english
-\begin_inset Formula $\left[2\right].\,Rotman,Joseph\,J.\,(2006),\,A\,First\,Coursein\,Abstract\,Algebrawith\,Applications\,(3rded.),\,Prentice-Hall$
+\begin_inset Formula $\left[2\right]$
 \end_inset
 
 .
+ Jacobson, Nathan (2009).
+ Basic algebra.
+ Vol.
+ 1 (2nd ed.).
+ Dover.
+ ISBN 978-0-486-47189-1.
 \end_layout
 
 \end_body
