@@ -437,14 +437,26 @@ setcounter{page}{1}
 \end_layout
 
 \begin_layout Standard
-הרזולטנטה של שני פולינומים הוא ביטוי פולינומי של המקדמים שלהם השווה לאפס
- אם ורק אם לפולינומים יש שורש משותף בשדה הפיצול שלהם.
- באופן שקול הרזולטנטה מתאפס אם רק אם יש להם גורם משותף
+הרזולטנטה של שני פולינומים מעל שדה 
+\begin_inset Formula $K$
+\end_inset
+
+ הוא ביטוי פולינומיאלי מעל שדה של המקדמים שלהם השווה לאפס אם ורק אם לפולינומים
+ יש שורש משותף בשדה 
+\begin_inset Formula $K$
+\end_inset
+
+ שלהם.
+ באופן שקול הרזולטנטה מתאפס אם רק אם יש להם גורם משותף החוג הפולינומים 
+\begin_inset Formula $K\left[x\right]$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-לרזולטנטה שימושים נרחבים בתורת המספרים, באופן ישיר או דרך הדסקרמיננטה, שהוא
- קרוב להיות הרזוטנט של פולינום והנגזרת שלו.
+לרזולטנטה שימושים נרחבים בתורת המספרים, באופן ישיר או דרך הדסקרמיננטה, שהרזולטנט
+ה של פולינום והנגזרת שלו הוא אחד הדרכים להגדיר את הדסקרמיננטה.
 \end_layout
 
 \begin_layout Standard
@@ -958,7 +970,15 @@ A=\begin{pmatrix}2 & 3 & 1\\
 \begin_inset Formula $f\left(x\right)=\sum_{i=0}^{n}a_{i}x^{i}\,,g\left(x\right)=\sum_{j=0}^{m}b_{j}x^{j}$
 \end_inset
 
- 
+ כאשר 
+\begin_inset Formula $a_{n}\neq0$
+\end_inset
+
+ ו 
+\begin_inset Formula $b_{m}\neq0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1671,6 +1691,112 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+דוגמא
+\end_layout
+
+\begin_layout Standard
+נתבונן בדוגמא שלפני משפט 
+\begin_inset Formula $1.8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+קבלנו את הדטרמיננטה 
+\begin_inset Formula 
+\[
+\text{det}\left(\begin{array}{ccc}
+a_{2} & a_{1} & a_{0}\\
+b_{1} & b_{0} & 0\\
+0 & b_{1} & b_{0}
+\end{array}\right)=a_{0}b_{1}^{2}+a_{2}b_{0}^{2}-b_{0}a_{1}b_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי הערה 
+\begin_inset Formula $1.7$
+\end_inset
+
+ קבלנו איבר בשדה 
+\begin_inset Formula $F$
+\end_inset
+
+ שהוא פולינום הומוגני ממעל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מעל השדה 
+\begin_inset Formula $K$
+\end_inset
+
+ במשתנים 
+\begin_inset Formula $a_{0},a_{1},a_{2},b_{0},b_{1},b_{2}$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4779,7 +4905,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_inset
 
 .
- אזי המעלה של המימד של 
+ אזי הדרגה של המימד של 
 \begin_inset Formula $\text{Syl}\left(f,g\right)$
 \end_inset
 
@@ -4787,7 +4913,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \begin_inset Formula $n+m-\deg h$
 \end_inset
 
-, ובאופן שקול המעלה של המימד של המשלים של 
+, ובאופן שקול הדרגה של המימד של הגרעין של 
 \begin_inset Formula $\syl$
 \end_inset
 
@@ -4807,7 +4933,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \bar under
 הערה:
 \bar default
- מכיון שהדרגה של מטריצה והדרגה של המשלים תלויים אחד בשני, לפעמיים נתייחס
+ מכיון שהדרגה של מטריצה והדרגה של הגרעין תלויים אחד בשני, לפעמיים נתייחס
  רק לגודל של אחד מהם כשהכוונה לשניהם.
 \end_layout
 
@@ -4912,8 +5038,8 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_inset
 
  לפי האלגוריתים של אוקלידס, ותוך כדי התהליך נקטין את גודל המטריצות ונוכיח
- שהמימד של המשלים של המטריצות המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה(
- נמצא את המימד של המשלים של 
+ שהמימד של הגרעין של המטריצות המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה(
+ נמצא את המימד של הגרעין של 
 \begin_inset Formula $\syl$
 \end_inset
 
@@ -5079,11 +5205,11 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $m+1$
 \end_inset
 
- )השורה שבה יש את האיבר שאינו אפס בעמודה הראשונה( לא תשפיע על המימד של המשלים.
+ )השורה שבה יש את האיבר שאינו אפס בעמודה הראשונה( לא תשפיע על המימד של הגרעין.
 \end_layout
 
 \begin_layout Standard
-נובע מכך שהמימד של המשלים של 
+נובע מכך שהמימד של הגרעין של 
 \begin_inset Formula $\SYL nmrg$
 \end_inset
 
@@ -5200,7 +5326,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \color inherit
 2
 \numeric off
- המימד של המשלים של המטריצות המתקבלות ע
+ המימד של הגרעין של המטריצות המתקבלות ע
 \begin_inset Quotes erd
 \end_inset
 
@@ -5212,7 +5338,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-המימדים של המשלימים של 
+המימדים של הגרעין של 
 \begin_inset Formula $\SYL nmfg$
 \end_inset
 
@@ -5453,7 +5579,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \color inherit
 2
 \numeric off
- המימדים של המשלימים של 
+ המימדים של הגרעין של 
 \begin_inset Formula $\SYL nmfg,\SYL kmrg,\SYL{k_{0}}k{r_{0}}r,\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}\ldots,\SYL{k_{d-1}}l0h$
 \end_inset
 
@@ -5461,7 +5587,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-ולכן נשאר לבדוק מהו המימד של המשלים של 
+ולכן נשאר לבדוק מהו המימד של הגרעין של 
 \begin_inset Formula $\SYL{k_{d-1}}l0h$
 \end_inset
 
@@ -5481,7 +5607,7 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-ל, לכן המימד של המשלים של 
+ל, לכן המימד של הגרעין של 
 \begin_inset Formula $\SYL{k_{d-1}}l0h$
 \end_inset
 
