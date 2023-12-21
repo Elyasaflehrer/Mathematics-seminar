@@ -1610,7 +1610,7 @@ b_{1} & b_{0} & 0\\
 \end_inset
 
  משתנים בלתי תלויים 
-\begin_inset Formula $a_{2},a_{1},a_{0},b_{1}b_{0}$
+\begin_inset Formula $a_{2},a_{1},a_{0},b_{1},b_{0}$
 \end_inset
 
  מעל השדה 
@@ -1705,68 +1705,24 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $1.8$
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
-קבלנו את הדטרמיננטה 
-\begin_inset Formula 
-\[
-\text{det}\left(\begin{array}{ccc}
-a_{2} & a_{1} & a_{0}\\
-b_{1} & b_{0} & 0\\
-0 & b_{1} & b_{0}
-\end{array}\right)=a_{0}b_{1}^{2}+a_{2}b_{0}^{2}-b_{0}a_{1}b_{1}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-לפי הערה 
-\begin_inset Formula $1.7$
-\end_inset
-
- קבלנו איבר בשדה 
+, קבלנו את האיבר בשדה 
 \begin_inset Formula $F$
 \end_inset
 
- שהוא פולינום הומוגני ממעל
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
  
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
+\begin_inset Formula $a_{0}b_{1}^{2}+a_{2}b_{0}^{2}-b_{0}a_{1}b_{1}$
+\end_inset
+
+ שהוא פולינום הומוגני ממעלה 
+\begin_inset Formula $3$
+\end_inset
+
+
 \family roman
 \series medium
 \shape up
 \size normal
 \emph off
-\numeric off
 \bar no
 \strikeout off
 \xout off
@@ -1791,12 +1747,49 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $K$
 \end_inset
 
- במשתנים 
-\begin_inset Formula $a_{0},a_{1},a_{2},b_{0},b_{1},b_{2}$
+, כאשר בכל מחובר בסכום עבור 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ המעלה היא 
+\begin_inset Formula $m=1$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועבור 
+\begin_inset Formula $b_{j}$
+\end_inset
+
+ המעלה 
+\begin_inset Formula $n=2$
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Standard
@@ -2328,7 +2321,15 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $f\cdot g$
 \end_inset
 
-, כלומר 
+, כלומר ל 
+\begin_inset Formula $f,g$
+\end_inset
+
+ יש פירוק לינארי מעל 
+\begin_inset Formula $F$
+\end_inset
+
+, ולכן 
 \begin_inset Formula $F$
 \end_inset
 
@@ -2351,61 +2352,7 @@ b_{1} & b_{0} & 0\\
 
 
 \series default
- לפי אחד
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ו
+ לפי
 \family roman
 \series medium
 \shape up
@@ -2459,7 +2406,7 @@ b_{1} & b_{0} & 0\\
 \uwave default
 \noun default
 \color inherit
-לפי המשפט היסודי של האלגברה נוכל להניח ש
+נוכל להניח ש
 \begin_inset Formula $\xi_{0}\ldots\xi_{n}$
 \end_inset
 
@@ -2475,7 +2422,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $g$
 \end_inset
 
- לאו בהכרח שונים זה מזה.
+, לאו בהכרח שונים זה מזה.
 \begin_inset Newline newline
 \end_inset
 
@@ -4840,16 +4787,16 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_layout
 
 \begin_layout Standard
-לצורך המשפט הבא נזכיר מהו מימד של מטריצה.
+לצורך המשפט הבא נזכיר מהי הדרגה של מטריצה.
 \end_layout
 
 \begin_layout Standard
-הדרגה של מטריצה הוא המימד שנפרס ע
+הדרגה של מטריצה היא המימד שנפרס ע
 \begin_inset Quotes erd
 \end_inset
 
 י וקטורי השורות או העמודות של המטריצה.
- ונציין שבמקרה ושהשורות תלויות לינארית, הדדרגה של המטריצה קטן מהגודל של
+ ונציין שבמקרה ושהשורות תלויות לינארית, הדדרגה של המטריצה קטנה מהגודל של
  המטריצה.
 \end_layout
 
