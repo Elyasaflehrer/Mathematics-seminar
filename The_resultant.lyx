@@ -1541,7 +1541,7 @@ R\left(f,g\right)=\text{det}\left(\text{\SYL nmfg}\right)\poi
 \begin_inset Formula $F$
 \end_inset
 
- כפי שהיא מוגדרת בהערה 
+ כפי שהוא מוגדר בהערה 
 \begin_inset Formula $1.7$
 \end_inset
 
@@ -2225,7 +2225,115 @@ b_{1} & b_{0} & 0\\
 
 
 \series default
+ לפי אחד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
  
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לפי המשפט היסודי של האלגברה נוכל להניח ש
 \begin_inset Formula $\xi_{0}\ldots\xi_{n}$
 \end_inset
 
@@ -2241,7 +2349,7 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $g$
 \end_inset
 
-.
+ לאו בהכרח שונים זה מזה.
 \begin_inset Newline newline
 \end_inset
 
@@ -2558,14 +2666,7 @@ b_{1} & b_{0} & 0\\
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes eld
-\end_inset
-
-את הסימן רשמנו מתחת לתמורה
-\begin_inset Quotes erd
-\end_inset
-
-.
+את הסימן רשמנו מתחת לתמורה.
 \end_layout
 
 \begin_layout Standard
@@ -2764,7 +2865,7 @@ g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\po
 \begin_inset Formula 
 \begin{align*}
 a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
-\text{hence}\,\left(*\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}\poi
+\text{לפי}\,\left(*\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}\poi
 \end{align*}
 
 \end_inset
@@ -2882,7 +2983,7 @@ f\left(\eta_{j}\right)=a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi\,\,
 \begin{align*}
 a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =\left(-1\right)^{nm}b_{m}^{n}a_{n}^{m}\prod_{j=1}^{m}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
-\text{hence}\,\left(**\right) & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}\poi
+\text{לפי}\,\left(**\right) & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}\poi
 \end{align*}
 
 \end_inset
@@ -3184,8 +3285,8 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin{align*}
 \boxed{R\left(f+hg,g\right)} & =\det\left(\Syl{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
  & =\det\left(\Syl{f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g}g\right)\\
-\text{induction step} & =\det\left(\Syl{f+\left(h_{k}x^{k}\right)g}g\right)\\
-\text{monom case} & =\det\left(\syl\right)\\
+\text{צעד האינדוקציה} & =\det\left(\Syl{f+\left(h_{k}x^{k}\right)g}g\right)\\
+\text{לפי בסיס האינדוקציה} & =\det\left(\syl\right)\\
  & =\boxed{\res}
 \end{align*}
 
@@ -3479,7 +3580,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \begin{align*}
 \res & =a_{n}\RES n{m-1}fg\\
  & =a_{n}a_{n}\RES n{m-2}fg\\
- & =\left(\underbrace{a_{n}a_{n}\ldots a_{n}}_{r\,\text{times}}\right)\RES n{m-r}fg\\
+ & =\left(\underbrace{a_{n}a_{n}\ldots a_{n}}_{r\,\text{פעמים}}\right)\RES n{m-r}fg\\
  & =a_{n}^{r}\RES n{m-r}fg
 \end{align*}
 
@@ -3987,7 +4088,7 @@ g=qf+r\poi
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\RES nmfr\overbrace{=}^{2.5}a_{n}^{m-k}\RES nkfr\overbrace{=}^{\text{induction base}}a_{n}^{m-k}a_{n}^{k}\prod_{i=1}^{n}r\left(\xi_{i}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)\,\,\,\,\left(**\right)
+\RES nmfr\overbrace{=}^{2.5}a_{n}^{m-k}\RES nkfr\overbrace{=}^{\text{בסיס האינדוקציה}}a_{n}^{m-k}a_{n}^{k}\prod_{i=1}^{n}r\left(\xi_{i}\right)=a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)\,\,\,\,\left(**\right)
 \]
 
 \end_inset
@@ -4224,7 +4325,7 @@ f=gq+r
 \begin_inset Formula 
 \begin{align*}
 \boxed{\RES nmrg} & =\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\,\,\,\,\,\left(****\right)\\
-\text{=\left(\text{induction base}\right)} & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
+\text{=\left(\text{בסיס האינדוקציה}\right)} & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}r\left(\eta_{j}\right)\\
  & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right),}
 \end{align*}
@@ -4617,12 +4718,13 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_layout
 
 \begin_layout Standard
-מימד של מטריצה הוא המימד שנפרס ע
+הדרגה של מטריצה הוא המימד שנפרס ע
 \begin_inset Quotes erd
 \end_inset
 
 י וקטורי השורות או העמודות של המטריצה.
- ונציין שבמקרה ושהשורות תלויות לינארית, המימד של המטריצה קטן מהגודל של המטריצה.
+ ונציין שבמקרה ושהשורות תלויות לינארית, הדדרגה של המטריצה קטן מהגודל של
+ המטריצה.
 \end_layout
 
 \begin_layout Standard
@@ -4705,8 +4807,8 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \bar under
 הערה:
 \bar default
- מכיון שגודל המימד של מטריצה וגודל המימד של המשלים תלויים אחד בשני, לפעמיים
- נתייחס רק לגודל של אחד מהם כשהכוונה לשניהם.
+ מכיון שהדרגה של מטריצה והדרגה של המשלים תלויים אחד בשני, לפעמיים נתייחס
+ רק לגודל של אחד מהם כשהכוונה לשניהם.
 \end_layout
 
 \begin_layout Standard
@@ -4819,7 +4921,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_layout
 
 \begin_layout Standard
-נחלק את ההוכחה לשלבים כדי להקל על הקורא להבין את ההוכחה.
+נחלק את האלגוריתם לשלבים כדי להקל על הקורא להבין את ההוכחה.
 \end_layout
 
 \begin_layout Standard
