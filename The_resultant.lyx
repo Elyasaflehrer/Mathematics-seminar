@@ -2706,7 +2706,7 @@ b_{1} & b_{0} & 0\\
 \[
 \begin{pmatrix}1 & 2 & 3 & 4 & 5\\
 1 &  &  &  & 5
-\end{pmatrix}\,\,\text{or}\,\,\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
+\end{pmatrix}\,\,\text{או}\,\,\begin{pmatrix}1 & 2 & 3 & 4 & 5\\
 3 &  &  &  & 5
 \end{pmatrix}
 \]
@@ -2938,7 +2938,7 @@ g\left(\xi_{i}\right)=b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\text{\po
 \begin_inset Formula 
 \begin{align*}
 a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =a_{n}^{m}\prod_{i=1}^{n}b_{m}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right)\\
-\text{לפי}\,\left(*\right) & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}\poi
+\left(*\right)\,\text{לפי} & =\boxed{a_{n}^{m}\prod_{i=1}^{n}g\left(\xi_{i}\right)}\poi
 \end{align*}
 
 \end_inset
@@ -3056,7 +3056,7 @@ f\left(\eta_{j}\right)=a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\poi\,\,
 \begin{align*}
 a_{n}^{m}b_{m}^{n}\prod_{i=1}^{n}\prod_{j=1}^{m}\left(\xi_{i}-\eta_{j}\right) & =\left(-1\right)^{nm}b_{m}^{n}a_{n}^{m}\prod_{j=1}^{m}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}a_{n}\prod_{i=1}^{n}\left(\eta_{j}-\xi_{i}\right)\\
-\text{לפי}\,\left(**\right) & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}\poi
+\left(**\right)\,\text{לפי} & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right)}\poi
 \end{align*}
 
 \end_inset
@@ -3359,7 +3359,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \boxed{R\left(f+hg,g\right)} & =\det\left(\Syl{f+\left(\sum_{l=1}^{k}h_{l}x^{l}\right)g}g\right)\\
  & =\det\left(\Syl{f+\left(\sum_{l=1}^{k-1}h_{l}x^{l}\right)g+\left(h_{k}x^{k}\right)g}g\right)\\
 \text{צעד האינדוקציה} & =\det\left(\Syl{f+\left(h_{k}x^{k}\right)g}g\right)\\
-\text{לפי בסיס האינדוקציה} & =\det\left(\syl\right)\\
+\text{בסיס האינדוקציה} & =\det\left(\syl\right)\\
  & =\boxed{\res}
 \end{align*}
 
@@ -3374,7 +3374,7 @@ b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 
 \begin_layout Standard
 המקרה השני 
-\begin_inset Formula $\text{R\left(f,g+hf\right)}=\res$
+\begin_inset Formula $R\left(f,g+hf\right)=\res$
 \end_inset
 
  מתקבל באותו האופן.
@@ -3653,7 +3653,7 @@ b_{m-1} & b_{m-2} & b_{m-3} & \ldots & 0 & 0 & 0\\
 \begin{align*}
 \res & =a_{n}\RES n{m-1}fg\\
  & =a_{n}a_{n}\RES n{m-2}fg\\
- & =\left(\underbrace{a_{n}a_{n}\ldots a_{n}}_{r\,\text{פעמים}}\right)\RES n{m-r}fg\\
+ & =\left(\underbrace{a_{n}a_{n}\ldots a_{n}}_{\text{פעמים}\,r}\right)\RES n{m-r}fg\\
  & =a_{n}^{r}\RES n{m-r}fg
 \end{align*}
 
@@ -4379,6 +4379,7 @@ f=gq+r
 
 \begin_layout Standard
 מקרה א.
+ 
 \begin_inset Formula $r\neq0$
 \end_inset
 
@@ -4398,7 +4399,7 @@ f=gq+r
 \begin_inset Formula 
 \begin{align*}
 \boxed{\RES nmrg} & =\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\RES kmrg\,\,\,\,\,\left(****\right)\\
-\text{=\left(\text{בסיס האינדוקציה}\right)} & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
+\text{\text{בסיס האינדוקציה}} & =\left(\left(-1\right)^{\left(n-k\right)m}b_{m}^{n-k}\right)\left(\left(-1\right)^{km}b_{m}^{k}\prod_{j=1}^{m}r\left(\eta_{j}\right)\right)\\
  & =\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}r\left(\eta_{j}\right)\\
  & =\boxed{\left(-1\right)^{nm}b_{m}^{n}\prod_{j=1}^{m}f\left(\eta_{j}\right),}
 \end{align*}
