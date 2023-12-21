@@ -238,7 +238,7 @@ thispagestyle{empty}
 
 \begin_layout Standard
 \align center
-עבודה סמינריונית בנושא הרזולטנט
+עבודה סמינריונית בנושא הרזולטנטה
 \begin_inset Newline newline
 \end_inset
 
@@ -359,7 +359,7 @@ thispagestyle{empty}
 \length 1.5cm
 \end_inset
 
-משפט הרזולטנט
+משפט הרזולטנטה
 \begin_inset Formula $.....................................................................$
 \end_inset
 
@@ -373,7 +373,7 @@ thispagestyle{empty}
 \length 1.5cm
 \end_inset
 
-תוצאות ממשפט הרזולטנט
+תוצאות ממשפט הרזולטנטה
 \begin_inset Formula $........................................................$
 \end_inset
 
@@ -437,25 +437,25 @@ setcounter{page}{1}
 \end_layout
 
 \begin_layout Standard
-הרזולטנט של שני פולינומים הוא ביטוי פולינומי של המקדמים שלהם השווה לאפס
+הרזולטנטה של שני פולינומים הוא ביטוי פולינומי של המקדמים שלהם השווה לאפס
  אם ורק אם לפולינומים יש שורש משותף בשדה הפיצול שלהם.
- באופן שקול הרזולטנט מתאפס אם רק אם יש להם גורם משותף.
+ באופן שקול הרזולטנטה מתאפס אם רק אם יש להם גורם משותף.
 \end_layout
 
 \begin_layout Standard
-הרזולטנט מוצאת שימושים נרחבים בתורת המספרים, באופן ישיר או דרך הדסקרמיננטה,
+הרזולטנטה מוצאת שימושים נרחבים בתורת המספרים, באופן ישיר או דרך הדסקרמיננטה,
  שהוא קרוב להיות הרזוטנט של פולינום והנגזרת שלו.
 \end_layout
 
 \begin_layout Standard
-ניתן לחשב את הרזולטנט של שני פולינומים עם מקדמים רציונליים או פולינומיים
+ניתן לחשב את הרזולטנטה של שני פולינומים עם מקדמים רציונליים או פולינומיים
  באופן יעיל אלגורימית.
  זהו כלי בסיסי במדעי המחשב 
 \begin_inset Formula $\left(\text{computational algebra}\right)$
 \end_inset
 
 , וזה כלי מובנה ברוב המערכות האלגברה הממוחשבת.
- הרזולטנט גם משמש לפירוק אלגברי גלילי 
+ הרזולטנטה גם משמש לפירוק אלגברי גלילי 
 \begin_inset Formula $\left(\text{cylindrical algebraic decomposition}\right)$
 \end_inset
 
@@ -464,7 +464,7 @@ setcounter{page}{1}
 \end_layout
 
 \begin_layout Standard
-הרזולטנט של 
+הרזולטנטה של 
 \begin_inset Formula $n$
 \end_inset
 
@@ -476,7 +476,7 @@ setcounter{page}{1}
 \begin_inset Formula $^{\left[1\right]}$
 \end_inset
 
-, של הרזולטנט.
+, של הרזולטנטה.
  עם בסיסי גרובנר, הוא אחד הכלים העיקריים של תורת החילוץ 
 \begin_inset Formula $.\left(\text{elimination theory}\right)$
 \end_inset
@@ -489,14 +489,14 @@ setcounter{page}{1}
 \end_layout
 
 \begin_layout Standard
-בעבודה זו נפרש את ההגדרה של הרזולטנט ותכונותיו, ונוכיח את המשפטים העיקריים
- של תורת הרזולטנט.
+בעבודה זו נפרש את ההגדרה של הרזולטנטה ותכונותיו, ונוכיח את המשפטים העיקריים
+ של תורת הרזולטנטה.
 \end_layout
 
 \begin_layout Standard
 בתחילה העבודה, נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות, ונגדיר את מטריצת
  סילבסטר.
- בהמשך נגדיר את הרזולטנט ונוכיח את המשפט היסודי )פרק
+ בהמשך נגדיר את הרזולטנטה ונוכיח את המשפט היסודי )פרק
 \family roman
 \series medium
 \shape up
@@ -558,7 +558,7 @@ setcounter{page}{1}
 \color inherit
 3
 \numeric off
-, וכן נוכיח עוד כמה תוצאות מעניינות שנובעות ממשפט הרזולטנט.
+, וכן נוכיח עוד כמה תוצאות מעניינות שנובעות ממשפט הרזולטנטה.
 \end_layout
 
 \begin_layout Standard
@@ -598,7 +598,7 @@ setcounter{page}{1}
 
 \begin_layout Standard
 פרק זה הוא פרק קצר שבו נזכיר בקצרה את הגדרת הדטרמיננטה לפי תמורות ומטריצת
- סילבסטר של שני פולינומים, ובסוף הפרק נגדיר את הרזולטנט.
+ סילבסטר של שני פולינומים, ובסוף הפרק נגדיר את הרזולטנטה.
 \end_layout
 
 \begin_layout Standard
@@ -1346,7 +1346,7 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \uwave default
 \noun default
 \color inherit
-הגדרת הרזולטנט
+הגדרת הרזולטנטה
 \end_layout
 
 \begin_layout Standard
@@ -1370,7 +1370,7 @@ b_{2} & b_{1} & b_{0} & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-נגדיר את הרזולטנט שלהם 
+נגדיר את הרזולטנטה שלהם 
 \end_layout
 
 \begin_layout Standard
@@ -2267,7 +2267,7 @@ b_{1} & b_{0} & 0\\
 
 \series bold
 \size giant
-הרזולטנט
+הרזולטנטה
 \begin_inset Newline newline
 \end_inset
 
@@ -2421,7 +2421,7 @@ b_{1} & b_{0} & 0\\
 \uwave default
 \noun default
 \color inherit
-משפט הרזולטנט
+משפט הרזולטנטה
 \end_layout
 
 \begin_layout Standard
@@ -4460,7 +4460,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 
 \series bold
 \size giant
-תוצאות ממשפט הרזולטנט
+תוצאות ממשפט הרזולטנטה
 \begin_inset Newline newline
 \end_inset
 
