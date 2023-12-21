@@ -288,7 +288,7 @@ thispagestyle{empty}
 \begin_layout Standard
 \noindent
 \align center
-מנחה: אלעד פארן
+מנחה: פרופ' אלעד פארן
 \end_layout
 
 \begin_layout Standard
@@ -389,7 +389,7 @@ thispagestyle{empty}
 \length 1.5cm
 \end_inset
 
-בבליוגרפיה
+ביבליוגרפיה
 \begin_inset Formula $............................................................................$
 \end_inset
 
@@ -439,12 +439,12 @@ setcounter{page}{1}
 \begin_layout Standard
 הרזולטנטה של שני פולינומים הוא ביטוי פולינומי של המקדמים שלהם השווה לאפס
  אם ורק אם לפולינומים יש שורש משותף בשדה הפיצול שלהם.
- באופן שקול הרזולטנטה מתאפס אם רק אם יש להם גורם משותף.
+ באופן שקול הרזולטנטה מתאפס אם רק אם יש להם גורם משותף
 \end_layout
 
 \begin_layout Standard
-הרזולטנטה מוצאת שימושים נרחבים בתורת המספרים, באופן ישיר או דרך הדסקרמיננטה,
- שהוא קרוב להיות הרזוטנט של פולינום והנגזרת שלו.
+לרזולטנטה שימושים נרחבים בתורת המספרים, באופן ישיר או דרך הדסקרמיננטה, שהוא
+ קרוב להיות הרזוטנט של פולינום והנגזרת שלו.
 \end_layout
 
 \begin_layout Standard
@@ -456,11 +456,11 @@ setcounter{page}{1}
 
 , וזה כלי מובנה ברוב המערכות האלגברה הממוחשבת.
  הרזולטנטה גם משמש לפירוק אלגברי גלילי 
-\begin_inset Formula $\left(\text{cylindrical algebraic decomposition}\right)$
+\begin_inset Formula $\left(\text{decomposition algebraic cylindrical}\right)$
 \end_inset
 
-, לאינטגרציה של פונקציות רציונליות, וגם לשרטוט עקומות המוגדרות על ידי משוואה
- פולינומית בשני משתנים.
+, לאינטגרציה של מערכות פונקציות רציונליות, וגם לשרטוט עקומות המוגדרות על
+ ידי משוואה פולינומית בשני משתנים.
 \end_layout
 
 \begin_layout Standard
@@ -476,8 +476,8 @@ setcounter{page}{1}
 \begin_inset Formula $^{\left[1\right]}$
 \end_inset
 
-, של הרזולטנטה.
- עם בסיסי גרובנר, הוא אחד הכלים העיקריים של תורת החילוץ 
+, של הרזולטנטה במשתנה בודד.
+ עם בסיסי גרבנר, הוא אחד הכלים העיקריים של תורת החילוץ 
 \begin_inset Formula $.\left(\text{elimination theory}\right)$
 \end_inset
 
