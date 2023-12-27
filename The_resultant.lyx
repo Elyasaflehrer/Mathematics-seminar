@@ -1692,19 +1692,19 @@ b_{1} & b_{0} & 0\\
 \begin_inset Formula $a_{i},b_{i}$
 \end_inset
 
-, כאשר עבור 
+, כאשר עבור כל מחובר בסכום, מעלת המכפלות בין האיברים 
 \begin_inset Formula $a_{n}\ldots a_{0}$
 \end_inset
 
- המעלה היא 
+ היא 
 \begin_inset Formula $m$
 \end_inset
 
-, ועבור 
+, ומעלת המכפלות בין האיברים 
 \begin_inset Formula $b_{m}\ldots b_{0}$
 \end_inset
 
- המעלה היא 
+ היא 
 \begin_inset Formula $n$
 \end_inset
 
