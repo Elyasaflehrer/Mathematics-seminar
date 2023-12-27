@@ -173,6 +173,24 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\rank}[1]{\text{rank}\left(#1\right)}
+{\text{rank}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\corank}[1]{\text{corank}\left(#1\right)}
+{\text{corank}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \renewcommand{\Syl}[2]{\text{Syl}\left(#1,#2\right)}
 {\text{Syl}\left(#1,#2\right)}
 \end_inset
@@ -4792,13 +4810,53 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_layout
 
 \begin_layout Standard
-הדרגה של מטריצה היא המימד שנפרס ע
+תהי 
+\begin_inset Formula $A$
+\end_inset
+
+ מטריצה מסדר 
+\begin_inset Formula $n\times m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הדרגה של 
+\begin_inset Formula $A$
+\end_inset
+
+ היא המימד של העתקה הלינארית שנקבעת ע
 \begin_inset Quotes erd
 \end_inset
 
 י וקטורי השורות או העמודות של המטריצה.
- ונציין שבמקרה ושהשורות תלויות לינארית, הדדרגה של המטריצה קטנה מהגודל של
- המטריצה.
+ ונציין שבמקרה והשורות תלויות לינארית, הדרגה של 
+\begin_inset Formula $A$
+\end_inset
+
+ קטנה מ 
+\begin_inset Formula $n$
+\end_inset
+
+ ו 
+\begin_inset Formula $m$
+\end_inset
+
+, את הדרגה של המטריצה נסמן 
+\begin_inset Formula $\rank A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+את המימד של הגרעין של ההעתקה הלינארית שקובעת המטריצה.
+ באופן שקול, את מימד מרחב הפתרונות המטריצה ההומוגנית המתאימה, נסמן ב 
+\begin_inset Formula $\corank A$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4853,23 +4911,19 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_inset
 
 .
- אזי הדרגה של המימד של 
-\begin_inset Formula $\text{Syl}\left(f,g\right)$
+ אזי 
+\begin_inset Formula 
+\[
+\rank{\text{Syl}\left(f,g\right)}=n+m-\deg h\poi
+\]
+
 \end_inset
 
- הוא 
-\begin_inset Formula $n+m-\deg h$
+ובאופן שקול 
+\begin_inset Formula $\corank{\syl}=\deg h$
 \end_inset
 
-, ובאופן שקול הדרגה של המימד של הגרעין של 
-\begin_inset Formula $\syl$
-\end_inset
-
- הוא 
-\begin_inset Formula $\deg h$
-\end_inset
-
-.
+ .
 \begin_inset Newline newline
 \end_inset
 
@@ -4881,8 +4935,15 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \bar under
 הערה:
 \bar default
- מכיון שהדרגה של מטריצה והדרגה של הגרעין תלויים אחד בשני, לפעמיים נתייחס
- רק לגודל של אחד מהם כשהכוונה לשניהם.
+ מכיון ש 
+\begin_inset Formula $\rank A$
+\end_inset
+
+ ו 
+\begin_inset Formula $\corank A$
+\end_inset
+
+ תלויים אחד בשני, לפעמיים נתייחס רק לגודל של אחד מהם כשהכוונה לשניהם.
 \end_layout
 
 \begin_layout Standard
@@ -4893,7 +4954,7 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_layout
 
 \begin_layout Standard
-לפני שנכנסים לגוף ההוכחה נציין:
+לפני שנכנס לגוף ההוכחה נציין:
 \end_layout
 
 \begin_layout Standard
@@ -4986,9 +5047,12 @@ R\left(r,g\right)=R\left(0,g\right)=0\poi
 \end_inset
 
  לפי האלגוריתים של אוקלידס, ותוך כדי התהליך נקטין את גודל המטריצות ונוכיח
- שהמימד של הגרעין של המטריצות המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה(
- נמצא את המימד של הגרעין של 
-\begin_inset Formula $\syl$
+ שה 
+\begin_inset Formula $\text{corank}$
+\end_inset
+
+ של המטריצות המתקבלות לא משתנה, וכך )כפי שנראה בהוכחה עצמה( נמצא את 
+\begin_inset Formula $\rank{\syl}$
 \end_inset
 
 .
@@ -5056,15 +5120,15 @@ f=qg+r\poi
 \begin_inset Formula $\left(2\right)$
 \end_inset
 
- המימד של 
-\begin_inset Formula $\SYL nmfg$
+ 
+\begin_inset Formula 
+\[
+\rank{\SYL nmrg}=\rank{\SYL nmfg}\poi
+\]
+
 \end_inset
 
- שווה למימד של 
-\begin_inset Formula $\SYL nmrg$
-\end_inset
 
-.
 \end_layout
 
 \begin_layout Standard
@@ -5145,24 +5209,28 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $b_{m}$
 \end_inset
 
-, לכן וקטור זה שייך למימד שנפרש ע
-\begin_inset Quotes erd
+, לכן וקטור זה שייך ל
+\begin_inset Formula $\rank{\SYL nmrg}$
 \end_inset
 
-י וקטורי העמודות, ולכן מחיקת העמודה הראשונה והשורה ה 
+, ולכן מחיקת העמודה הראשונה והשורה ה 
 \begin_inset Formula $m+1$
 \end_inset
 
- )השורה שבה יש את האיבר שאינו אפס בעמודה הראשונה( לא תשפיע על המימד של הגרעין.
+ )השורה שבה יש את האיבר שאינו אפס בעמודה הראשונה( לא תשפיע על 
+\begin_inset Formula $\corank{\SYL nmrg}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-נובע מכך שהמימד של הגרעין של 
-\begin_inset Formula $\SYL nmrg$
+נובע מכך שּ 
+\begin_inset Formula $\corank{\SYL nmrg}$
 \end_inset
 
  ו 
-\begin_inset Formula $\SYL{n-1}mrg$
+\begin_inset Formula $\corank{\SYL{n-1}mrg}$
 \end_inset
 
  שווים, כאשר 
@@ -5274,7 +5342,11 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \color inherit
 2
 \numeric off
- המימד של הגרעין של המטריצות המתקבלות ע
+ ה 
+\begin_inset Formula $\text{corank}$
+\end_inset
+
+ של המטריצות המתקבלות ע
 \begin_inset Quotes erd
 \end_inset
 
@@ -5286,19 +5358,10 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-המימדים של הגרעין של 
-\begin_inset Formula $\SYL nmfg$
+\begin_inset Formula $\corank{\SYL nmfg}=\corank{\SYL nmrg}=\corank{\SYL kmrg}$
 \end_inset
 
-, 
-\begin_inset Formula $\SYL nmrg$
-\end_inset
-
- ו 
-\begin_inset Formula $\SYL kmrg$
-\end_inset
-
- שווים, כאשר 
+, כאשר 
 \begin_inset Formula $r$
 \end_inset
 
@@ -5349,12 +5412,12 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Formula $\left(2\right)$
 \end_inset
 
- המימדים של 
-\begin_inset Formula $\SYL kmrg$
+ 
+\begin_inset Formula $\rank{\SYL kmrg}$
 \end_inset
 
  ו 
-\begin_inset Formula $\SYL mkgr$
+\begin_inset Formula $\rank{\SYL mkgr}$
 \end_inset
 
  שווים.
@@ -5527,19 +5590,19 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \color inherit
 2
 \numeric off
- המימדים של הגרעין של 
-\begin_inset Formula $\SYL nmfg,\SYL kmrg,\SYL{k_{0}}k{r_{0}}r,\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}\ldots,\SYL{k_{d-1}}l0h$
+ 
+\begin_inset Formula $\corank{\SYL nmfg},\corank{\SYL kmrg},\corank{\SYL{k_{0}}k{r_{0}}r},\corank{\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}}\ldots,\corank{\SYL{k_{d-1}}l0h}$
 \end_inset
 
  שווים.
 \end_layout
 
 \begin_layout Standard
-ולכן נשאר לבדוק מהו המימד של הגרעין של 
-\begin_inset Formula $\SYL{k_{d-1}}l0h$
+ולכן נשאר לבדוק מהו 
+\begin_inset Formula $\corank{\SYL{k_{d-1}}l0h}$
 \end_inset
 
- לפי הגדרת מטריצת סילבסטר למטריצה 
+, לפי הגדרת מטריצת סילבסטר למטריצה 
 \begin_inset Formula $\SYL{k_{d-1}}l0h$
 \end_inset
 
@@ -5555,20 +5618,27 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 \begin_inset Quotes erd
 \end_inset
 
-ל, לכן המימד של הגרעין של 
-\begin_inset Formula $\SYL{k_{d-1}}l0h$
-\end_inset
-
- הוא 
-\begin_inset Formula $l=\deg h$
-\end_inset
-
-,
+ל, 
 \end_layout
 
 \begin_layout Standard
-זה מוכיח שהמימד של 
-\begin_inset Formula $\SYL nmfg$
+ולכן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\corank{\SYL{k_{d-1}}l0h}=l=\deg h
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+זה מוכיח ש- 
+\begin_inset Formula $\rank{\SYL nmfg}$
 \end_inset
 
  הוא 
