@@ -5591,10 +5591,19 @@ b_{m} & b_{m-1} & b_{m-2} & b_{m} & b_{m-1} & b_{m-2} & \ldots & 0 & 0 & 0\\
 2
 \numeric off
  
-\begin_inset Formula $\corank{\SYL nmfg},\corank{\SYL kmrg},\corank{\SYL{k_{0}}k{r_{0}}r},\corank{\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}}\ldots,\corank{\SYL{k_{d-1}}l0h}$
+\begin_inset Formula 
+\begin{align*}
+ & \corank{\SYL nmfg},\corank{\SYL kmrg},\corank{\SYL{k_{0}}k{r_{0}}r},\\
+ & \corank{\SYL{k_{1}}{k_{0}}{r_{1}}{r_{0}}}\ldots,\corank{\SYL{k_{d-1}}l0h}
+\end{align*}
+
 \end_inset
 
- שווים.
+
+\end_layout
+
+\begin_layout Standard
+שווים.
 \end_layout
 
 \begin_layout Standard
